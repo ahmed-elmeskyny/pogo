@@ -6,8 +6,11 @@
   background-image: url("../public/banner.jfif");
   background-size: cover;
   display: flex;
-
   overflow: hidden;
+  font-family: "Nunito", sans-serif;
+  @media (max-width: 900px) {
+    height: 80vh;
+  }
   .heroText {
     position: relative;
     width: 46%;
@@ -16,8 +19,11 @@
     color: white;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 70px;
-    // padding: 100px;
-    // padding-right: 0;
+    @media (max-width: 900px) {
+      width: 100%;
+      border-bottom-right-radius: 20px;
+    }
+
     .curves {
       position: absolute;
     }
@@ -26,11 +32,21 @@
       position: relative;
       margin-left: 30%;
       margin-top: 10%;
+      @media (max-width: 900px) {
+        margin: 10px;
+        text-align: center;
+        top: 5%;
+      }
 
       .slogan {
         display: flex;
         align-items: center;
         margin-left: -20px;
+        @media (max-width: 900px) {
+          justify-content: center;
+          margin: 0;
+          margin-right: 30px;
+        }
         span {
           margin-left: -10px;
         }
@@ -38,39 +54,91 @@
 
       h1 {
         margin: 0;
-        width: 350px;
+        @media (min-width: 1300px) {
+          font-size: 65px;
+        }
+      }
+      p {
+        font-family: "Nunito", sans-serif;
+        font-weight: 300;
+        @media (min-width: 1300px) {
+          font-size: 22px;
+        }
       }
     }
   }
-  .heroApp {
-    width: 50%;
-    height: 100%;
-  }
 }
+
 .scrollContainer {
   margin-top: 10px;
   display: flex;
   padding: 0px 10px;
   justify-content: space-between;
+  @media (max-width: 900px) {
+    justify-content: center;
+  }
 
   .phone {
     display: flex;
     align-items: center;
+    margin-top: -100px;
+    @media (max-width: 900px) {
+      display: none;
+    }
     p {
       margin-left: 5px;
     }
   }
   .scroll {
     display: flex;
+
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: -50px;
+    margin-left: 140px;
+    @media (min-width: 1300px) {
+      margin-left: 240px;
+    }
+    @media (max-width: 900px) {
+      display: none;
+    }
     .scrollIcon {
       font-size: 25px;
       color: #03d3b9;
+      animation: move 1s infinite alternate;
     }
     p {
       margin-top: -2px;
     }
+  }
+
+  .mockup {
+    width: 300px;
+    height: 550px;
+    background-image: url("../public/mockup.png");
+    background-size: cover;
+    margin-top: -350px;
+    @media (min-width: 1300px) {
+      width: 400px;
+      height: 650px;
+      margin-top: -150px;
+    }
+    @media (max-width: 900px) {
+      width: 250px;
+      height: 500px;
+      margin-top: -100px;
+      position: relative;
+    }
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
   }
 }

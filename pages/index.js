@@ -41,9 +41,9 @@ export default function Home() {
                 de la manière la plus simple possible
               </h1>
               <p>
-                Télécharger notre application<span> POGO</span> et commencer à
-                profiter de la conduite des scooters modernes et écologiques dès
-                aujourd’hui
+                Téléchargez notre application<span> POGO</span> et commencez à
+                profiter de la conduite de scooters modernes et écologiques dès
+                aujourd’hui.
               </p>
               <Download
                 height="70px"
@@ -52,8 +52,6 @@ export default function Home() {
               ></Download>
             </div>
           </div>
-
-          <div className={styles.heroApp}></div>
         </div>
         <div className={styles.scrollContainer}>
           <div className={styles.phone}>
@@ -68,6 +66,7 @@ export default function Home() {
             ></AiOutlineArrowDown>
             <p>scroll down</p>
           </div>
+          <div className={styles.mockup}></div>
         </div>
       </Layout>
     </div>

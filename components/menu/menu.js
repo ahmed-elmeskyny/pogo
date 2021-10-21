@@ -5,24 +5,22 @@ import Image from "next/image";
 import styles from "./menu.module.scss";
 
 //react-icons
-import { SiTarget } from "react-icons/si";
+import { RiMenu4Fill } from "react-icons/ri";
+import { GrClose } from "react-icons/gr";
 
 //components
 import ActiveLink from "../activeLink/activeLink";
 
-const Menu = () => {
+const Menu = ({ isOpen, setOpen }) => {
   return (
     <div className={styles.menuContainer}>
-      <div className={styles.logo}>
-        <img src="/pogo.png" width="150px" height="40px"></img>
-        {/* <span>P</span>
-        <SiTarget></SiTarget>
-        <span>GO</span> */}
-      </div>
       <div className={styles.menu}>
+        <div className={styles.logo}>
+          <img src="/pogo.png" width="150px" height="40px"></img>
+        </div>
         <ul>
           <ActiveLink href="/" activeClassName={styles.active}>
-            <li className={styles.home}>Acceuil</li>
+            <li className={styles.home}>Accueil</li>
           </ActiveLink>
           <ActiveLink href="/apropos" activeClassName={styles.active}>
             <li>À propos </li>
@@ -39,6 +37,24 @@ const Menu = () => {
           </ActiveLink>
         </ul>
         <button>Télécharger l'app</button>
+      </div>
+      {/* // mobile menu */}
+
+      <div className={styles.mobileMenu}>
+        <div className={styles.logoContainer}>
+          {isOpen ? (
+            <GrClose
+              style={{ fontSize: "25px" }}
+              onClick={() => setOpen(!isOpen)}
+            ></GrClose>
+          ) : (
+            <RiMenu4Fill
+              style={{ fontSize: "31px" }}
+              onClick={() => setOpen(!isOpen)}
+            ></RiMenu4Fill>
+          )}
+          <img src="/pogo.png" width="130px" height="40px"></img>
+        </div>
       </div>
     </div>
   );

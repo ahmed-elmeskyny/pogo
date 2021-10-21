@@ -12,4 +12,64 @@
     border-bottom-left-radius: 50px;
     z-index: -100000;
   }
+  .trans {
+    transition: transform ease 0.3s;
+    width: 100%;
+  }
+  .menuContainer {
+    position: relative;
+    transition: width ease 0.3s;
+
+    .menu1 {
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      z-index: -1000;
+
+      ul {
+        margin-top: 100px;
+        list-style: none;
+        .active {
+          color: black;
+          font-weight: 500;
+          &::after {
+            display: block;
+            content: "";
+            border-bottom: solid 5px #03d3b9;
+            width: 50%;
+            transition: transform 250ms ease-in-out;
+            border-radius: 10px;
+            margin-top: 1px;
+            transition: width 0.3s;
+          }
+        }
+        .active:hover::after {
+          width: 100%;
+        }
+        li {
+          color: #acacac;
+          margin: 20px 20px;
+          margin-left: -40px;
+          font-weight: 400;
+          cursor: pointer;
+          font-size: 25px;
+          width: 90%;
+          &::after {
+            display: block;
+            content: "";
+            border-bottom: solid 5px #03d3b9;
+            width: 0%;
+            transition: transform 250ms ease-in-out;
+            border-radius: 10px;
+            margin-top: 1px;
+            transition: width 0.3s;
+          }
+        }
+        li:hover::after {
+          color: black;
+          width: 100%;
+        }
+      }
+    }
+  }
 }
