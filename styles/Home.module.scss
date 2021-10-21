@@ -1,0 +1,76 @@
+.heroContainer {
+  margin-top: 10px;
+  width: 100%;
+  height: 85vh;
+  border-radius: 25px;
+  background-image: url("../public/banner.jfif");
+  background-size: cover;
+  display: flex;
+
+  overflow: hidden;
+  .heroText {
+    position: relative;
+    width: 46%;
+    height: 100%;
+    background-color: #0d1721;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 70px;
+    // padding: 100px;
+    // padding-right: 0;
+    .curves {
+      position: absolute;
+    }
+
+    .text {
+      position: relative;
+      margin-left: 30%;
+      margin-top: 10%;
+
+      .slogan {
+        display: flex;
+        align-items: center;
+        margin-left: -20px;
+        span {
+          margin-left: -10px;
+        }
+      }
+
+      h1 {
+        margin: 0;
+        width: 350px;
+      }
+    }
+  }
+  .heroApp {
+    width: 50%;
+    height: 100%;
+  }
+}
+.scrollContainer {
+  margin-top: 10px;
+  display: flex;
+  padding: 0px 10px;
+  justify-content: space-between;
+
+  .phone {
+    display: flex;
+    align-items: center;
+    p {
+      margin-left: 5px;
+    }
+  }
+  .scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .scrollIcon {
+      font-size: 25px;
+      color: #03d3b9;
+    }
+    p {
+      margin-top: -2px;
+    }
+  }
+}
