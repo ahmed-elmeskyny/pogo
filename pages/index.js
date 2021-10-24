@@ -14,6 +14,7 @@ import Info from "../components/info/info";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { BsFillPhoneFill, BsDot } from "react-icons/bs";
 import Dynamic from "../components/dynamicAbout/dynamic";
+import Scooter from "../components/scooter/scooter";
 
 export default function Home() {
   return (
@@ -75,6 +76,7 @@ export default function Home() {
         <Info></Info>
         <Dynamic></Dynamic>
         <Dynamic reverse></Dynamic>
+        <Scooter></Scooter>
       </Layout>
     </div>
   );

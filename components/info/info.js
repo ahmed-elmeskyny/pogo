@@ -10,8 +10,8 @@ const Info = () => {
     <div className={styles.infoContainer}>
       <div className={styles.header}>
         <h1>
-          <img src="/pogoBlack.png" width="110px" height="30px"></img> propose
-          un nouveau mode de transport pour <span> un monde meilleur !</span>
+          <img src="/pogoBlack.png"></img> propose un nouveau mode de transport
+          pour <span> un monde meilleur !</span>
         </h1>
         <p>
           It is a long established fact that a reader will be distracted by the

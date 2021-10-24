@@ -1,0 +1,35 @@
+.scooterContainer {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .scooter {
+    width: 400px;
+  }
+  .hows {
+    .how {
+      display: flex;
+      flex-direction: column;
+      width: 450px;
+      margin-top: 20px;
+      cursor: pointer;
+      @media (max-width: 900px) {
+        width: 100%;
+      }
+      .header {
+        display: flex;
+        align-items: center;
+
+        span {
+          margin-left: 10px;
+          font-weight: 700;
+          font-size: 28px;
+        }
+      }
+      p {
+        margin-left: 80px;
+        margin-top: 5px;
+      }
+    }
+  }
+}
