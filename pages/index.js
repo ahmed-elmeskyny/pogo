@@ -8,10 +8,12 @@ import styles from "../styles/Home.module.scss";
 //components
 import Layout from "../components/layout/layout";
 import Download from "../components/donwload/download";
+import Info from "../components/info/info";
 
 //react-icons
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { BsFillPhoneFill, BsDot } from "react-icons/bs";
+import Dynamic from "../components/dynamicAbout/dynamic";
 
 export default function Home() {
   return (
@@ -53,6 +55,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <div className={styles.scrollContainer}>
           <div className={styles.phone}>
             <BsFillPhoneFill
@@ -68,6 +71,10 @@ export default function Home() {
           </div>
           <div className={styles.mockup}></div>
         </div>
+
+        <Info></Info>
+        <Dynamic></Dynamic>
+        <Dynamic reverse></Dynamic>
       </Layout>
     </div>
   );

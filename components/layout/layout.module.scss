@@ -6,11 +6,14 @@
     top: 0;
     right: 0;
     width: 50%;
-    height: 1000px;
+    height: 1200px;
     background-color: #f6f6f6;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     z-index: -100000;
+    @media (max-width: 900px) {
+      height: 1500px;
+    }
   }
   .trans {
     transition: transform ease 0.3s;

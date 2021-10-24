@@ -1,15 +1,15 @@
 .heroContainer {
   margin-top: 10px;
   width: 100%;
-  height: 85vh;
+  height: 490px;
   border-radius: 25px;
   background-image: url("../public/banner.jfif");
   background-size: cover;
   display: flex;
   overflow: hidden;
   font-family: "Nunito", sans-serif;
-  @media (max-width: 900px) {
-    height: 80vh;
+  @media (min-width: 1900px) {
+    height: 700px;
   }
   .heroText {
     position: relative;
@@ -54,14 +54,14 @@
 
       h1 {
         margin: 0;
-        @media (min-width: 1300px) {
-          font-size: 65px;
+        @media (min-width: 1900px) {
+          font-size: 50px;
         }
       }
       p {
         font-family: "Nunito", sans-serif;
         font-weight: 300;
-        @media (min-width: 1300px) {
+        @media (min-width: 1900px) {
           font-size: 22px;
         }
       }
@@ -97,7 +97,7 @@
     justify-content: center;
     margin-top: -50px;
     margin-left: 140px;
-    @media (min-width: 1300px) {
+    @media (min-width: 1900px) {
       margin-left: 240px;
     }
     @media (max-width: 900px) {
@@ -119,7 +119,7 @@
     background-image: url("../public/mockup.png");
     background-size: cover;
     margin-top: -350px;
-    @media (min-width: 1300px) {
+    @media (min-width: 1900px) {
       width: 400px;
       height: 730px;
       margin-top: -450px;
