@@ -32,21 +32,27 @@ export default function Home() {
               className={styles.curves}
               src="/curveLine3.svg"
               width="100% "
-              height="100%"
+              height="130%"
             ></img>
             <div className={styles.text}>
-              <p className={styles.slogan}>
-                <BsDot style={{ color: "#03d3b9", fontSize: "50px" }}></BsDot>
-                <span>POGO</span>
-              </p>
               <h1>
-                Louer notre <span style={{ color: "#03d3b9" }}> scooter </span>
-                de la manière la plus simple possible
+                <p>
+                  Avec
+                  <span>
+                    <img
+                      src="/pogo.png"
+                      width="125px"
+                      height="35px"
+                      style={{ marginBottom: "-5px" }}
+                    ></img>
+                  </span>
+                  , la location d’un scooter n’a jamais été aussi simple !
+                </p>
               </h1>
               <p>
-                Téléchargez notre application<span> POGO</span> et commencez à
-                profiter de la conduite de scooters modernes et écologiques dès
-                aujourd’hui.
+                Téléchargez notre application <span>POGO </span>et profitez de
+                la conduite de nos scooters modernes et écologiques dès
+                aujourd’hui !
               </p>
               <Download
                 height="70px"

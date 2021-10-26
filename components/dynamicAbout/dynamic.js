@@ -25,19 +25,19 @@ const Dynamic = ({ reverse }) => {
           {reverse ? <span>Trottinette</span> : <span>Scooter</span>}
         </div>
         <h3>
-          Profiter de <span> la liberté </span> de location partout
+          Profitez de <span>nos scooters</span> en libre-service
         </h3>
         <p>It is a long established fact that a reader will be distracted</p>
         <div className={styles.check}>
-          <img src="check.png" width="25px" height="25px"></img>
+          <img src="/eco.png" width="25px" height="25px"></img>
           <span>Lorem Ipsum is simply dummy text of the printing </span>
         </div>
         <div className={styles.check}>
-          <img src="check.png" width="25px" height="25px"></img>
+          <img src="/shield.png" width="25px" height="25px"></img>
           <span>Readable content of a page when looking at its </span>
         </div>
         <div className={styles.check}>
-          <img src="check.png" width="25px" height="25px"></img>
+          <img src="/tap.png" width="25px" height="25px"></img>
           <span>The standard chunk of Lorem Ipsum used since the 1500s </span>
         </div>
       </div>

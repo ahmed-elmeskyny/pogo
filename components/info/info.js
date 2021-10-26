@@ -10,13 +10,9 @@ const Info = () => {
     <div className={styles.infoContainer}>
       <div className={styles.header}>
         <h1>
-          <img src="/pogoBlack.png"></img> propose un nouveau mode de transport
+          <img src="/pogoBlack.png"></img> Propose un nouveau mode de transport
           pour <span> un monde meilleur !</span>
         </h1>
-        <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking
-        </p>
       </div>
       <div className={styles.container}>
         <div className={styles.info}>
@@ -49,7 +45,7 @@ const Info = () => {
         </div>
       </div>
       <Link href="/">
-        <p className={styles.about}>En savoir plus</p>
+        <p className={styles.about}>Notre flotte</p>
       </Link>
     </div>
   );
