@@ -28,12 +28,6 @@ export default function Home() {
       <Layout>
         <div className={styles.heroContainer}>
           <div className={styles.heroText}>
-            <img
-              className={styles.curves}
-              src="/curveLine3.svg"
-              width="100% "
-              height="130%"
-            ></img>
             <div className={styles.text}>
               <h1>
                 <p>
@@ -55,14 +49,17 @@ export default function Home() {
                 aujourd’hui !
               </p>
               <Download
-                height="70px"
-                width="170px"
-                style={{ marginTop: "30px" }}
+              // height="70px"
+              // width="170px"
+              // style={{ marginTop: "30px" }}
               ></Download>
             </div>
           </div>
+          <div className={styles.mockup}>
+            <img src="/mockup.png"></img>
+          </div>
         </div>
-
+        {/* 
         <div className={styles.scrollContainer}>
           <div className={styles.phone}>
             <BsFillPhoneFill
@@ -77,7 +74,7 @@ export default function Home() {
             <p>scroll down</p>
           </div>
           <div className={styles.mockup}></div>
-        </div>
+        </div> */}
 
         <Info></Info>
         <Dynamic></Dynamic>

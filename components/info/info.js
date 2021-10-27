@@ -16,14 +16,14 @@ const Info = () => {
       </div>
       <div className={styles.container}>
         <div className={styles.info}>
-          <img src="/map.png" className={styles.icon}></img>
+          <img src="/eco.png" className={styles.icon}></img>
           <span>
             Contrary to popular belief, Lorem Ipsum is not simply random text.
           </span>
         </div>
         <div className={styles.info}>
           <img
-            src="/motorcycle.png"
+            src="/shield.png"
             style={{ marginLeft: "20px" }}
             className={styles.icon}
           ></img>
@@ -32,17 +32,17 @@ const Info = () => {
           </span>
         </div>
         <div className={styles.info}>
-          <img src="/clock.png" className={styles.icon}></img>
+          <img src="/tap.png" className={styles.icon}></img>
           <span>
             Contrary to popular belief, Lorem Ipsum is not simply random text.
           </span>
         </div>
-        <div className={styles.info}>
+        {/* <div className={styles.info}>
           <img src="/smartphone.png" className={styles.icon}></img>
           <span>
             Contrary to popular belief, Lorem Ipsum is not simply random text.
           </span>
-        </div>
+        </div> */}
       </div>
       <Link href="/">
         <p className={styles.about}>Notre flotte</p>
