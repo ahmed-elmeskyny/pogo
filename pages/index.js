@@ -59,7 +59,7 @@ export default function Home() {
             <img src="/mockup.png"></img>
           </div>
         </div>
-        {/* 
+
         <div className={styles.scrollContainer}>
           <div className={styles.phone}>
             <BsFillPhoneFill
@@ -73,8 +73,7 @@ export default function Home() {
             ></AiOutlineArrowDown>
             <p>scroll down</p>
           </div>
-          <div className={styles.mockup}></div>
-        </div> */}
+        </div>
 
         <Info></Info>
         <Dynamic></Dynamic>

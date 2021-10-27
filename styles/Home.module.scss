@@ -7,7 +7,6 @@
   background-size: cover;
   display: flex;
   font-family: "Nunito", sans-serif;
-  overflow: hidden;
   @media (max-width: 1000px) {
     flex-direction: column;
     height: 80vh;
@@ -19,7 +18,7 @@
     background-image: url("../public/backgroundHero.png");
     background-size: cover;
     color: white;
-    border-top-right-radius: 20px;
+    border-radius: 20px;
     border-bottom-right-radius: 70px;
 
     @media (max-width: 1000px) {
@@ -55,10 +54,13 @@
   }
 
   .mockup {
-    // position: relative;
-    // left: 28%;
-    // bottom: -35%;
-    display: none;
+    position: relative;
+    left: 28%;
+    bottom: -35%;
+    // display: none;
+    @media (max-width: 1000px) {
+      display: none;
+    }
     img {
       width: 300px;
       height: 550px;
@@ -78,12 +80,13 @@
 }
 
 .scrollContainer {
-  margin-top: 10px;
+  margin-top: 100px;
   display: flex;
   padding: 0px 10px;
-  justify-content: space-between;
+  margin-bottom: 200px;
   @media (max-width: 900px) {
     justify-content: center;
+    display: none;
   }
 
   .phone {
@@ -104,7 +107,7 @@
     align-items: center;
     justify-content: center;
     margin-top: -50px;
-    margin-left: 140px;
+    margin-left: 33.2%;
     @media (min-width: 1900px) {
       margin-left: 240px;
     }
