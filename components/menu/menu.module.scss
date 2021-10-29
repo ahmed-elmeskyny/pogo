@@ -101,3 +101,119 @@
     }
   }
 }
+
+.fixedMenuContainer {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  font-family: "Nunito", sans-serif;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+
+  padding: 15px;
+  @media (min-width: 1000px) {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+  .menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 1000px) {
+      display: none;
+    }
+    button {
+      background-color: #03d3b9;
+      border-radius: 100px;
+      padding: 10px 15px;
+      border: none;
+      color: white;
+      font-weight: bolder;
+      font-size: 16px;
+      cursor: pointer;
+      margin-left: 30px;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      margin-left: 50px;
+      @media (max-width: 1300px) {
+        margin-right: 70px;
+      }
+      .active {
+        color: #03d3b9;
+        font-weight: 700;
+        &::after {
+          display: block;
+          content: "";
+          border-bottom: solid 5px #03d3b9;
+          width: 50%;
+          transition: transform 250ms ease-in-out;
+          border-radius: 10px;
+          margin-top: 1px;
+          transition: width 0.3s;
+        }
+      }
+      .active:hover::after {
+        width: 100%;
+      }
+
+      li {
+        color: black;
+        margin: 10px 20px;
+        font-weight: 400;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 700;
+
+        &::after {
+          display: block;
+          content: "";
+          border-bottom: solid 5px #03d3b9;
+          width: 0%;
+          transition: transform 250ms ease-in-out;
+          border-radius: 10px;
+          margin-top: 1px;
+          transition: width 0.3s;
+        }
+      }
+      li:hover::after {
+        color: black;
+        width: 100%;
+      }
+    }
+  }
+
+  .mobileMenu {
+    .logoContainer {
+      position: fixed;
+      z-index: 1000;
+      top: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      //   border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      width: 100%;
+      padding: 10px;
+      @media (max-width: 1000px) {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    @media (min-width: 1000px) {
+      display: none;
+    }
+  }
+}

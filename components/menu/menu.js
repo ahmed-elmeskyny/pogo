@@ -1,3 +1,6 @@
+//react
+import { useState, useEffect } from "react";
+
 //next
 import Image from "next/image";
 
@@ -12,8 +15,22 @@ import { GrClose } from "react-icons/gr";
 import ActiveLink from "../activeLink/activeLink";
 
 const Menu = ({ isOpen, setOpen }) => {
+  const [Fixed, setFixed] = useState(false);
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 400) {
+      setFixed(true);
+    } else {
+      setFixed(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  });
+
   return (
-    <div className={styles.menuContainer}>
+    <div className={Fixed ? styles.fixedMenuContainer : styles.menuContainer}>
       <div className={styles.menu}>
         <div className={styles.logo}>
           <img src="/pogo.png" width="150px" height="40px"></img>

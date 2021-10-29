@@ -9,6 +9,7 @@ import styles from "../styles/Home.module.scss";
 import Layout from "../components/layout/layout";
 import Download from "../components/donwload/download";
 import Info from "../components/info/info";
+import Partenaire from "../components/marquee/marquee";
 
 //react-icons
 import { AiOutlineArrowDown } from "react-icons/ai";
@@ -76,9 +77,14 @@ export default function Home() {
         </div>
 
         <Info></Info>
+        <h1 className={styles.title}>Notre flotte</h1>
         <Dynamic></Dynamic>
+
         <Dynamic reverse></Dynamic>
+        <h1 className={styles.title}>Louez un scooter en toute simplicité</h1>
         <Scooter></Scooter>
+        <h1 className={styles.title}>Nos partenaire</h1>
+        <Partenaire></Partenaire>
       </Layout>
     </div>
   );
