@@ -17,6 +17,7 @@ const Layout = (props) => {
   return (
     <div className={styles.container}>
       <div className={styles.element}></div>
+
       <Menu setOpen={setOpen} isOpen={isOpen}></Menu>
 
       <div style={{ display: "flex" }}>
@@ -56,6 +57,11 @@ const Layout = (props) => {
       </div>
 
       <Footer></Footer>
+      <div className={styles.credits}>
+        <a href="https://ahmedelmeskyny.vercel.app/" target="_blank">
+          Crée par <span>Ahmed Elmeskyny</span>
+        </a>
+      </div>
     </div>
   );
 };

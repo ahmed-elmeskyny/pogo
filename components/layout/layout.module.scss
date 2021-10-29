@@ -15,6 +15,7 @@
       height: 1500px;
     }
   }
+
   .trans {
     transition: transform ease 0.3s;
     width: 100%;
@@ -72,6 +73,19 @@
           color: black;
           width: 100%;
         }
+      }
+    }
+  }
+
+  .credits {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    margin: 10px;
+    a {
+      span {
+        color: #03d3b9;
+        text-decoration: underline #03d3b9;
+        cursor: pointer;
       }
     }
   }
