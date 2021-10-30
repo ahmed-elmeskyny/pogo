@@ -10,29 +10,29 @@ const Info = () => {
     <div className={styles.infoContainer}>
       <div className={styles.header}>
         <h1>
-          <img src="/pogoBlack.png"></img> propose un nouveau mode de transport
-          pour <span> un monde meilleur !</span>
+          <span>
+            {" "}
+            p<img src="/opogo.png"></img>go{" "}
+          </span>
+          propose un nouveau mode de transport pour{" "}
+          <span> un monde meilleur !</span>
         </h1>
       </div>
       <div className={styles.container}>
         <div className={styles.info}>
-          <img src="/ecologique.png" className={styles.icon}></img>
+          <img src="/Ecologique.png" className={styles.icon}></img>
           <span>
             Contrary to popular belief, Lorem Ipsum is not simply random text.
           </span>
         </div>
         <div className={styles.info}>
-          <img
-            src="/easy.png"
-            style={{ marginLeft: "20px" }}
-            className={styles.icon}
-          ></img>
+          <img src="/secure.png" className={styles.icon1}></img>
           <span>
             Contrary to popular belief, Lorem Ipsum is not simply random text.
           </span>
         </div>
         <div className={styles.info}>
-          <img src="/secure.png" className={styles.icon}></img>
+          <img src="/easy.png" className={styles.icon}></img>
           <span>
             Contrary to popular belief, Lorem Ipsum is not simply random text.
           </span>

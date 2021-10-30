@@ -5,7 +5,7 @@
   border-radius: 25px;
   background-image: url("../public/aboutBanner.jpg");
   background-size: cover;
-  background-position: right;
+
   display: flex;
   font-family: "Nunito", sans-serif;
   @media (max-width: 1000px) {
@@ -18,8 +18,8 @@
   .heroText {
     width: 46%;
     height: 100%;
-    background-image: url("../public/back.png");
-
+    background-image: url("../public/background.png");
+    background-size: cover;
     color: white;
     border-radius: 20px;
     border-bottom-right-radius: 70px;
@@ -70,7 +70,7 @@
       display: none;
     }
     @media (min-width: 1300px) {
-      bottom: -120%;
+      bottom: -100%;
     }
     img {
       width: 300px;

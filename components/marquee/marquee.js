@@ -39,14 +39,7 @@ const Partenaire = () => {
           className={styles.partner}
         ></img>
       </div>
-      <div>
-        <img
-          src="/commune-fes.jpg"
-          width="100px"
-          height="100px"
-          className={styles.partner}
-        ></img>
-      </div>
+
       <div>
         <img
           src="/emob.png"

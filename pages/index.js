@@ -16,6 +16,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 import { BsFillPhoneFill, BsDot } from "react-icons/bs";
 import Dynamic from "../components/dynamicAbout/dynamic";
 import Scooter from "../components/scooter/scooter";
+import Map from "../components/map/map";
 
 export default function Home() {
   return (
@@ -83,7 +84,9 @@ export default function Home() {
         <Dynamic reverse></Dynamic>
         <h1 className={styles.title}>Louez un scooter en toute simplicité</h1>
         <Scooter></Scooter>
-        <h1 className={styles.title}>Nos partenaire</h1>
+        {/* <h1 className={styles.title}>Trouvez voter scooter</h1>
+        <Map></Map> */}
+        <h1 className={styles.title}>Nos partenaires</h1>
         <Partenaire></Partenaire>
       </Layout>
     </div>
