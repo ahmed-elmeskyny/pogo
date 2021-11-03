@@ -3,6 +3,9 @@
   height: 100%;
   background-image: url("../../public/b.png");
   background-size: 50%;
+  @media (max-width: 1000px) {
+    background-size: 100%;
+  }
   .element {
     position: absolute;
     top: 0;
