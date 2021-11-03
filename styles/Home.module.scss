@@ -10,6 +10,9 @@
   font-family: "Nunito", sans-serif;
   @media (max-width: 1000px) {
     flex-direction: column;
+    background-position: center;
+
+    background-repeat: no-repeat;
     height: 80vh;
   }
   @media (min-width: 1300px) {

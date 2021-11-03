@@ -17,7 +17,7 @@ const Partenaire = () => {
       </div>
       <div>
         <img
-          src="/aoula.png"
+          src="/aloula.png"
           width="100px"
           height="100px"
           className={styles.partner}
@@ -25,7 +25,7 @@ const Partenaire = () => {
       </div>
       <div>
         <img
-          src="/bp.jpg"
+          src="/bp.png"
           width="100px"
           height="100px"
           className={styles.partner}

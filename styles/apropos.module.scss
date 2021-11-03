@@ -73,3 +73,24 @@
     }
   }
 }
+
+.title {
+  color: #03d3b9;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.mission {
+  // text-align: justify;
+
+  background-size: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    width: 60%;
+    font-size: 23px;
+  }
+}
