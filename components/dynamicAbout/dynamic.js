@@ -19,7 +19,14 @@ const Dynamic = ({ reverse }) => {
           <img src="/scooter.png"></img>
         )}
       </div>
-      <div className={styles.description}>
+      <div
+        className={styles.description}
+        style={
+          reverse
+            ? { backgroundImage: "url(/backgroundTrotinette.png" }
+            : { backgroundImage: "url(/backgroundScooter.png)" }
+        }
+      >
         <div className={styles.type}>
           <BsDot className={styles.icon}></BsDot>
           {reverse ? <span>Trottinette</span> : <span>Scooter</span>}

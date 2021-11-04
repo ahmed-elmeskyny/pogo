@@ -53,6 +53,101 @@ export default function Home() {
             and the like
           </p>
         </div>
+
+        <div className={styles.infoContainer}>
+          <div className={styles.info}>
+            <div
+              className={styles.img}
+              style={{ backgroundImage: "url(/bg.jpg)" }}
+            >
+              <div className={styles.filter}>
+                <h1>INTEGRITY</h1>
+              </div>
+            </div>
+            <div
+              className={styles.description}
+              style={{ backgroundImage: "url(/shapes2.svg)" }}
+            >
+              <div className={styles.filter}>
+                <span>01</span>
+                <div></div>
+                <p>
+                  Our diverse workforce is committed to delivering a safe,
+                  sustainable micro-mobility experience in every city we serve.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className={styles.info1}>
+            <div
+              className={styles.img}
+              style={{ backgroundImage: "url(/bg1.jpg)" }}
+            >
+              <div className={styles.filter}>
+                <h1>COMMUNITY</h1>
+              </div>
+            </div>
+            <div
+              className={styles.description}
+              style={{ backgroundImage: "url(/shapes1.svg)" }}
+            >
+              <div className={styles.filter}>
+                <span>02</span>
+                <div></div>
+                <p>
+                  We hire locally and partner with neighborhood organizations to
+                  cultivate community growth and improve urban living
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className={styles.info}>
+            <div
+              className={styles.img}
+              style={{ backgroundImage: "url(/bg2.jpg)" }}
+            >
+              <div className={styles.filter}>
+                <h1>TECHNOLOGY</h1>
+              </div>
+            </div>
+            <div
+              className={styles.description}
+              style={{ backgroundImage: "url(/shapes3.svg)" }}
+            >
+              <div className={styles.filter}>
+                <span>03</span>
+                <div></div>
+                <p>
+                  Our drive to lead micro-mobility into the future puts Lime on
+                  the cutting edge of clean, accessible urban transportation.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className={styles.info1}>
+            <div
+              className={styles.img}
+              style={{ backgroundImage: "url(/bg4.jpg)" }}
+            >
+              <div className={styles.filter}>
+                <h1>TRUST</h1>
+              </div>
+            </div>
+            <div
+              className={styles.description}
+              style={{ backgroundImage: "url(/shapes.svg)" }}
+            >
+              <div className={styles.filter}>
+                <span>04</span>
+                <div></div>
+                <p>
+                  We believe in transparency and accountability, and strive to
+                  deliver the best customer experience every day.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </Layout>
     </div>
   );
