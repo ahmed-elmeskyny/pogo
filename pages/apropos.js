@@ -64,10 +64,7 @@ export default function Home() {
                 <h1>INTEGRITY</h1>
               </div>
             </div>
-            <div
-              className={styles.description}
-              style={{ backgroundImage: "url(/shapes2.svg)" }}
-            >
+            <div className={styles.description}>
               <div className={styles.filter}>
                 <span>01</span>
                 <div></div>
@@ -87,10 +84,7 @@ export default function Home() {
                 <h1>COMMUNITY</h1>
               </div>
             </div>
-            <div
-              className={styles.description}
-              style={{ backgroundImage: "url(/shapes1.svg)" }}
-            >
+            <div className={styles.description}>
               <div className={styles.filter}>
                 <span>02</span>
                 <div></div>
@@ -110,10 +104,7 @@ export default function Home() {
                 <h1>TECHNOLOGY</h1>
               </div>
             </div>
-            <div
-              className={styles.description}
-              style={{ backgroundImage: "url(/shapes3.svg)" }}
-            >
+            <div className={styles.description}>
               <div className={styles.filter}>
                 <span>03</span>
                 <div></div>
@@ -133,10 +124,7 @@ export default function Home() {
                 <h1>TRUST</h1>
               </div>
             </div>
-            <div
-              className={styles.description}
-              style={{ backgroundImage: "url(/shapes.svg)" }}
-            >
+            <div className={styles.description}>
               <div className={styles.filter}>
                 <span>04</span>
                 <div></div>
