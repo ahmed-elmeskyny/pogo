@@ -74,3 +74,46 @@
     }
   }
 }
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 50px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Nunito", sans-serif;
+  .description {
+    font-family: "Nunito", sans-serif;
+    h1 {
+      color: #03d3b9;
+      font-size: 40px;
+    }
+    p {
+      font-size: 25px;
+      font-weight: 300;
+    }
+    width: 40%;
+  }
+}
+
+.descriptionContainer1 {
+  display: flex;
+
+  margin-top: 50px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+  .description {
+    font-family: "Nunito", sans-serif;
+    h1 {
+      color: #03d3b9;
+      font-size: 40px;
+    }
+    p {
+      font-size: 25px;
+      font-weight: 300;
+    }
+    width: 40%;
+  }
+}

@@ -82,10 +82,11 @@ export default function Home() {
         <Dynamic></Dynamic>
 
         <Dynamic reverse></Dynamic>
+        <Map></Map>
         <h1 className={styles.title}>Louez un scooter en toute simplicité</h1>
         <Scooter></Scooter>
-        <h1 className={styles.title}>Trouvez voter scooter</h1>
-        <Map></Map>
+        {/* <h1 className={styles.title}>Trouvez voter scooter</h1> */}
+
         <h1 className={styles.title}>Nos partenaires</h1>
         <Partenaire></Partenaire>
       </Layout>

@@ -68,13 +68,13 @@ const Footer = () => {
               <AiOutlineRight className={styles.icon}></AiOutlineRight>Termes et
               Conditions{" "}
             </li>
-            <li>
+            {/* <li>
               <AiOutlineRight className={styles.icon}></AiOutlineRight>{" "}
               Renonciation{" "}
             </li>
             <li>
               <AiOutlineRight className={styles.icon}></AiOutlineRight>Support{" "}
-            </li>
+            </li> */}
             <li>
               <AiOutlineRight className={styles.icon}></AiOutlineRight>
               FAQ{" "}

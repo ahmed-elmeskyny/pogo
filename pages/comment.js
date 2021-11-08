@@ -39,6 +39,38 @@ export default function Comment() {
           </div>
         </div>
         <How></How>
+        <div className={styles.descriptionContainer}>
+          <div className={styles.description}>
+            <h1>Un casque prêt à porter</h1>
+            <p>
+              Un casque homologué est à votre disposition sous la selle. Vous
+              trouverez également des charlottes en papier pour l’hygiène. Si
+              vous disposez de votre propre casque, libre à vous de l’utiliser !
+            </p>
+          </div>
+          <div className={styles.img}>
+            <img src="helmet.svg"></img>
+          </div>
+        </div>
+        <div className={styles.descriptionContainer1}>
+          <div className={styles.description}>
+            <h1>Un scooter électrique toujours chargér</h1>
+            <p>
+              Cityscoot s’occupe de tout en allant recharger le scooter là où
+              vous l’avez garé.
+            </p>
+            <p>
+              Nos équipes tournent jour et nuit à bord de camionnettes
+              électriques pour intervenir rapidement et discrètement.
+            </p>
+            <p>
+              Vous n’aurez donc jamais à vous soucier de brancher un scooter !
+            </p>
+          </div>
+          <div className={styles.img}>
+            <img src="battery.svg"></img>
+          </div>
+        </div>
         <App></App>
       </Layout>
     </div>

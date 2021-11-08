@@ -1,0 +1,29 @@
+.mapContainer {
+  background-color: #0d1721;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 20px;
+  .title {
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 55px;
+
+    margin-bottom: 50px;
+    color: #03d3b9;
+    text-align: center;
+    @media (max-width: 900px) {
+      font-size: 40px;
+    }
+  }
+  .description {
+    display: flex;
+    justify-content: space-around;
+
+    .text {
+      margin-top: 10px;
+      font-size: 25px;
+      width: 40%;
+    }
+  }
+}
