@@ -7,6 +7,7 @@ import styles from "../styles/tarif.module.scss";
 
 //components
 import Layout from "../components/layout/layout";
+import App from "../components/app/app";
 
 //react-icons
 import { AiOutlineRight } from "react-icons/ai";
@@ -138,6 +139,7 @@ export default function Tarif() {
             </div>
           </div>
         </div>
+        <App></App>
       </Layout>
     </div>
   );

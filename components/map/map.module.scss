@@ -19,11 +19,15 @@
   .description {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
     .text {
       margin-top: 10px;
       font-size: 25px;
       width: 40%;
+      @media (max-width: 1000px) {
+        width: 100%;
+      }
     }
   }
 }

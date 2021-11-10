@@ -9,7 +9,7 @@ import Download from "../donwload/download";
 const App = () => {
   return (
     <div className={styles.appContainer}>
-      <div>
+      <div style={{ width: "40%" }}>
         <h1>C'est parti!</h1>
         <p>
           Ça donne envie de tester, non ? Téléchargez l'application et accédez
