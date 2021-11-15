@@ -10,15 +10,25 @@
   @media (max-width: 1000px) {
     padding: 5px;
   }
-  h1 {
-    color: #03d3b9;
-    font-size: 45px;
-  }
-  p {
-    // width: 40%;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    font-size: 25px;
+  .text {
+    width: 40%;
+    @media (max-width: 1000px) {
+      width: 100%;
+    }
+
+    h1 {
+      color: #03d3b9;
+      font-size: 45px;
+    }
+    p {
+      // width: 40%;
+      margin-top: 10px;
+      margin-bottom: 40px;
+      font-size: 25px;
+      @media (max-width: 1000px) {
+        width: 100%;
+      }
+    }
   }
   .illus {
     img {

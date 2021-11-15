@@ -1,6 +1,7 @@
 //next
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 //styles
 import styles from "../styles/Home.module.scss";
@@ -29,6 +30,13 @@ export default function Home() {
 
       <Layout>
         <div className={styles.heroContainer}>
+          <video autoPlay muted loop className={styles.video}>
+            <source
+              src="https://cdn.felyx.com/uploads/videos/website-banner-amsterdam.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support HTML5 video.
+          </video>
           <div className={styles.heroText}>
             <div className={styles.text}>
               <h1>
@@ -57,9 +65,9 @@ export default function Home() {
               ></Download>
             </div>
           </div>
-          <div className={styles.mockup}>
+          {/* <div className={styles.mockup}>
             <img src="/mockup.png"></img>
-          </div>
+          </div> */}
         </div>
 
         <div className={styles.scrollContainer}>
@@ -75,6 +83,9 @@ export default function Home() {
             ></AiOutlineArrowDown>
             <p>scroll down</p>
           </div>
+          <div className={styles.mockup}>
+            <img src="/mockup.png"></img>
+          </div>
         </div>
 
         <Info></Info>
@@ -86,6 +97,28 @@ export default function Home() {
         <h1 className={styles.title}>Louez un scooter en toute simplicité</h1>
         <Scooter></Scooter>
         <h1 className={styles.title}>Combien ça coûte ?</h1>
+        <div className={styles.description}>
+          <div className={styles.des}>
+            <div className={styles.type}>
+              <BsDot className={styles.icon}></BsDot>
+              <span>Nos tarifs</span>
+            </div>
+            <h3>
+              Lorem ipsum <span>is simply dummy</span> text of the printing
+            </h3>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English.
+            </p>
+            <a href="/tarif"> En savoir plus</a>
+          </div>
+          <div className={styles.img}>
+            <img src="/tarif.svg"></img>
+          </div>
+        </div>
 
         <h1 className={styles.title}>Nos partenaires</h1>
         <Partenaire></Partenaire>
