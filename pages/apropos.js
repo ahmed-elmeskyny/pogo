@@ -30,11 +30,11 @@ export default function Apropos() {
                 eiusmod tempor incididunt ut labore et dolore magna
               </p>
             </div>
-            <div className={styles.page}>
+            {/* <div className={styles.page}>
               <p>Home</p>
               <AiOutlineRight className={styles.icon}></AiOutlineRight>
               <p>À propos</p>
-            </div>
+            </div> */}
           </div>
         </div>
 

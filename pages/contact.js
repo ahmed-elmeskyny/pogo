@@ -32,11 +32,11 @@ export default function Contact() {
                 eiusmod tempor incididunt ut labore et dolore magna
               </p>
             </div>
-            <div className={styles.page}>
+            {/* <div className={styles.page}>
               <p>Home</p>
               <AiOutlineRight className={styles.icon}></AiOutlineRight>
               <p>Contactez-nous</p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className={styles.contactContainer}>

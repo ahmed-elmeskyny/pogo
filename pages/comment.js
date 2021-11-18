@@ -31,11 +31,11 @@ export default function Comment() {
                 eiusmod tempor incididunt ut labore et dolore magna
               </p>
             </div>
-            <div className={styles.page}>
+            {/* <div className={styles.page}>
               <p>Home</p>
               <AiOutlineRight className={styles.icon}></AiOutlineRight>
               <p>Comment ça marche</p>
-            </div>
+            </div> */}
           </div>
         </div>
         <How></How>

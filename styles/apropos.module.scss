@@ -24,13 +24,11 @@
     background-color: rgba($color: #0d1721, $alpha: 0.8);
     padding: 50px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     @media (max-width: 1000px) {
       flex-wrap: wrap;
     }
     .description {
-      width: 45%;
       @media (max-width: 1000px) {
         width: 100%;
       }
@@ -43,11 +41,17 @@
           display: block;
           content: "";
           border-bottom: solid 5px #03d3b9;
-          width: 50%;
+          width: 200px;
           transition: transform 250ms ease-in-out;
           border-radius: 10px;
           margin-top: 1px;
           transition: width 0.3s;
+        }
+      }
+      p {
+        width: 45%;
+        @media (max-width: 1000px) {
+          width: 100%;
         }
       }
     }
