@@ -30,13 +30,6 @@ export default function Home() {
 
       <Layout>
         <div className={styles.heroContainer}>
-          <video autoPlay muted loop className={styles.video}>
-            <source
-              src="https://cdn.felyx.com/uploads/videos/website-banner-amsterdam.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support HTML5 video.
-          </video>
           <div className={styles.heroText}>
             <div className={styles.text}>
               <h1>
@@ -65,27 +58,14 @@ export default function Home() {
               ></Download>
             </div>
           </div>
-          {/* <div className={styles.mockup}>
-            <img src="/mockup.png"></img>
-          </div> */}
-        </div>
-
-        <div className={styles.scrollContainer}>
-          <div className={styles.phone}>
-            <BsFillPhoneFill
-              style={{ color: "#03d3b9", fontSize: "30px" }}
-            ></BsFillPhoneFill>
-            <p>+212 6729836572</p>
-          </div>
-          <div className={styles.scroll}>
-            <AiOutlineArrowDown
-              className={styles.scrollIcon}
-            ></AiOutlineArrowDown>
-            <p>scroll down</p>
-          </div>
           <div className={styles.mockup}>
             <img src="/mockup.png"></img>
           </div>
+        </div>
+
+        <div className={styles.scrollContainer}>
+          <h3> EMBRACE </h3>
+          <h3>THE REVOLUTION</h3>
         </div>
 
         <Info></Info>

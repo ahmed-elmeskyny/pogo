@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;600;700;800;900&display=swap");
 html {
-  @media (min-width: 1300px) {
+  @media (min-width: 1900px) {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body {
     padding: 10px;
     overflow-x: hidden;
   }
-  @media (min-width: 1300px) {
+  @media (min-width: 1900px) {
     width: 1850px;
   }
   margin: 0;

@@ -10,6 +10,8 @@ import Layout from "../components/layout/layout";
 
 //react-icons
 import { AiOutlineRight } from "react-icons/ai";
+import { FaWhatsappSquare } from "react-icons/fa";
+import { MdEmail, MdOutlineLocationCity } from "react-icons/md";
 
 export default function Contact() {
   return (
@@ -39,6 +41,21 @@ export default function Contact() {
         </div>
         <div className={styles.contactContainer}>
           <div className={styles.desciption}></div>
+        </div>
+        <div className={styles.contactContainer}>
+          <div className={styles.description}>
+            <h3>Contactez-nous</h3>
+            <p>
+              {" "}
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna
+            </p>
+            <div className={styles.infoContainer}>
+              <div className={styles.info}></div>
+            </div>
+          </div>
         </div>
       </Layout>
     </div>

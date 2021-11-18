@@ -5,7 +5,9 @@
   position: relative;
   display: flex;
   font-family: "Nunito", sans-serif;
-  overflow: hidden;
+
+  background-image: url("../public/aboutBanner.jpg");
+  background-size: cover;
   height: 500px;
   @media (max-width: 1000px) {
     flex-direction: column;
@@ -68,16 +70,17 @@
 
   .mockup {
     position: relative;
-    margin-bottom: -100px;
+    left: 22%;
+    bottom: -20%;
     @media (max-width: 1000px) {
       display: none;
     }
-    @media (min-width: 1300px) {
+    @media (min-width: 1900px) {
       bottom: -100%;
     }
     img {
-      width: 300px;
-      height: 550px;
+      width: 400px;
+      height: 730px;
       @media (min-width: 1900px) {
         width: 400px;
         height: 730px;
@@ -95,73 +98,20 @@
 
 .scrollContainer {
   margin-top: 100px;
-  display: flex;
+  // display: flex;
   padding: 0px 10px;
   margin-bottom: 200px;
+  width: 50%;
   @media (max-width: 900px) {
     justify-content: center;
     display: none;
   }
-  .mockup {
-    position: relative;
-    margin-top: -450px;
-    margin-left: 200px;
-    // display: none;
-    @media (max-width: 1000px) {
-      display: none;
-    }
-    @media (min-width: 1300px) {
-      bottom: -100%;
-    }
-    img {
-      width: 300px;
-      height: 550px;
-      @media (min-width: 1900px) {
-        width: 400px;
-        height: 730px;
-        margin-top: -450px;
-      }
-      @media (max-width: 1000px) {
-        width: 250px;
-        height: 500px;
-        margin-top: -100px;
-        position: relative;
-      }
-    }
-  }
-  .phone {
-    display: flex;
-    align-items: center;
-    margin-top: -100px;
-    @media (max-width: 900px) {
-      display: none;
-    }
-    p {
-      margin-left: 5px;
-    }
-  }
-  .scroll {
-    display: flex;
-
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: -50px;
-    margin-left: 33.2%;
-    @media (min-width: 1900px) {
-      margin-left: 693px;
-    }
-    @media (max-width: 900px) {
-      display: none;
-    }
-    .scrollIcon {
-      font-size: 25px;
-      color: #03d3b9;
-      animation: move 1s infinite alternate;
-    }
-    p {
-      margin-top: -2px;
-    }
+  h3 {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    color: #03d3b9;
+    font-size: 45px;
+    margin: 5px;
   }
 }
 
