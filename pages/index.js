@@ -43,14 +43,17 @@ export default function Home() {
                       style={{ marginBottom: "-5px" }}
                     ></img>
                   </span>
-                  , la location d’un scooter n’a jamais été aussi simple !
+                  ,la location d’un scooter n’a jamais été aussi simple !
                 </p>
               </h1>
-              <p>
-                Téléchargez notre application <span>POGO </span>et profitez de
-                la conduite de nos scooters modernes et écologiques dès
-                aujourd’hui !
-              </p>
+              <div className={styles.description}>
+                {" "}
+                <p>
+                  Téléchargez notre application <span>POGO </span>et profitez de
+                  la conduite de nos scooters modernes et écologiques dès
+                  aujourd’hui !
+                </p>
+              </div>
               <Download
               // height="70px"
               // width="170px"
@@ -70,19 +73,36 @@ export default function Home() {
 
         <Info></Info>
         <h1 className={styles.title}>Notre flotte</h1>
+        <h2 className={styles.sousTitle}>0 émission 0 bruit 0 odeur</h2>
         <Dynamic></Dynamic>
 
         <Dynamic reverse></Dynamic>
         <Map></Map>
-        <h1 className={styles.title}>Louez un scooter en toute simplicité</h1>
+        <h1 className={styles.title}>
+          Louez un scooter n’a jamais été aussi simple !{" "}
+        </h1>
         <Scooter></Scooter>
         <h1 className={styles.title}>Combien ça coûte ?</h1>
+        <h2 className={styles.sousTitle1}>
+          <div>
+            <img src="/abonnement.png" width="35px" height="35px"></img>{" "}
+            <p>Pas d’abonnement</p>
+          </div>
+          <div>
+            <img src="/engagement.png" width="35px" height="35px"></img>{" "}
+            <p>Pas d’engagement</p>
+          </div>{" "}
+          <div>
+            <img src="/minute.png" width="35px" height="35px"></img>{" "}
+            <p>Paiement à la minute </p>
+          </div>
+        </h2>
         <div className={styles.description}>
           <div className={styles.des}>
-            <div className={styles.type}>
+            {/* <div className={styles.type}>
               <BsDot className={styles.icon}></BsDot>
               <span>Nos tarifs</span>
-            </div>
+            </div> */}
             <h3>
               Lorem ipsum <span>is simply dummy</span> text of the printing
             </h3>
@@ -93,10 +113,31 @@ export default function Home() {
               distribution of letters, as opposed to using 'Content here,
               content here', making it look like readable English.
             </p>
-            <a href="/tarif"> En savoir plus</a>
+            <a href="/tarif"> En savoir plus sur nos packs </a>
           </div>
-          <div className={styles.img}>
-            <img src="/tarif.svg"></img>
+          <div className={styles.tarif}>
+            <h2>titre</h2>
+            <span>sous-titre</span>
+            <img src="clock.png" width="105px" height="105px"></img>
+            <p className={styles.price}> 0.89 DH</p>
+            <p>
+              {" "}
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+            </p>
+            <div className={styles.check}>
+              <img src="/check.png" width="25px" height="25px"></img>
+              <span>Lorem Ipsum is simply dummy text of </span>
+            </div>
+            <div className={styles.check}>
+              <img src="/check.png" width="25px" height="25px"></img>
+              <span>Lorem Ipsum is simply dummy text of </span>
+            </div>
+            <div className={styles.check}>
+              <img src="/check.png" width="25px" height="25px"></img>
+              <span>Lorem Ipsum is simply dummy text of </span>
+            </div>
           </div>
         </div>
 

@@ -10,10 +10,8 @@ const Info = () => {
     <div className={styles.infoContainer}>
       <div className={styles.header}>
         <h1>
-          <span>
-            {" "}
-            p<img src="/opogo.png"></img>go{" "}
-          </span>
+          {" "}
+          <img src="/pogo.png" width="200px"></img>
           propose un nouveau mode de transport pour{" "}
           <span> un monde meilleur !</span>
         </h1>

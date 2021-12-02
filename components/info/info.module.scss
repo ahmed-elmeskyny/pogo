@@ -28,18 +28,7 @@
         font-size: 35px;
       }
       img {
-        width: 30px;
-        height: 30px;
-        margin-left: 2px;
-        margin-right: 2px;
-        @media (min-width: 1300px) {
-          width: 35px;
-          height: 35px;
-        }
-        @media (max-width: 1000px) {
-          width: 20px;
-          height: 20px;
-        }
+        margin-bottom: -15px;
       }
       @media (min-width: 1900px) {
         font-size: 65px;

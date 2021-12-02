@@ -32,7 +32,7 @@ const How = () => {
               >
                 a
               </span>
-              <h3 className={styles.title}>Locate</h3>
+              <h3 className={styles.title}>Localise</h3>
             </div>
             <div className={styles.line}></div>
           </div>
@@ -74,14 +74,16 @@ const How = () => {
               >
                 a
               </span>
-              <h3 className={styles.title}>Ride</h3>
+              <h3 className={styles.title}>Roule</h3>
             </div>
           </div>
         </div>
         {/* fin steeps */}
         {/* mocu */}
         <div className={styles.mockup}>
-          <img src="mockup.png"></img>
+          {isLocate ? <img src="localise.png"></img> : null}
+          {isScan ? <img src="scan.png"></img> : null}
+          {isRide ? <img src="roule.png"></img> : null}
         </div>
         {/* fin lc */}
         <div className={styles.description}>

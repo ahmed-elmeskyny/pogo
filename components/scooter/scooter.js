@@ -21,12 +21,11 @@ const Scooter = () => {
         >
           <div className={styles.header}>
             <img src="/number1.png" width="50px" height="50px"></img>
-            <span>Trouvez votre Scooter pogo</span>
+            <span>Localisez votre scooter POGO </span>
           </div>
           {isone ? (
             <p>
-              Il y en a toujours un près de vous ! Repérez dans l’application le
-              scooter le plus proche ou autour de l’adresse de votre choix.
+              Repérez dans l’application le parking POGO le plus proche de vous.
             </p>
           ) : null}
         </div>
@@ -37,12 +36,13 @@ const Scooter = () => {
         >
           <div className={styles.header}>
             <img src="/number2.png" width="50px" height="50px"></img>
-            <span>Réservez-le en un clic</span>
+            <span>Réservez-le </span>
           </div>
           {istwo ? (
             <p>
-              Il y en a toujours un près de vous ! Repérez dans l’application le
-              scooter le plus proche ou autour de l’adresse de votre choix.
+              En un simple clic sur l’application, vous pouvez réserver votre
+              scooter. Vous disposez de 15 minutes pour le rejoindre et le
+              déverrouiller.
             </p>
           ) : null}
         </div>
@@ -53,12 +53,13 @@ const Scooter = () => {
         >
           <div className={styles.header}>
             <img src="/number3.png" width="50px" height="50px"></img>
-            <span>Roulez librement</span>
+            <span>Roulez librement </span>
           </div>
           {isthree ? (
             <p>
-              Il y en a toujours un près de vous ! Repérez dans l’application le
-              scooter le plus proche ou autour de l’adresse de votre choix.
+              Roulez où vous souhaiter dans le périmètre urbain renseigné sur
+              l’application tout en respectant le code de la route. Veuillez
+              revenir au parking POGO pour terminer votre location.
             </p>
           ) : null}
         </div>
@@ -73,8 +74,8 @@ const Scooter = () => {
           </div>
           {isfour ? (
             <p>
-              Il y en a toujours un près de vous ! Repérez dans l’application le
-              scooter le plus proche ou autour de l’adresse de votre choix.
+              Une fois parqué sur un parking POGO. Mettez fin à votre location
+              via l’application.
             </p>
           ) : null}
         </div>

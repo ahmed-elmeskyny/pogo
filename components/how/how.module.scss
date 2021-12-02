@@ -63,7 +63,6 @@
             width: 30px;
             height: 30px;
             color: transparent;
-
             border: #03d3b9 solid 2px;
             border-radius: 20px;
             cursor: pointer;
@@ -92,7 +91,7 @@
       }
     }
     .description {
-      // width: 25%;
+      width: 25%;
       font-size: 30px;
       span {
         transition: display 0.3s ease-in;
@@ -101,7 +100,7 @@
         display: none;
       }
       @media (min-width: 1300px) {
-        width: 11%;
+        width: 15%;
       }
     }
 
@@ -132,10 +131,9 @@
         .circle {
           outline: none;
           width: 20px;
+          color: transparent;
           height: 20px;
           overflow: hidden;
-          color: white;
-          background-color: white;
           border: #03d3b9 solid 2px;
           border-radius: 20px;
           cursor: pointer;
