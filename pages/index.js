@@ -54,11 +54,7 @@ export default function Home() {
                   aujourd’hui !
                 </p>
               </div>
-              <Download
-              // height="70px"
-              // width="170px"
-              // style={{ marginTop: "30px" }}
-              ></Download>
+              <Download style={{ marginBottom: "-50px" }}></Download>
             </div>
           </div>
           <div className={styles.mockup}>

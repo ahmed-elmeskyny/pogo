@@ -26,7 +26,7 @@ const Dynamic = ({ reverse }) => {
         >
           <div className={styles.type}>
             <BsDot className={styles.icon}></BsDot>
-            <span>Trottinette</span>
+            <span>POGO T</span>
           </div>
           <h3>
             Profitez de <br></br> <span>nos trottinettes</span>
@@ -56,7 +56,7 @@ const Dynamic = ({ reverse }) => {
         >
           <div className={styles.type}>
             <BsDot className={styles.icon}></BsDot>
-            <span>Scooter</span>
+            <span>POGO S</span>
           </div>
           <h3>
             Profitez de <br></br>

@@ -18,22 +18,24 @@ const Info = () => {
       </div>
       <div className={styles.container}>
         <div className={styles.info}>
-          <img src="/Ecologique.png" className={styles.icon}></img>
-          <span>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-          </span>
+          <img
+            src="/Ecologique.png"
+            className={styles.icon}
+            style={{ marginBottom: "20px" }}
+          ></img>
+          <span>Écologique</span>
         </div>
         <div className={styles.info}>
           <img src="/secure.png" className={styles.icon1}></img>
-          <span>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-          </span>
+          <span>Sécurisé</span>
         </div>
         <div className={styles.info}>
-          <img src="/easy.png" className={styles.icon}></img>
-          <span>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-          </span>
+          <img
+            src="/easy.png"
+            className={styles.icon}
+            style={{ marginBottom: "20px" }}
+          ></img>
+          <span>Simple</span>
         </div>
         {/* <div className={styles.info}>
           <img src="/smartphone.png" className={styles.icon}></img>

@@ -9,7 +9,7 @@ const Map = () => {
       <h1 className={styles.title}>Où se trouve POGO ? </h1>
       <div className={styles.description}>
         <div className={styles.img}>
-          <img src="map.png" width="350px" height="350px"></img>
+          <img src="map.png" width="500px" height="500px"></img>
         </div>
         <div className={styles.text}>
           <div>
