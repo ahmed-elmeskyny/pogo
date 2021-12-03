@@ -9,7 +9,6 @@ const How = () => {
   const [isRide, setRide] = useState(false);
   return (
     <div className={styles.howContainer}>
-      <h2>How to pogo</h2>
       <p>Avec POGO, la micromobilité est simple et accessible pour tous ! </p>
       {/* hooww */}
       <div className={styles.how}>

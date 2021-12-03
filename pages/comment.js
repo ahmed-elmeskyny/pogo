@@ -26,10 +26,6 @@ export default function Comment() {
           <div className={styles.filter}>
             <div className={styles.description}>
               <h1>Comment ça marche</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna
-              </p>
             </div>
             {/* <div className={styles.page}>
               <p>Home</p>
