@@ -79,7 +79,7 @@ export default function Home() {
         </h1>
         <Scooter></Scooter>
         <h1 className={styles.title}>Combien ça coûte ?</h1>
-        <h2 className={styles.sousTitle1}>
+        <h2 className={styles.sousTitle}>
           <div>
             <img src="/abonnement.png" width="35px" height="35px"></img>{" "}
             <p>Pas d’abonnement</p>

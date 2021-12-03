@@ -228,17 +228,16 @@
   }
 }
 
-.sousTitle {
-  text-align: center;
-  margin-top: -50px;
-  margin-bottom: 50px;
-  font-size: 20px;
-  font-weight: 800;
-  color: #0d1721;
-}
+// .sousTitle {
+//   text-align: center;
+//   margin-top: -50px;
+//   margin-bottom: 50px;
+//   font-size: 20px;
+//   font-weight: 800;
+//   color: #0d1721;
+// }
 
-.sousTitle1 {
-  text-align: center;
+.sousTitle {
   margin-top: -50px;
   margin-bottom: 50px;
   font-size: 20px;
@@ -257,6 +256,9 @@
       margin-right: 10px;
     }
   }
+  @media (max-width: 1000px) {
+    margin-left: -40px;
+  }
 }
 
 .tarif {
@@ -274,6 +276,7 @@
   font-family: "Nunito", sans-serif;
   @media (max-width: 1000px) {
     width: 300px;
+    margin-right: 0;
     margin-bottom: 40px;
   }
   @media (min-width: 1300px) {
