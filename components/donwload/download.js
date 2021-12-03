@@ -6,12 +6,16 @@ import styles from "./download.module.scss";
 //react-ion
 import { AiFillApple } from "react-icons/ai";
 
-const Download = ({ style, white, footer }) => {
+const Download = ({ style, white, footer, width }) => {
   return (
     <div className={styles.badgecontainer} style={style}>
       <div
         className={styles.store}
-        style={white ? { backgroundColor: "#03d3b9", color: "white" } : null}
+        style={
+          white
+            ? { backgroundColor: "#03d3b9", color: "white", width: width }
+            : null
+        }
       >
         <img src="/playstore.png" height="30px" width="30px"></img>
         <div className={styles.storeText}>
@@ -21,7 +25,11 @@ const Download = ({ style, white, footer }) => {
       </div>
       <div
         className={styles.store}
-        style={white ? { backgroundColor: "#03d3b9", color: "white" } : null}
+        style={
+          white
+            ? { backgroundColor: "#03d3b9", color: "white", width: width }
+            : null
+        }
       >
         <img src="/apple.png" height="30px" width="30px"></img>
         <div className={styles.storeText}>

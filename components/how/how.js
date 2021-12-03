@@ -10,7 +10,7 @@ const How = () => {
   return (
     <div className={styles.howContainer}>
       <h2>How to pogo</h2>
-      <p>Micromobilité simple et accessible pour tous.</p>
+      <p>Avec POGO, la micromobilité est simple et accessible pour tous ! </p>
       {/* hooww */}
       <div className={styles.how}>
         {/* steeeppss */}
@@ -89,20 +89,18 @@ const How = () => {
         <div className={styles.description}>
           {isLocate ? (
             <span>
-              Download the Lime app to discover your nearest available vehicle.
+              Télécharge notre application et repère le parking POGO le plus
+              proche
             </span>
           ) : null}
           {isScan ? (
-            <span>
-              Scan the QR code to unlock. Learn how to enjoy a safe ride in the
-              app.
-            </span>
+            <span>Scan le code QR sur le scooter pour le déverrouiller.</span>
           ) : null}
           {isRide ? (
             <span>
-              Enjoy your ride. Follow all traffic rules, stick to the streets &
-              bike lanes where legally permitted. Wear a helmet and respect
-              others sharing the road.
+              Roulez où vous souhaiter dans le périmètre urbain renseigné sur
+              l’application tout en respectant le code de la route. Veuillez
+              revenir au parking POGO pour terminer votre location.
             </span>
           ) : null}
         </div>

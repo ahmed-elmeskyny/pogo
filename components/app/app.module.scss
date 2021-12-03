@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   font-family: "Nunito", sans-serif;
   margin-top: 100px;
   @media (max-width: 1000px) {
@@ -32,8 +32,8 @@
   }
   .illus {
     img {
-      width: 600px;
-      height: 300px;
+      width: 400px;
+      height: 400px;
     }
   }
 }

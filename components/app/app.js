@@ -12,9 +12,9 @@ const App = () => {
       <div className={styles.text}>
         <h1>C'est parti!</h1>
         <p>
-          Ça donne envie de tester, non ? Téléchargez l'application et accédez
-          en un clic à des milliers de scooters électriques à Paris, Nice, Milan
-          et Barcelone !
+          Vous voulez commencer une nouvelle expérience ? Tester un mode de
+          transport urbain pionnier en Afrique ? Téléchargez notre application
+          et accéder en un clic à nos scooters électriques !
         </p>
         <Download white></Download>
       </div>

@@ -41,34 +41,28 @@ export default function Comment() {
         <How></How>
         <div className={styles.descriptionContainer}>
           <div className={styles.description}>
-            <h1>Un casque prêt à porter</h1>
+            <h1>Un casque mis à votre disposition </h1>
             <p>
-              Un casque homologué est à votre disposition sous la selle. Vous
-              trouverez également des charlottes en papier pour l’hygiène. Si
-              vous disposez de votre propre casque, libre à vous de l’utiliser !
+              POGO met à votre disposition un casque homologué pour vous
+              protéger. Vous pouvez cependant utiliser votre propre casque si
+              vous le souhaitez.
             </p>
           </div>
           <div className={styles.img}>
-            <img src="helmet.svg"></img>
+            {/* <img src="helmet.jpg" width="500px"></img> */}
           </div>
         </div>
         <div className={styles.descriptionContainer1}>
           <div className={styles.description}>
-            <h1>Un scooter électrique toujours chargér</h1>
+            <h1>Un véhicule électrique toujours chargé </h1>
             <p>
-              Cityscoot s’occupe de tout en allant recharger le scooter là où
-              vous l’avez garé.
-            </p>
-            <p>
-              Nos équipes tournent jour et nuit à bord de camionnettes
-              électriques pour intervenir rapidement et discrètement.
-            </p>
-            <p>
-              Vous n’aurez donc jamais à vous soucier de brancher un scooter !
+              Les parkings POGO sont dotés de stations de recharges des
+              batteries, les véhicules POGO sont chargés à 100% en permanence.
+              Ils sont utilisables 24h/24, 7j/7.
             </p>
           </div>
           <div className={styles.img}>
-            <img src="battery.svg"></img>
+            {/* <img src="battery.svg"></img> */}
           </div>
         </div>
         <App></App>

@@ -82,7 +82,7 @@
 .descriptionContainer {
   display: flex;
   flex-direction: row-reverse;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   margin-top: 50px;
   padding: 20px;
   align-items: center;
@@ -103,11 +103,20 @@
       width: 100%;
     }
   }
+  .img {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 500px;
+    height: 452px;
+    background-image: url("../public/helmet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 .descriptionContainer1 {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   margin-top: 50px;
   padding: 20px;
   align-items: center;
@@ -126,5 +135,15 @@
     @media (max-width: 1000px) {
       width: 100%;
     }
+  }
+  .img {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 500px;
+    height: 452px;
+    background-image: url("../public/charging.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
