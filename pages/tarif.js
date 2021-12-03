@@ -48,93 +48,87 @@ export default function Tarif() {
         <div className={styles.tarifContainer}>
           <div className={styles.text}>
             <h1>Louez un scooter électrique à partir de 0,28€/min</h1>
-            <p>
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna
-            </p>
           </div>
           <div className={styles.packs}>
             <div className={styles.tarif}>
-              <h2>titre</h2>
-              <span>sous-titre</span>
+              <h2>POGO Pack 50</h2>
               <img src="clock.png" width="105px" height="105px"></img>
-              <p className={styles.price}>0.39 DH</p>
-              <p>
-                {" "}
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal
-              </p>
-              <div className={styles.check}>
-                <img src="/check1.png" width="25px" height="25px"></img>
-                <span>Lorem Ipsum is simply dummy text of </span>
-              </div>
-              <div className={styles.check}>
-                <img src="/check1.png" width="25px" height="25px"></img>
-                <span>Lorem Ipsum is simply dummy text of </span>
-              </div>
-              <div className={styles.check}>
-                <img src="/check1.png" width="25px" height="25px"></img>
-                <span>Lorem Ipsum is simply dummy text of </span>
+              <p className={styles.price}>0.83DH / min </p>
+              <p> Pour 50DH, vous créditez 60 minutes sur votre compte</p>
+              <div className={styles.checkContainer}>
+                <div className={styles.check}>
+                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <span>
+                    Les minutes sont valables 15 jours après l’achat du pack{" "}
+                  </span>
+                </div>
+                <div className={styles.check}>
+                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <span style={{ marginLeft: "15px" }}>
+                    Assurance Responsabilité Civile
+                  </span>
+                </div>
+                <div className={styles.check}>
+                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <span>Protection du conducteur et du passager</span>
+                </div>
               </div>
             </div>
 
             <div className={styles.tarif}>
-              <h2>titre</h2>
-              <span>sous-titre</span>
+              <h2>POGO Pack 100</h2>
+
               <img
                 src="motorcycle.png"
                 width="105px"
                 height="105px"
                 style={{ marginLeft: "35px" }}
               ></img>
-              <p className={styles.price}>0.69 DH</p>
-              <p>
-                {" "}
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal
-              </p>
-              <div className={styles.check}>
-                <img src="/check1.png" width="25px" height="25px"></img>
-                <span>Lorem Ipsum is simply dummy text of </span>
-              </div>
-              <div className={styles.check}>
-                <img src="/check1.png" width="25px" height="25px"></img>
-                <span>Lorem Ipsum is simply dummy text of </span>
-              </div>
-              <div className={styles.check}>
-                <img src="/check1.png" width="25px" height="25px"></img>
-                <span>Lorem Ipsum is simply dummy text of </span>
+              <p className={styles.price}> 0.77DH / min </p>
+              <p> Pour 100DH, vous créditez 130 minutes sur votre compte</p>
+              <div className={styles.checkContainer}>
+                <div className={styles.check}>
+                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <span>
+                    Les minutes sont valables 30 jours après l’achat du pack
+                  </span>
+                </div>
+                <div className={styles.check}>
+                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <span style={{ marginLeft: "15px" }}>
+                    Assurance Responsabilité Civile
+                  </span>
+                </div>
+                <div className={styles.check}>
+                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <span>Protection du conducteur et du passager</span>
+                </div>
               </div>
             </div>
 
             <div className={styles.tarif}>
-              <h2>titre</h2>
-              <span>sous-titre</span>
+              <h2>POGO Pack 200</h2>
+
               <img src="smartphone.png" width="105px" height="105px"></img>
-              <p className={styles.price}>1.58 DH</p>
-              <p>
-                {" "}
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal
-              </p>
-              <div className={styles.check}>
-                <img src="/check1.png" width="25px" height="25px"></img>
-                <span>Lorem Ipsum is simply dummy text of </span>
-              </div>
-              <div className={styles.check}>
-                <img src="/check1.png" width="25px" height="25px"></img>
-                <span>Lorem Ipsum is simply dummy text of </span>
-              </div>
-              <div className={styles.check}>
-                <img src="/check1.png" width="25px" height="25px"></img>
-                <span>Lorem Ipsum is simply dummy text of </span>
+              <p className={styles.price}>0.74DH / min </p>
+              <p> Pour 200DH, vous créditez 270 minutes sur votre compte</p>
+              <div className={styles.checkContainer}>
+                <div className={styles.check}>
+                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <span>
+                    Les minutes sont valables 45 jours après l’achat du pack{" "}
+                  </span>
+                </div>
+                <div className={styles.check}>
+                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <span style={{ marginLeft: "15px" }}>
+                    Assurance Responsabilité Civile
+                  </span>
+                </div>
+                <div className={styles.check}>
+                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <span>Protection du conducteur et du passager</span>
+                </div>
               </div>
             </div>
           </div>

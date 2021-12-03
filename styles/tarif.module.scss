@@ -180,7 +180,7 @@
       }
       .price {
         color: #03d3b9;
-        font-size: 45px;
+        font-size: 40px;
         margin-top: 15px;
         margin-bottom: 10px;
         font-weight: 800;
@@ -189,19 +189,25 @@
         color: #0d1721;
         font-size: 14px;
       }
-      .check {
+      .checkContainer {
         display: flex;
-        align-items: center;
-        font-family: "Nunito", sans-serif;
+        flex-direction: column;
+        justify-content: center;
 
-        img {
-          margin-right: 8px;
-        }
-        span {
-          font-weight: 300;
-          margin-top: 12px;
-          color: #8a8a8a;
-          font-size: 14px;
+        .check {
+          display: flex;
+          align-items: center;
+          font-family: "Nunito", sans-serif;
+          text-align: center;
+          img {
+            margin-right: 8px;
+          }
+          span {
+            font-weight: 300;
+            margin-top: 12px;
+            color: #8a8a8a;
+            font-size: 14px;
+          }
         }
       }
     }
