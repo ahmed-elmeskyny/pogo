@@ -160,29 +160,26 @@ const How = () => {
           {isLocate ? (
             <>
               {" "}
-              <h2>Locate</h2>
+              <h2>Localise</h2>
               <span>
-                Download the Lime app to discover your nearest available
-                vehicle.
+                Télécharge notre application et repère le parking POGO le plus
+                proche
               </span>
             </>
           ) : null}
           {isScan ? (
             <>
               <h2>Scan</h2>
-              <span>
-                Scan the QR code to unlock. Learn how to enjoy a safe ride in
-                the app.
-              </span>
+              <span>Scan le code QR sur le scooter pour le déverrouiller.</span>
             </>
           ) : null}
           {isRide ? (
             <>
-              <h2>Ride</h2>
+              <h2>ROULE</h2>
               <span>
-                Enjoy your ride. Follow all traffic rules, stick to the streets
-                & bike lanes where legally permitted. Wear a helmet and respect
-                others sharing the road.
+                Roulez où vous souhaiter dans le périmètre urbain renseigné sur
+                l’application tout en respectant le code de la route. Veuillez
+                revenir au parking POGO pour terminer votre location.
               </span>
             </>
           ) : null}
