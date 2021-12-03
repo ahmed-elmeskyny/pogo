@@ -14,7 +14,7 @@ const App = () => {
         <p>
           Vous voulez commencer une nouvelle expérience ? Tester un mode de
           transport urbain pionnier en Afrique ? Téléchargez notre application
-          et accéder en un clic à nos scooters électriques !
+          et accédez en un clic à nos scooters électriques !
         </p>
         <Download white></Download>
       </div>
