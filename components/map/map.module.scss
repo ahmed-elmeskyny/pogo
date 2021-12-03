@@ -19,8 +19,15 @@
   .description {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 
+    .img {
+      @media (max-width: 1000px) {
+        width: 380px;
+        height: 380px;
+      }
+    }
     .text {
       margin-top: 10px;
       font-size: 25px;

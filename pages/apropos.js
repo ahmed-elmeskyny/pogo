@@ -25,10 +25,6 @@ export default function Apropos() {
           <div className={styles.filter}>
             <div className={styles.description}>
               <h1>À PROPOS</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna
-              </p>
             </div>
             {/* <div className={styles.page}>
               <p>Home</p>
@@ -39,48 +35,37 @@ export default function Apropos() {
         </div>
 
         <div className={styles.mission}>
-          <h1 className={styles.title}>Qui sommes-nous ?</h1>
+          <h1 className={styles.title}>Qui sommes-nous ? </h1>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose injected humour
-            and the like
+            POGO est une start-up qui a été lancée en 2020 par une équipe de
+            jeunes entrepreneurs marocains, ambitieux, souhaitant métamorphoser
+            et digitaliser la mobilité urbaine au Maroc. Notre ambition est de
+            simplifier la mobilité urbaine et de rapprocher la mobilité
+            électrique au plus grand nombre de citoyens.
+          </p>
+        </div>
+        <div className={styles.mission1}>
+          <h1 className={styles.title1}>D’où vient l’idée POGO ? </h1>
+          <p>
+            POGO ou People On the GO signifie les gens extrêmement actifs
+            Puisque nous estimons que toute communauté mérite une mobilité
+            intelligente et à la portée de tous, nous mettons à la disposition
+            de la communauté POGO des véhicules électriques (scooters et
+            trottinettes) en libre-service à la location courte durée. Nous
+            visons à réduire la dépendance sur les voitures personnelles pour
+            les transportations à courte distance afin de
           </p>
         </div>
         <div className={styles.mission}>
-          <h1 className={styles.title}>D’où vient l’idée POGO ?</h1>
+          <h1 className={styles.title}>Notre mission ? </h1>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose injected humour
-            and the like
-          </p>
-        </div>
-        <div className={styles.mission}>
-          <h1 className={styles.title}>Notre mission</h1>
-          <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose injected humour
-            and the like
+            Au vu des problèmes climatiques de notre époque, un changement dans
+            les comportements habituels vis-à-vis de l’environnement doit être
+            fait. La mission de POGO est la transformation des villes marocaines
+            progressivement en des villes durables et intelligentes qui
+            respectent les grands principes de la mobilité et du développement
+            durable. Ainsi que la contribution au développement social,
+            économique et écologique de notre pays.
           </p>
         </div>
 
@@ -90,17 +75,16 @@ export default function Apropos() {
               className={styles.img}
               style={{ backgroundImage: "url(/bg.jpg)" }}
             >
-              <div className={styles.filter}>
-                <h1>INTEGRITY</h1>
-              </div>
+              <div className={styles.filter}></div>
             </div>
             <div className={styles.description}>
               <div className={styles.filter}>
-                <span>01</span>
+                <span>Intégrité </span>
                 <div></div>
                 <p>
-                  Our diverse workforce is committed to delivering a safe,
-                  sustainable micro-mobility experience in every city we serve.
+                  Nous nous engageons à offrir la meilleure expérience de
+                  micromobilité possible dans chaque ville où nous proposons nos
+                  services.
                 </p>
               </div>
             </div>
@@ -110,17 +94,16 @@ export default function Apropos() {
               className={styles.img}
               style={{ backgroundImage: "url(/bg1.jpg)" }}
             >
-              <div className={styles.filter}>
-                <h1>COMMUNITY</h1>
-              </div>
+              <div className={styles.filter}></div>
             </div>
             <div className={styles.description}>
               <div className={styles.filter}>
-                <span>02</span>
+                <span>Communauté </span>
                 <div></div>
                 <p>
-                  We hire locally and partner with neighborhood organizations to
-                  cultivate community growth and improve urban living
+                  Nous créons des offres d’emploi localement travaillons en
+                  partenariat avec des organisations de haut calibre afin
+                  d’améliorer la vie urbaine dans les villes marocaines.
                 </p>
               </div>
             </div>
@@ -130,17 +113,15 @@ export default function Apropos() {
               className={styles.img}
               style={{ backgroundImage: "url(/bg2.jpg)" }}
             >
-              <div className={styles.filter}>
-                <h1>TECHNOLOGY</h1>
-              </div>
+              <div className={styles.filter}></div>
             </div>
             <div className={styles.description}>
               <div className={styles.filter}>
-                <span>03</span>
+                <span>Technologie </span>
                 <div></div>
                 <p>
-                  Our drive to lead micro-mobility into the future puts Lime on
-                  the cutting edge of clean, accessible urban transportation.
+                  Notre volonté de conduire la micromobilité vers l'avenir nous
+                  place à la pointe du transport urbain propre et accessible.
                 </p>
               </div>
             </div>
@@ -150,27 +131,22 @@ export default function Apropos() {
               className={styles.img}
               style={{ backgroundImage: "url(/bg4.jpg)" }}
             >
-              <div className={styles.filter}>
-                <h1>TRUST</h1>
-              </div>
+              <div className={styles.filter}></div>
             </div>
             <div className={styles.description}>
               <div className={styles.filter}>
-                <span>04</span>
+                <span>Confiance </span>
                 <div></div>
                 <p>
-                  We believe in transparency and accountability, and strive to
-                  deliver the best customer experience every day.
+                  Nous croyons fortement en la transparence et la
+                  responsabilité, et nous faisons de notre mieux afin d'offrir
+                  la meilleure expérience client chaque jour.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <p style={{ fontSize: "30px", textAlign: "center" }}>
-          {" "}
-          Various versions have evolved over the years, sometimes by accident,
-          sometimes on purpose injected humour and the like
-        </p>
+        <p className={styles.fin}> Changeons nos villes ! Ensemble !</p>
       </Layout>
     </div>
   );
