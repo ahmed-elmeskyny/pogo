@@ -24,6 +24,7 @@ const Layout = (props) => {
         <div
           className={styles.menuContainer}
           style={isOpen ? { display: "block" } : { display: "none" }}
+          onClick={() => setOpen(false)}
         >
           <div className={styles.menu1}>
             <ul>
@@ -48,19 +49,19 @@ const Layout = (props) => {
         </div>
         <div
           className={styles.trans}
+          onClick={() => setOpen(false)}
           style={
             isOpen ? { transform: "translateX(210px)" } : { marginLeft: "0" }
           }
         >
           {props.children}
+          <Footer></Footer>
+          <div className={styles.credits}>
+            <a href="https://ahmedelmeskyny.vercel.app/" target="_blank">
+              Crée par <span>Ahmed Elmeskyny</span>
+            </a>
+          </div>
         </div>
-      </div>
-
-      <Footer></Footer>
-      <div className={styles.credits}>
-        <a href="https://ahmedelmeskyny.vercel.app/" target="_blank">
-          Crée par <span>Ahmed Elmeskyny</span>
-        </a>
       </div>
     </div>
   );

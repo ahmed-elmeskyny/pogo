@@ -1,6 +1,7 @@
 .menuContainer {
   display: flex;
   align-items: center;
+
   height: 55px;
   font-family: "Nunito", sans-serif;
   width: 100%;
@@ -92,6 +93,7 @@
       @media (max-width: 1000px) {
         display: flex;
         justify-content: space-between;
+        align-items: center;
       }
     }
 
@@ -104,6 +106,7 @@
 .fixedMenuContainer {
   display: flex;
   align-items: center;
+
   height: 75px;
   font-family: "Nunito", sans-serif;
   width: 100%;
@@ -208,6 +211,7 @@
       @media (max-width: 1000px) {
         display: flex;
         justify-content: space-between;
+        align-items: center;
       }
     }
 
