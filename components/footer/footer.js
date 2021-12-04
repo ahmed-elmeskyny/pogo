@@ -95,7 +95,7 @@ const Footer = () => {
           ></Download>
           <div className={styles.coordonates}>
             <MdAccessTimeFilled className={styles.icon}></MdAccessTimeFilled>
-            <span> 24 / 7 pour répondre à vos questions</span>
+            <span> 24 / 7 pour répondre à vos questions.</span>
           </div>
         </div>
       </div>
