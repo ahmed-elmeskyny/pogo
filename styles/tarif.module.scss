@@ -95,7 +95,10 @@
   align-items: center;
   p {
     width: 60%;
-    font-size: 23px;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #8a8a8a;
     @media (max-width: 1000px) {
       width: 100%;
       text-align: center;
@@ -119,8 +122,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    height: 350px;
+    height: 400px;
     @media (max-width: 1000px) {
       height: 430px;
       width: 100%;
@@ -133,6 +135,7 @@
     }
     p {
       width: 60%;
+      font-size: 25px;
       color: white;
       @media (max-width: 1000px) {
         width: 100%;
@@ -168,7 +171,7 @@
         margin-bottom: 40px;
       }
       h2 {
-        margin-bottom: 5px;
+        margin-bottom: 20px;
         margin-top: 5px;
         color: #03d3b9;
         font-weight: 800;
@@ -181,7 +184,7 @@
       .price {
         color: #03d3b9;
         font-size: 40px;
-        margin-top: 15px;
+        margin-top: 30px;
         margin-bottom: 10px;
         font-weight: 800;
       }

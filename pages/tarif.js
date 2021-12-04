@@ -26,10 +26,10 @@ export default function Tarif() {
           <div className={styles.filter}>
             <div className={styles.description}>
               <h1>NOS TARIFS</h1>
-              <p>
+              {/* <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna
-              </p>
+              </p> */}
             </div>
             {/* <div className={styles.page}>
               <p>Home</p>
@@ -39,7 +39,7 @@ export default function Tarif() {
           </div>
         </div>
         <div className={styles.mission}>
-          <h1 className={styles.title}>Tarifs POGO</h1>
+          {/* <h1 className={styles.title}>Tarifs POGO</h1> */}
           <p>
             Pas d’abonnement, pas d’engagement. Vous ne payez que vos minutes de
             location avec POGO !
@@ -47,12 +47,13 @@ export default function Tarif() {
         </div>
         <div className={styles.tarifContainer}>
           <div className={styles.text}>
-            <h1>Louez un scooter électrique à partir de 0,28€/min</h1>
+            <h1>Louez un scooter électrique à partir de 0,74 DH / min</h1>
+            <p>Profitez de nos packs de minutes à des prix très avantageux !</p>
           </div>
           <div className={styles.packs}>
             <div className={styles.tarif}>
               <h2>POGO Pack 50</h2>
-              <img src="clock.png" width="105px" height="105px"></img>
+              <img src="pack50.png" width="110px" height="110px"></img>
               <p className={styles.price}>0.83DH / min </p>
               <p> Pour 50DH, vous créditez 60 minutes sur votre compte</p>
               <div className={styles.checkContainer}>
@@ -78,12 +79,7 @@ export default function Tarif() {
             <div className={styles.tarif}>
               <h2>POGO Pack 100</h2>
 
-              <img
-                src="motorcycle.png"
-                width="105px"
-                height="105px"
-                style={{ marginLeft: "35px" }}
-              ></img>
+              <img src="pack100.png" width="110px" height="110px"></img>
               <p className={styles.price}> 0.77DH / min </p>
               <p> Pour 100DH, vous créditez 130 minutes sur votre compte</p>
               <div className={styles.checkContainer}>
@@ -109,7 +105,7 @@ export default function Tarif() {
             <div className={styles.tarif}>
               <h2>POGO Pack 200</h2>
 
-              <img src="smartphone.png" width="105px" height="105px"></img>
+              <img src="pack200.png" width="110px" height="110px"></img>
               <p className={styles.price}>0.74DH / min </p>
               <p> Pour 200DH, vous créditez 270 minutes sur votre compte</p>
               <div className={styles.checkContainer}>

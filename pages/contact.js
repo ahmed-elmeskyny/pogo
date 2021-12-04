@@ -27,10 +27,6 @@ export default function Contact() {
           <div className={styles.filter}>
             <div className={styles.description}>
               <h1>CONTACTEZ-NOUS</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna
-              </p>
             </div>
             {/* <div className={styles.page}>
               <p>Home</p>
@@ -44,10 +40,8 @@ export default function Contact() {
             <h1>Contactez-nous</h1>
             <p>
               {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna
+              Vous avez une question, commentaire ou quelque chose à nous
+              signalez ? Nous sommes à votre disposition !
             </p>
             <div className={styles.infoContainer}>
               <div className={styles.info}>
@@ -55,7 +49,7 @@ export default function Contact() {
                   <BiBuildingHouse></BiBuildingHouse>
                 </div>
                 <div className={styles.text}>
-                  <h3>ifrane</h3>
+                  <h3>Ifrane</h3>
                   <span>Jl. Raya Canggu No 1, Canggu - 80361</span>
                 </div>
               </div>
@@ -73,7 +67,7 @@ export default function Contact() {
                   <BsFillTelephoneForwardFill></BsFillTelephoneForwardFill>
                 </div>
                 <div className={styles.text}>
-                  <h3>appelez-nous</h3>
+                  <h3>Appelez-nous</h3>
                   <span>(+212) 669978102</span>
                 </div>
               </div>
@@ -82,7 +76,7 @@ export default function Contact() {
                   <MdAttachEmail></MdAttachEmail>
                 </div>
                 <div className={styles.text}>
-                  <h3>adresse email</h3>
+                  <h3>Adresse email</h3>
                   <span>pogo@gmail.com</span>
                 </div>
               </div>
