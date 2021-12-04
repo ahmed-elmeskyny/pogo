@@ -136,7 +136,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <h1 className={styles.title}>Nos partenaires</h1>
         <Partenaire></Partenaire>
       </Layout>

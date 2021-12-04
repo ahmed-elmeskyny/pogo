@@ -5,19 +5,28 @@ import { useState } from "react";
 import styles from "./scooter.module.scss";
 
 const Scooter = () => {
-  const [isone, setone] = useState(false);
+  const [isone, setone] = useState(true);
   const [istwo, settwo] = useState(false);
   const [isthree, setthree] = useState(false);
   const [isfour, setfour] = useState(false);
 
   return (
     <div className={styles.scooterContainer}>
-      <div className={styles.scooter}></div>
+      <div className={styles.scooter}>
+        {isone ? <img src="/1.png" width="700px" height="500px"></img> : null}
+        {istwo ? <img src="/2.png" width="700px" height="500px"></img> : null}
+        {isthree ? <img src="/3.png" width="700px" height="500px"></img> : null}
+        {isfour ? <img src="/4.png" width="700px" height="500px"></img> : null}
+      </div>
       <div className={styles.hows}>
         <div
           className={styles.how}
-          onMouseEnter={() => setone(true)}
-          onMouseLeave={() => setone(false)}
+          onClick={() => {
+            setone(true);
+            settwo(false);
+            setthree(false);
+            setfour(false);
+          }}
         >
           <div className={styles.header}>
             <img src="/number1.png" width="50px" height="50px"></img>
@@ -31,8 +40,12 @@ const Scooter = () => {
         </div>
         <div
           className={styles.how}
-          onMouseEnter={() => settwo(true)}
-          onMouseLeave={() => settwo(false)}
+          onClick={() => {
+            setone(false);
+            settwo(true);
+            setthree(false);
+            setfour(false);
+          }}
         >
           <div className={styles.header}>
             <img src="/number2.png" width="50px" height="50px"></img>
@@ -48,8 +61,12 @@ const Scooter = () => {
         </div>
         <div
           className={styles.how}
-          onMouseEnter={() => setthree(true)}
-          onMouseLeave={() => setthree(false)}
+          onClick={() => {
+            setone(false);
+            settwo(false);
+            setthree(true);
+            setfour(false);
+          }}
         >
           <div className={styles.header}>
             <img src="/number3.png" width="50px" height="50px"></img>
@@ -65,8 +82,12 @@ const Scooter = () => {
         </div>
         <div
           className={styles.how}
-          onMouseEnter={() => setfour(true)}
-          onMouseLeave={() => setfour(false)}
+          onClick={() => {
+            setone(false);
+            settwo(false);
+            setthree(false);
+            setfour(true);
+          }}
         >
           <div className={styles.header}>
             <img src="/number4.png" width="50px" height="50px"></img>

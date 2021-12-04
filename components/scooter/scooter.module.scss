@@ -1,11 +1,27 @@
 .scooterContainer {
   font-family: "Nunito", sans-serif;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
-  height: 400px;
+  // height: 400px;
+
   .scooter {
-    width: 400px;
+    // height: 500px;
+    // width: 700px;
+    border-radius: 20px;
+
+    @media (max-width: 1000px) {
+      text-align: center;
+      // width: 400px;
+      // height: 330px;
+    }
+    img {
+      @media (max-width: 1000px) {
+        width: 450px;
+        height: 330px;
+      }
+    }
   }
   .hows {
     .how {

@@ -40,7 +40,7 @@ export default function Contact() {
             <h1>Contactez-nous</h1>
             <p>
               {" "}
-              Vous avez une question, commentaire ou quelque chose à nous
+              Vous avez une question,un commentaire ou quelque chose à nous
               signalez ? Nous sommes à votre disposition !
             </p>
             <div className={styles.infoContainer}>
@@ -94,7 +94,7 @@ export default function Contact() {
               <input type="text" placeholder="....."></input>
               <label>Commentaire / Questions</label>
               <textarea type="email" placeholder="Votre message"></textarea>
-              <button>envoyer le message</button>
+              <button>Envoyer le message</button>
             </form>
           </div>
         </div>
