@@ -40,22 +40,36 @@ const Footer = () => {
           <h2>Liens Rapides</h2>
           <ul>
             <li>
-              <AiOutlineRight className={styles.icon}></AiOutlineRight> Accueil{" "}
+              <a href="/">
+                {" "}
+                <AiOutlineRight className={styles.icon}></AiOutlineRight>{" "}
+                Accueil{" "}
+              </a>
             </li>
             <li>
-              <AiOutlineRight className={styles.icon}></AiOutlineRight>À propos{" "}
+              <a href="/apropos">
+                <AiOutlineRight className={styles.icon}></AiOutlineRight>À
+                propos{" "}
+              </a>
             </li>
             <li>
-              <AiOutlineRight className={styles.icon}></AiOutlineRight> Comment
-              ça marche{" "}
+              <a href="/comment">
+                <AiOutlineRight className={styles.icon}></AiOutlineRight>{" "}
+                Comment ça marche{" "}
+              </a>
             </li>
             <li>
-              <AiOutlineRight className={styles.icon}></AiOutlineRight>Nos
-              tarifs{" "}
+              <a href="/tarif">
+                {" "}
+                <AiOutlineRight className={styles.icon}></AiOutlineRight>Nos
+                tarifs{" "}
+              </a>
             </li>
             <li>
-              <AiOutlineRight className={styles.icon}></AiOutlineRight>
-              Contactez-nous{" "}
+              <a href="/contact">
+                <AiOutlineRight className={styles.icon}></AiOutlineRight>
+                Contactez-nous{" "}
+              </a>
             </li>
           </ul>
         </div>
@@ -63,12 +77,18 @@ const Footer = () => {
           <h2>liens utiles</h2>
           <ul>
             <li>
-              <AiOutlineRight className={styles.icon}></AiOutlineRight>{" "}
-              Politique de confidentialité{" "}
+              <a>
+                {" "}
+                <AiOutlineRight className={styles.icon}></AiOutlineRight>{" "}
+                Politique de confidentialité{" "}
+              </a>
             </li>
             <li>
-              <AiOutlineRight className={styles.icon}></AiOutlineRight>Termes et
-              Conditions{" "}
+              <a>
+                {" "}
+                <AiOutlineRight className={styles.icon}></AiOutlineRight>Termes
+                et Conditions{" "}
+              </a>
             </li>
             {/* <li>
               <AiOutlineRight className={styles.icon}></AiOutlineRight>{" "}
@@ -78,8 +98,11 @@ const Footer = () => {
               <AiOutlineRight className={styles.icon}></AiOutlineRight>Support{" "}
             </li> */}
             <li>
-              <AiOutlineRight className={styles.icon}></AiOutlineRight>
-              FAQ{" "}
+              <a>
+                {" "}
+                <AiOutlineRight className={styles.icon}></AiOutlineRight>
+                FAQ{" "}
+              </a>
             </li>
           </ul>
         </div>
