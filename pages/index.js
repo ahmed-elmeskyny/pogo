@@ -70,21 +70,24 @@ export default function Home() {
         </div>
 
         <Info></Info>
-        <h1 className={styles.title} id="notre_flotte">
-          Notre flotte
-        </h1>
+        <p
+          id={"notre_flotte"}
+          style={{ marginBottom: "200px", width: "200px" }}
+        ></p>
+        <h1 className={styles.title}>Notre flotte</h1>
         <h2 className={styles.sousTitle}>0 émission 0 bruit 0 odeur</h2>
         <Dynamic></Dynamic>
 
         <Dynamic reverse></Dynamic>
         <Map></Map>
+        <p id={"comment"} style={{ marginBottom: "100px", width: "200px" }}></p>
         <h1 className={styles.title} id={"comment"}>
           Louez un scooter n’a jamais été aussi simple !{" "}
         </h1>
         <Scooter></Scooter>
-        <h1 className={styles.title} id={"combien"}>
-          Combien ça coûte ?
-        </h1>
+
+        <p id={"combien"}></p>
+        <h1 className={styles.title}>Combien ça coûte ?</h1>
         <h2 className={styles.sousTitle}>
           <div>
             <img src="/abonnement.png" width="35px" height="35px"></img>{" "}
