@@ -129,6 +129,24 @@ export default function Tarif() {
             </div>
           </div>
         </div>
+        <h1 className={styles.title}>Votre assurance</h1>
+        <div className={styles.assurance}>
+          <div className={styles.description}>
+            La sécurité et le bien-être des utilisateurs de nos services est la
+            priorité numéro 1 de POGO. Afin de protéger la communauté POGO, nous
+            collaborons avec l’un des meilleurs fournisseurs d’assurance dans le
+            monde entier, Allianz, pour que vous soyez assurés en conduisant un
+            véhicule POGO.
+            <p>
+              {" "}
+              <em>en partenariat avec</em>
+            </p>
+            <div>
+              <img src="/allianz.png"></img>
+            </div>
+          </div>
+          <div className={styles.img}></div>
+        </div>
         <App></App>
       </Layout>
     </div>

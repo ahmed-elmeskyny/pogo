@@ -27,11 +27,13 @@ const Footer = () => {
           </p>
           <div className={styles.coordonates}>
             <MdLocationOn className={styles.icon}></MdLocationOn>
-            <span>Casablanca 29 , Morocco</span>
+            <span>
+              209 B Lotissement Riad Laymoun Rte Meknès Mag 3 3000 Sect 0608 Fès
+            </span>
           </div>
           <div className={styles.coordonates}>
             <MdOutlineDialpad className={styles.icon}></MdOutlineDialpad>
-            <span>(+212) 6782461959</span>
+            <span>(+212)  637 527 966</span>
           </div>
         </div>
         <div className={styles.Links}>
@@ -102,10 +104,27 @@ const Footer = () => {
       <div className={styles.copyRight}>
         <p>Copyright © POGO 2021. All rights reserved.</p>
         <div className={styles.socials}>
-          <FaFacebookSquare className={styles.icon}></FaFacebookSquare>
-          <AiFillInstagram className={styles.icon}></AiFillInstagram>
-          <FaTwitterSquare className={styles.icon}></FaTwitterSquare>
-          <BsLinkedin className={styles.icon}></BsLinkedin>
+          <a
+            href="https://web.facebook.com/POGO-Mobility-101794788998668/"
+            target="_blank"
+          >
+            {" "}
+            <FaFacebookSquare className={styles.icon}></FaFacebookSquare>
+          </a>
+          <a href="https://www.instagram.com/pogomobility/" target="_blank">
+            {" "}
+            <AiFillInstagram className={styles.icon}></AiFillInstagram>
+          </a>
+          <a>
+            <FaTwitterSquare className={styles.icon}></FaTwitterSquare>
+          </a>
+          <a
+            href="https://ma.linkedin.com/in/pogo-mobility-2459b1216"
+            target="_blank"
+          >
+            {" "}
+            <BsLinkedin className={styles.icon}></BsLinkedin>
+          </a>
         </div>
       </div>
     </div>

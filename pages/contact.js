@@ -68,7 +68,7 @@ export default function Contact() {
                 </div>
                 <div className={styles.text}>
                   <h3>Appelez-nous</h3>
-                  <span>(+212) 669978102</span>
+                  <span>(+212) 637 527 966</span>
                 </div>
               </div>
               <div className={styles.info}>
@@ -77,7 +77,11 @@ export default function Contact() {
                 </div>
                 <div className={styles.text}>
                   <h3>Adresse email</h3>
-                  <span>pogo@gmail.com</span>
+                  <span>
+                    <a href="mailto:pogomobility@gmail.com">
+                      pogomobility@gmail.com
+                    </a>
+                  </span>
                 </div>
               </div>
             </div>

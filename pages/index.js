@@ -75,7 +75,9 @@ export default function Home() {
           style={{ marginBottom: "200px", width: "200px" }}
         ></p>
         <h1 className={styles.title}>Notre flotte</h1>
-        <h2 className={styles.sousTitle}>0 émission 0 bruit 0 odeur</h2>
+        <h2 className={styles.sousTitle}>
+          Formule POGO : 0 émission + 0 bruit 0 + odeur = 100% fun{" "}
+        </h2>
         <Dynamic></Dynamic>
 
         <Dynamic reverse></Dynamic>
@@ -108,40 +110,39 @@ export default function Home() {
               <BsDot className={styles.icon}></BsDot>
               <span>Nos tarifs</span>
             </div> */}
-            <h3>
-              Lorem ipsum <span>is simply dummy</span> text of the printing
-            </h3>
+            <h3>POGO Packs</h3>
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English.
+              POGO propose à sa communauté des packs de minutes à des prix très
+              avantageux allant jusqu’à 0.74 DH / min. POGO met la sécurité de
+              sa communauté en tête de sa liste des priorités, c’est pour cela
+              que chaque utilisateur de nos services est assuré.
             </p>
             <a href="/tarif"> En savoir plus sur nos packs </a>
           </div>
           <div className={styles.tarif}>
-            <h2>titre</h2>
-            <span>sous-titre</span>
-            <img src="clock.png" width="105px" height="105px"></img>
-            <p className={styles.price}> 0.89 DH</p>
-            <p>
-              {" "}
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-            </p>
-            <div className={styles.check}>
-              <img src="/check.png" width="25px" height="25px"></img>
-              <span>Lorem Ipsum is simply dummy text of </span>
-            </div>
-            <div className={styles.check}>
-              <img src="/check.png" width="25px" height="25px"></img>
-              <span>Lorem Ipsum is simply dummy text of </span>
-            </div>
-            <div className={styles.check}>
-              <img src="/check.png" width="25px" height="25px"></img>
-              <span>Lorem Ipsum is simply dummy text of </span>
+            <h2>POGO Basic Pack </h2>
+            {/* <img src="clock.png" width="105px" height="105px"></img> */}
+            <p className={styles.price}>0.89 DH / min </p>
+            <p> Vous payez les minutes consommées à la fin de votre trajet.</p>
+            <div className={styles.checkContainer}>
+              <div className={styles.check}>
+                <img src="/check.png" width="25px" height="25px"></img>
+                <span>
+                  Les minutes sont valables 15 jours après l’achat du pack{" "}
+                </span>
+              </div>
+              <div className={styles.check}>
+                <img src="/check.png" width="25px" height="25px"></img>
+                <span style={{ marginLeft: "30px" }}>
+                  Assurance Responsabilité Civile
+                </span>
+              </div>
+              <div className={styles.check}>
+                <img src="/check.png" width="25px" height="25px"></img>
+                <span style={{ marginLeft: "10px" }}>
+                  Protection du conducteur et du passager
+                </span>
+              </div>
             </div>
           </div>
         </div>

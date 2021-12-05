@@ -19,11 +19,11 @@ const Map = () => {
         <div className={styles.text}>
           <div>
             <img src="rec.png" width="30px" height="30px"></img>
-            <p>Ifrane – Université Al Akhawayn</p>
+            <p>Fès – 24 scooters et 6 trottinettes </p>
           </div>
           <div>
             <img src="rec.png" width="30px" height="30px"></img>
-            <p>Benguerir – Université Mohammed VI Polytechnique </p>
+            <p>Ifrane – 6 scooters et 6 trottinettes </p>
           </div>
         </div>
       </div>

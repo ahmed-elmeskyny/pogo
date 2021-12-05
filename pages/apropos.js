@@ -47,13 +47,16 @@ export default function Apropos() {
         <div className={styles.mission1}>
           <h1 className={styles.title1}>D’où vient l’idée POGO ? </h1>
           <p>
-            POGO ou People On the GO signifie les gens extrêmement actifs
-            Puisque nous estimons que toute communauté mérite une mobilité
-            intelligente et à la portée de tous, nous mettons à la disposition
-            de la communauté POGO des véhicules électriques (scooters et
-            trottinettes) en libre-service à la location courte durée. Nous
-            visons à réduire la dépendance sur les voitures personnelles pour
-            les transportations à courte distance afin de
+            POGO ou People On the GO signifie les gens extrêmement actifs, en
+            constant mouvement, dans les deux sens de l’expression : les gens
+            qui se déplacent, et les gens qui cherchent constamment à se
+            développer et s’améliorer. Puisque nous estimons que toute
+            communauté mérite une mobilité intelligente et à la portée de tous,
+            nous mettons à la disposition de la communauté POGO des véhicules
+            électriques (scooters et trottinettes) en libre-service à la
+            location courte durée. Nous visons à réduire la dépendance sur les
+            voitures personnelles pour les transportations à courte distance
+            afin de limiter les émissions de CO2 et de gaz à effet de serre.
           </p>
         </div>
         <div className={styles.mission}>
