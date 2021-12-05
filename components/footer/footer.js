@@ -21,10 +21,7 @@ const Footer = () => {
           <div className={styles.logo}>
             <img src="/pogo.png" width="150px" height="40px"></img>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod
-          </p>
+
           <div className={styles.coordonates}>
             <MdLocationOn className={styles.icon}></MdLocationOn>
             <span>

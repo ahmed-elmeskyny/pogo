@@ -76,7 +76,7 @@ export default function Home() {
         ></p>
         <h1 className={styles.title}>Notre flotte</h1>
         <h2 className={styles.sousTitle}>
-          Formule POGO : 0 émission + 0 bruit 0 + odeur = 100% fun{" "}
+          Formule POGO : 0 émission + 0 bruit + 0 odeur = 100% fun{" "}
         </h2>
         <Dynamic></Dynamic>
 
