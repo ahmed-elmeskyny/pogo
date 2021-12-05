@@ -57,7 +57,7 @@
         cursor: pointer;
         font-size: 18px;
         font-weight: 700;
-
+        position: relative;
         &::after {
           display: block;
           content: "";
@@ -67,6 +67,41 @@
           border-radius: 10px;
           margin-top: 1px;
           transition: width 0.3s;
+        }
+
+        .submenu {
+          position: absolute;
+          z-index: 100000;
+          width: 350px;
+          // height: 400px;
+          margin-top: 5px;
+          margin-left: -20px;
+          padding: 20px;
+          background: rgba(255, 255, 255, 0.25);
+          box-shadow: 0 8px 16px 0 rgba(31, 38, 135, 0.37);
+          backdrop-filter: blur(4px);
+          -webkit-backdrop-filter: blur(4px);
+          border-radius: 20px;
+          a {
+            margin: 0;
+            margin-bottom: 10px;
+            color: white;
+            padding: 10px;
+            background-color: rgba(13, 23, 33, 0.8);
+            border-radius: 10px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span {
+              display: none;
+            }
+            &:hover {
+              span {
+                display: flex;
+              }
+            }
+          }
         }
       }
       li:hover::after {
@@ -185,6 +220,40 @@
           border-radius: 10px;
           margin-top: 1px;
           transition: width 0.3s;
+        }
+        .submenu {
+          position: absolute;
+          z-index: 100000;
+          width: 350px;
+          // height: 400px;
+          margin-top: 5px;
+          margin-left: -20px;
+          padding: 20px;
+          background: rgba(255, 255, 255, 0.25);
+          box-shadow: 0 8px 16px 0 rgba(31, 38, 135, 0.37);
+          backdrop-filter: blur(4px);
+          -webkit-backdrop-filter: blur(4px);
+          border-radius: 20px;
+          a {
+            margin: 0;
+            margin-bottom: 10px;
+            color: white;
+            padding: 10px;
+            background-color: rgba(13, 23, 33, 0.8);
+            border-radius: 10px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span {
+              display: none;
+            }
+            &:hover {
+              span {
+                display: flex;
+              }
+            }
+          }
         }
       }
       li:hover::after {

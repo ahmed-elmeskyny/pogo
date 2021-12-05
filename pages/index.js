@@ -54,7 +54,9 @@ export default function Home() {
                   aujourd’hui !
                 </p>
               </div>
-              <Download style={{ marginBottom: "-50px" }}></Download>
+              <Download
+                style={{ marginBottom: "-50px", marginTop: "20px" }}
+              ></Download>
             </div>
           </div>
           <div className={styles.mockup}>
@@ -68,17 +70,21 @@ export default function Home() {
         </div>
 
         <Info></Info>
-        <h1 className={styles.title}>Notre flotte</h1>
+        <h1 className={styles.title} id="notre_flotte">
+          Notre flotte
+        </h1>
         <h2 className={styles.sousTitle}>0 émission 0 bruit 0 odeur</h2>
         <Dynamic></Dynamic>
 
         <Dynamic reverse></Dynamic>
         <Map></Map>
-        <h1 className={styles.title}>
+        <h1 className={styles.title} id={"comment"}>
           Louez un scooter n’a jamais été aussi simple !{" "}
         </h1>
         <Scooter></Scooter>
-        <h1 className={styles.title}>Combien ça coûte ?</h1>
+        <h1 className={styles.title} id={"combien"}>
+          Combien ça coûte ?
+        </h1>
         <h2 className={styles.sousTitle}>
           <div>
             <img src="/abonnement.png" width="35px" height="35px"></img>{" "}

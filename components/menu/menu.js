@@ -16,6 +16,7 @@ import ActiveLink from "../activeLink/activeLink";
 
 const Menu = ({ isOpen, setOpen }) => {
   const [Fixed, setFixed] = useState(false);
+  const [toggle, setToggle] = useState(false);
 
   const handleScroll = () => {
     const offset = window.scrollY;
@@ -32,13 +33,39 @@ const Menu = ({ isOpen, setOpen }) => {
   return (
     <div className={Fixed ? styles.fixedMenuContainer : styles.menuContainer}>
       <div className={styles.menu}>
-        <div className={styles.logo}>
+        <a href="/" className={styles.logo}>
           <img src="/pogo.png" width="150px" height="40px"></img>
-        </div>
+        </a>
         <ul>
           <ActiveLink href="/" activeClassName={styles.active}>
-            <li className={styles.home}>Accueil</li>
+            <li
+              className={styles.home}
+              onMouseOver={() => setToggle(true)}
+              onMouseLeave={() => setToggle(false)}
+            >
+              <span>Acceuil</span>
+              {toggle ? (
+                <div className={styles.submenu}>
+                  <a onClick={() => window.location.replace("/#notre_flotte")}>
+                    {" "}
+                    Notre flotte <span>#</span>
+                  </a>
+                  <a onClick={() => window.location.replace("/#ou")}>
+                    Où se trouve POGO <span>#</span>
+                  </a>
+                  <a onClick={() => window.location.replace("/#comment")}>
+                    {" "}
+                    Comment louer un scooter <span>#</span>
+                  </a>
+                  <a onClick={() => window.location.replace("/#combien")}>
+                    Combien ça coûte <span>#</span>
+                  </a>
+                </div>
+              ) : null}
+              {}
+            </li>
           </ActiveLink>
+
           <ActiveLink href="/apropos" activeClassName={styles.active}>
             <li>À propos </li>
           </ActiveLink>
