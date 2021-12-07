@@ -14,12 +14,15 @@
       margin-bottom: 10px;
     }
     img {
-      width: 400px;
+      width: 300px;
       height: 400px;
       @media (max-width: 900px) {
         width: 300px;
         height: 300px;
       }
+    }
+    .scooterimg {
+      width: 500px;
     }
   }
   .description {
@@ -61,6 +64,9 @@
       font-weight: 500;
 
       color: white;
+      span {
+        color: #03d3b9;
+      }
       @media (max-width: 900px) {
         width: 100%;
       }

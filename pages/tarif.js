@@ -48,30 +48,36 @@ export default function Tarif() {
         <div className={styles.tarifContainer}>
           <div className={styles.text}>
             <h1>Louez un scooter électrique à partir de 0,74 DH / min</h1>
-            <p>Profitez de nos packs de minutes à des prix très avantageux !</p>
+            <p>
+              Achetez un Pack POGO et profitez de bonus allant jusqu’à 50 DH{" "}
+            </p>
           </div>
           <div className={styles.packs}>
             <div className={styles.tarif}>
               <h2>POGO Pack 50</h2>
               <img src="pack50.png" width="110px" height="110px"></img>
               <p className={styles.price}>0.83DH / min </p>
-              <p> Pour 50DH, vous créditez 60 minutes sur votre compte</p>
+              <span>5DH offerts </span>
+              <p>
+                Pour chaque 50DH rechargés, vous bénéficiez de 5DH de solde
+                offerts{" "}
+              </p>
               <div className={styles.checkContainer}>
                 <div className={styles.check}>
                   <img src="/check1.png" width="25px" height="25px"></img>
                   <span>
-                    Les minutes sont valables 15 jours après l’achat du pack{" "}
+                    Le solde est valable 15 jours après l’achat du pack
                   </span>
                 </div>
                 <div className={styles.check}>
                   <img src="/check1.png" width="25px" height="25px"></img>
-                  <span style={{ marginLeft: "15px" }}>
-                    Assurance Responsabilité Civile
-                  </span>
+                  <span>Protection 100% du conducteur et du passager</span>
                 </div>
                 <div className={styles.check}>
                   <img src="/check1.png" width="25px" height="25px"></img>
-                  <span>Protection du conducteur et du passager</span>
+                  <span style={{ marginLeft: "10px" }}>
+                    Assurance Responsabilité Civile{" "}
+                  </span>
                 </div>
               </div>
             </div>
@@ -81,23 +87,27 @@ export default function Tarif() {
 
               <img src="pack100.png" width="110px" height="110px"></img>
               <p className={styles.price}> 0.77DH / min </p>
-              <p> Pour 100DH, vous créditez 130 minutes sur votre compte</p>
+              <span>20DH offerts </span>
+              <p>
+                Pour chaque 100DH rechargés, vous bénéficiez de 20DH de solde
+                offerts
+              </p>
               <div className={styles.checkContainer}>
                 <div className={styles.check}>
                   <img src="/check1.png" width="25px" height="25px"></img>
                   <span>
-                    Les minutes sont valables 30 jours après l’achat du pack
+                    Le solde est valable 30 jours après l’achat du pack
                   </span>
                 </div>
                 <div className={styles.check}>
                   <img src="/check1.png" width="25px" height="25px"></img>
-                  <span style={{ marginLeft: "15px" }}>
-                    Assurance Responsabilité Civile
-                  </span>
+                  <span>Protection 100% du conducteur et du passager</span>
                 </div>
                 <div className={styles.check}>
                   <img src="/check1.png" width="25px" height="25px"></img>
-                  <span>Protection du conducteur et du passager</span>
+                  <span style={{ marginLeft: "10px" }}>
+                    Assurance Responsabilité Civile{" "}
+                  </span>
                 </div>
               </div>
             </div>
@@ -107,23 +117,28 @@ export default function Tarif() {
 
               <img src="pack200.png" width="110px" height="110px"></img>
               <p className={styles.price}>0.74DH / min </p>
-              <p> Pour 200DH, vous créditez 270 minutes sur votre compte</p>
+              <span>50DH offerts </span>
+              <p>
+                {" "}
+                Pour chaque 200DH rechargés, vous bénéficiez de 50DH de solde
+                offerts{" "}
+              </p>
               <div className={styles.checkContainer}>
                 <div className={styles.check}>
                   <img src="/check1.png" width="25px" height="25px"></img>
                   <span>
-                    Les minutes sont valables 45 jours après l’achat du pack{" "}
+                    Le solde est valable 45 jours après l’achat du pack
                   </span>
                 </div>
                 <div className={styles.check}>
                   <img src="/check1.png" width="25px" height="25px"></img>
-                  <span style={{ marginLeft: "15px" }}>
-                    Assurance Responsabilité Civile
-                  </span>
+                  <span>Protection 100% du conducteur et du passager</span>
                 </div>
                 <div className={styles.check}>
                   <img src="/check1.png" width="25px" height="25px"></img>
-                  <span>Protection du conducteur et du passager</span>
+                  <span style={{ marginLeft: "10px" }}>
+                    Assurance Responsabilité Civile{" "}
+                  </span>
                 </div>
               </div>
             </div>
@@ -132,11 +147,11 @@ export default function Tarif() {
         <h1 className={styles.title}>Votre assurance</h1>
         <div className={styles.assurance}>
           <div className={styles.description}>
-            La sécurité et le bien-être des utilisateurs de nos services est la
-            priorité numéro 1 de POGO. Afin de protéger la communauté POGO, nous
-            collaborons avec l’un des meilleurs fournisseurs d’assurance dans le
-            monde entier, Allianz, pour que vous soyez assurés en conduisant un
-            véhicule POGO.
+            <span> La sécurité </span> et le bien-être des utilisateurs de nos
+            services est <span>la priorité numéro 1 </span>de POGO. Afin de
+            protéger la communauté POGO, nous collaborons avec l’un des
+            meilleurs fournisseurs d’assurance dans le monde entier, Allianz,
+            pour que vous soyez assurés en conduisant un véhicule POGO.
             <p>
               {" "}
               <em>en partenariat avec</em>

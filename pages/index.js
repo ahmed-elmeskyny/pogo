@@ -70,13 +70,20 @@ export default function Home() {
         </div>
 
         <Info></Info>
+        <div className={styles.inter}>
+          <p>
+            Ça donne vraiment envie ! Hein ? Vous deviendrez addictes à
+            l’expérience POGO !{" "}
+          </p>
+        </div>
         <p
           id={"notre_flotte"}
           style={{ marginBottom: "200px", width: "200px" }}
         ></p>
         <h1 className={styles.title}>Notre flotte</h1>
         <h2 className={styles.sousTitle}>
-          Formule POGO : 0 émission + 0 bruit + 0 odeur = 100% fun{" "}
+          Formule <span> POGO </span>: 0 émission + 0 bruit + 0 odeur =
+          <span> 100% fun</span>{" "}
         </h2>
         <Dynamic></Dynamic>
 
@@ -112,35 +119,41 @@ export default function Home() {
             </div> */}
             <h3>POGO Packs</h3>
             <p>
-              POGO propose à sa communauté des packs de minutes à des prix très
-              avantageux allant jusqu’à 0.74 DH / min. POGO met la sécurité de
-              sa communauté en tête de sa liste des priorités, c’est pour cela
-              que chaque utilisateur de nos services est assuré.
+              POGO propose à sa communauté des packs pour recharger son solde,
+              avec des bonus très avantageux allant jusqu’à 50DH.
+            </p>
+            <p>
+              POGO met la sécurité de sa communauté en tête de sa liste des
+              priorités, c’est pour cela que chaque utilisateur de nos services
+              est 100% assuré.
             </p>
             <a href="/tarif"> En savoir plus sur nos packs </a>
           </div>
           <div className={styles.tarif}>
             <h2>POGO Basic Pack </h2>
-            {/* <img src="clock.png" width="105px" height="105px"></img> */}
+            <img src="basic.png" width="125px" height="125px"></img>
             <p className={styles.price}>0.89 DH / min </p>
-            <p> Vous payez les minutes consommées à la fin de votre trajet.</p>
+            <span style={{ fontWeight: "700" }}>0.19 DH/min de pause</span>
+            <p>
+              {" "}
+              Vos locations sont facturées par prélèvement bancaire selon la
+              somme due.{" "}
+            </p>
             <div className={styles.checkContainer}>
               <div className={styles.check}>
                 <img src="/check.png" width="25px" height="25px"></img>
                 <span>
-                  Les minutes sont valables 15 jours après l’achat du pack{" "}
+                  Vous payez les minutes consommées à la fin de votre trajet{" "}
                 </span>
               </div>
               <div className={styles.check}>
                 <img src="/check.png" width="25px" height="25px"></img>
-                <span style={{ marginLeft: "30px" }}>
-                  Assurance Responsabilité Civile
-                </span>
+                <span>Protection 100% du conducteur et du passager</span>
               </div>
               <div className={styles.check}>
                 <img src="/check.png" width="25px" height="25px"></img>
                 <span style={{ marginLeft: "10px" }}>
-                  Protection du conducteur et du passager
+                  Assurance Responsabilité Civile{" "}
                 </span>
               </div>
             </div>

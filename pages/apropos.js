@@ -37,7 +37,7 @@ export default function Apropos() {
         <div className={styles.mission}>
           <h1 className={styles.title}>Qui sommes-nous ? </h1>
           <p>
-            POGO est une start-up qui a été lancée en 2020 par une équipe de
+            POGO est une start-up qui a été lancée en 2021 par une équipe de
             jeunes entrepreneurs marocains, ambitieux, souhaitant métamorphoser
             et digitaliser la mobilité urbaine au Maroc. Notre ambition est de
             simplifier la mobilité urbaine et de rapprocher la mobilité
@@ -47,16 +47,17 @@ export default function Apropos() {
         <div className={styles.mission1}>
           <h1 className={styles.title1}>D’où vient l’idée POGO ? </h1>
           <p>
-            POGO ou People On the GO signifie les gens extrêmement actifs, en
-            constant mouvement, dans les deux sens de l’expression : les gens
-            qui se déplacent, et les gens qui cherchent constamment à se
-            développer et s’améliorer. Puisque nous estimons que toute
-            communauté mérite une mobilité intelligente et à la portée de tous,
-            nous mettons à la disposition de la communauté POGO des véhicules
-            électriques (scooters et trottinettes) en libre-service à la
-            location courte durée. Nous visons à réduire la dépendance sur les
-            voitures personnelles pour les transportations à courte distance
-            afin de limiter les émissions de CO2 et de gaz à effet de serre.
+            POGO (<span>P</span>eople <span>O</span>n the <span>GO</span>)
+            signifie les gens extrêmement actifs, en constant mouvement, dans
+            les deux sens de l’expression : les gens qui se déplacent, et les
+            gens qui cherchent constamment à se développer et s’améliorer.
+            Puisque nous estimons que toute communauté mérite une mobilité
+            intelligente et à la portée de tous, nous mettons à la disposition
+            de la communauté POGO des véhicules électriques (scooters et
+            trottinettes) en libre-service à la location courte durée. Nous
+            visons à réduire la dépendance sur les voitures personnelles pour
+            les transportations à courte distance afin de limiter les émissions
+            de CO2 et de gaz à effet de serre.
           </p>
         </div>
         <div className={styles.mission}>
@@ -71,7 +72,12 @@ export default function Apropos() {
             économique et écologique de notre pays.
           </p>
         </div>
-
+        <h1
+          className={styles.title}
+          style={{ marginBottom: "100px", fontSize: "40px" }}
+        >
+          Ce qui nous définit ?
+        </h1>
         <div className={styles.infoContainer}>
           <div className={styles.info}>
             <div
@@ -82,7 +88,7 @@ export default function Apropos() {
             </div>
             <div className={styles.description}>
               <div className={styles.filter}>
-                <span>Intégrité </span>
+                <span>Engagement </span>
                 <div></div>
                 <p>
                   Nous nous engageons à offrir la meilleure expérience de

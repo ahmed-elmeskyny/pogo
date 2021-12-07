@@ -131,6 +131,9 @@
     color: white;
 
     font-size: 23px;
+    span {
+      color: #03d3b9;
+    }
     @media (max-width: 1000px) {
       width: 100%;
       text-align: justify;

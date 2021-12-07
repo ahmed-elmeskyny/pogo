@@ -16,7 +16,7 @@ const Dynamic = ({ reverse }) => {
         {reverse ? (
           <img src="/trottinette.png"></img>
         ) : (
-          <img src="/scooter.png"></img>
+          <img src="/scooter.png" className={styles.scooterimg}></img>
         )}
       </div>
       {reverse ? (
@@ -33,8 +33,9 @@ const Dynamic = ({ reverse }) => {
             <br></br> en libre-service
           </h3>
           <p>
-            Avec la trottinette POGO T 100% électrique, roulez doucement,
-            confortablement et élégamment
+            Avec la trottinette <span>POGO T </span>{" "}
+            <strong>100% électrique</strong>, roulez doucement, confortablement
+            et élégamment
           </p>
           <div className={styles.check}>
             <img src="/check.png" width="25px" height="25px"></img>
@@ -63,8 +64,9 @@ const Dynamic = ({ reverse }) => {
             <span>nos scooters</span> <br></br> en libre-service
           </h3>
           <p>
-            Avec le scooter POGO S 100% électrique, roulez en toute élégance, en
-            toute sécurité, sans polluer l’environnement !{" "}
+            Avec le scooter <span>POGO S </span>{" "}
+            <strong>100% électrique</strong>, roulez en toute élégance, en toute
+            sécurité, sans polluer l’environnement !{" "}
           </p>
           <div className={styles.check}>
             <img src="/check.png" width="25px" height="25px"></img>
@@ -76,7 +78,7 @@ const Dynamic = ({ reverse }) => {
           </div>
           <div className={styles.check}>
             <img src="/check.png" width="25px" height="25px"></img>
-            <span>Dossier pour une balade confortable à deux </span>
+            <span>Conçu pour une balade confortable à 2</span>
           </div>
         </div>
       )}

@@ -70,7 +70,7 @@ const Scooter = () => {
         >
           <div className={styles.header}>
             <img src="/number3.png" width="50px" height="50px"></img>
-            <span>Roulez librement </span>
+            <span> Roulez où vous souhaitez </span>
           </div>
           {isthree ? (
             <p>

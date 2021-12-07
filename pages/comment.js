@@ -53,8 +53,8 @@ export default function Comment() {
             <h1>Un véhicule électrique toujours chargé </h1>
             <p>
               Les parkings POGO sont dotés de stations de recharges des
-              batteries, les véhicules POGO sont chargés à 100% en permanence.
-              Ils sont utilisables 24h/24, 7j/7.
+              batteries, les véhicules POGO sont chargés en permanence. Ils sont
+              utilisables 24h/24, 7j/7.
             </p>
           </div>
           <div className={styles.img}>

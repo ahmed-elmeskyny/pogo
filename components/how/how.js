@@ -88,18 +88,19 @@ const How = () => {
         <div className={styles.description}>
           {isLocate ? (
             <span>
-              Télécharge notre application et repère le parking POGO le plus
-              proche
+              Télécharge notre application et repère le{" "}
+              <span> parking POGO </span>le plus proche
             </span>
           ) : null}
           {isScan ? (
-            <span>Scan le code QR sur le scooter pour le déverrouiller.</span>
+            <span>Scan le code QR sur le véhicule pour le déverrouiller.</span>
           ) : null}
           {isRide ? (
             <span>
-              Roulez où vous souhaiter dans le périmètre urbain renseigné sur
-              l’application tout en respectant le code de la route. Veuillez
-              revenir au parking POGO pour terminer votre location.
+              Roulez où vous souhaitez dans le <span>périmètre urbain</span>{" "}
+              renseigné sur l’application tout en respectant le code de la
+              route. Veuillez revenir au<span> parking POGO</span> pour terminer
+              votre location.
             </span>
           ) : null}
         </div>
