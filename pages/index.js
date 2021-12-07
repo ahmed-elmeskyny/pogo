@@ -80,7 +80,9 @@ export default function Home() {
           id={"notre_flotte"}
           style={{ marginBottom: "200px", width: "200px" }}
         ></p>
-        <h1 className={styles.title}>Notre flotte</h1>
+        <h1 className={styles.title} id={"notre_flotte"}>
+          Notre flotte
+        </h1>
         <h2 className={styles.sousTitle}>
           Formule <span> POGO </span>: 0 émission + 0 bruit + 0 odeur =
           <span> 100% fun</span>{" "}
