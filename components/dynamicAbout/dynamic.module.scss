@@ -18,11 +18,14 @@
       height: 400px;
       @media (max-width: 900px) {
         width: 300px;
-        height: 300px;
+        height: 350px;
       }
     }
     .scooterimg {
-      width: 500px;
+      width: 560px;
+      @media (max-width: 900px) {
+        height: 360px;
+      }
     }
   }
   .description {

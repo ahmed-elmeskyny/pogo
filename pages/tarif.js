@@ -47,17 +47,15 @@ export default function Tarif() {
         </div>
         <div className={styles.tarifContainer}>
           <div className={styles.text}>
-            <h1>Louez un scooter électrique à partir de 0,74 DH / min</h1>
-            <p>
-              Achetez un Pack POGO et profitez de bonus allant jusqu’à 50 DH{" "}
-            </p>
+            <h1>
+              Achetez un Pack POGO et profitez de bonus allant jusqu’à 50 DH
+            </h1>
           </div>
           <div className={styles.packs}>
             <div className={styles.tarif}>
               <h2>POGO Pack 50</h2>
               <img src="pack50.png" width="110px" height="110px"></img>
-              <p className={styles.price}>0.83DH / min </p>
-              <span>5DH offerts </span>
+              <p className={styles.price}>5DH offerts </p>
               <p>
                 Pour chaque 50DH rechargés, vous bénéficiez de 5DH de solde
                 offerts{" "}
@@ -86,8 +84,8 @@ export default function Tarif() {
               <h2>POGO Pack 100</h2>
 
               <img src="pack100.png" width="110px" height="110px"></img>
-              <p className={styles.price}> 0.77DH / min </p>
-              <span>20DH offerts </span>
+              <p className={styles.price}> 20DH offerts </p>
+
               <p>
                 Pour chaque 100DH rechargés, vous bénéficiez de 20DH de solde
                 offerts
@@ -116,8 +114,8 @@ export default function Tarif() {
               <h2>POGO Pack 200</h2>
 
               <img src="pack200.png" width="110px" height="110px"></img>
-              <p className={styles.price}>0.74DH / min </p>
-              <span>50DH offerts </span>
+              <p className={styles.price}>50DH offerts </p>
+
               <p>
                 {" "}
                 Pour chaque 200DH rechargés, vous bénéficiez de 50DH de solde

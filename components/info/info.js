@@ -1,3 +1,6 @@
+//react
+import { useState } from "react";
+
 //next
 import Image from "next/image";
 import Link from "next/link";
@@ -6,6 +9,11 @@ import Link from "next/link";
 import styles from "./info.module.scss";
 
 const Info = () => {
+  const [isone, setone] = useState(true);
+  const [istwo, settwo] = useState(false);
+  const [isthree, setthree] = useState(false);
+  const [isfour, setfour] = useState(false);
+
   return (
     <div className={styles.infoContainer}>
       <div className={styles.header}>
@@ -24,11 +32,13 @@ const Info = () => {
             style={{ marginBottom: "20px" }}
           ></img>
           <p>100% Électrique </p>
-          {/* <span>
-            Profitez d'une expérience de conduite électrique et ultra
-            authentique à 0% vibration 0% bruit 0% odeur de carburant et 100%
-            Fun !
-          </span> */}
+          {isone ? (
+            <span>
+              Profitez d'une expérience de conduite électrique et ultra
+              authentique à 0% vibration 0% bruit 0% odeur de carburant et 100%
+              Fun !
+            </span>
+          ) : null}
         </div>
         <div className={styles.info}>
           <img
@@ -37,11 +47,10 @@ const Info = () => {
             style={{ marginBottom: "20px" }}
           ></img>
           <p> Rapide </p>
-          {/* <span>
+          <span>
             Conduisez les véhicules POGO et ne craignez plus d'être coincé aux
-            embouteillages. Ce qui vous permettra d'être 57% plus rapide que
-            n'importe quel autre moyen de transport urbain.
-          </span> */}
+            embouteillages.
+          </span>
         </div>
         <div className={styles.info}>
           <img
@@ -50,18 +59,18 @@ const Info = () => {
             style={{ marginBottom: "20px" }}
           ></img>
           <p>  Digital </p>
-          {/* <span>
+          <span>
             Votre téléphone est votre nouvelle clé. Démarrez, mettez en pause et
             éteignez votre véhicule à travers un seul clique sur notre App POGO.
-          </span> */}
+          </span>
         </div>
         <div className={styles.info}>
-          <img src="/money-bag.png" className={styles.icon} width="150px"></img>
+          <img src="/money-bag.png" className={styles.icon}></img>
           <p>   Economique</p>
-          {/* <span>
+          <span>
             POGO propose le meilleur moyen de transport urbain ! Au prix le plus
             bas du marché !
-          </span> */}
+          </span>
         </div>
       </div>
     </div>
