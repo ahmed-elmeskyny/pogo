@@ -105,10 +105,7 @@ const Footer = () => {
         </div>
         <div className={styles.downloadApp}>
           <h2>Télécharger l' app </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod
-          </p>
+
           <Download
             height="70px"
             width="170px"

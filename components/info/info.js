@@ -65,7 +65,11 @@ const Info = () => {
           </span>
         </div>
         <div className={styles.info}>
-          <img src="/money-bag.png" className={styles.icon}></img>
+          <img
+            src="/money-bag.png"
+            style={{ marginBottom: "20px" }}
+            className={styles.icon}
+          ></img>
           <p>   Economique</p>
           <span>
             POGO propose le meilleur moyen de transport urbain ! Au prix le plus
