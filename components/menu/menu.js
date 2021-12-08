@@ -43,7 +43,7 @@ const Menu = ({ isOpen, setOpen }) => {
               onMouseOver={() => setToggle(true)}
               onMouseLeave={() => setToggle(false)}
             >
-              <span>Acceuil</span>
+              <span>Accueil</span>
               {toggle ? (
                 <div className={styles.submenu}>
                   <a onClick={() => window.location.replace("/#notre_flotte")}>

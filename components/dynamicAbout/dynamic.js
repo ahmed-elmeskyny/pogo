@@ -29,12 +29,12 @@ const Dynamic = ({ reverse }) => {
             <span>POGO T</span>
           </div>
           <h3>
-            Profitez de <br></br> <span>nos trottinettes</span>
+            Profitez de <span>nos trottinettes</span>
             <br></br> en libre-service
           </h3>
           <p>
             Avec la trottinette <span>POGO T </span>{" "}
-            <strong>100% électrique</strong>, roulez doucement, confortablement
+            <strong>de haute qualité</strong>, roulez doucement, confortablement
             et élégamment
           </p>
           <div className={styles.check}>
@@ -60,17 +60,18 @@ const Dynamic = ({ reverse }) => {
             <span>POGO S</span>
           </div>
           <h3>
-            Profitez de <br></br>
-            <span>nos scooters</span> <br></br> en libre-service
+            Profitez de
+            <span> nos scooters</span> <br></br> en libre-service
           </h3>
           <p>
             Avec le scooter <span>POGO S </span>{" "}
-            <strong>100% électrique</strong>, roulez en toute élégance, en toute
+            <strong>de haut calibre</strong>, roulez en toute élégance, en toute
             sécurité, sans polluer l’environnement !{" "}
           </p>
           <div className={styles.check}>
             <img src="/check.png" width="25px" height="25px"></img>
-            <span>Prise pour charger votre téléphone </span>
+
+            <span>Conçu pour une balade confortable à 2</span>
           </div>
           <div className={styles.check}>
             <img src="/check.png" width="25px" height="25px"></img>
@@ -78,7 +79,7 @@ const Dynamic = ({ reverse }) => {
           </div>
           <div className={styles.check}>
             <img src="/check.png" width="25px" height="25px"></img>
-            <span>Conçu pour une balade confortable à 2</span>
+            <span>Prise pour charger votre téléphone </span>
           </div>
         </div>
       )}

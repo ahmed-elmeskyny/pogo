@@ -35,21 +35,17 @@ const Info = () => {
           {isone ? (
             <span>
               Profitez d'une expérience de conduite électrique et ultra
-              authentique à 0% vibration 0% bruit 0% odeur de carburant et 100%
-              Fun !
+              authentique à 0% vibration, 0% bruit, 0% odeur de carburant et
+              100% Fun !
             </span>
           ) : null}
         </div>
         <div className={styles.info}>
-          <img
-            src="/speedometer.png"
-            className={styles.icon}
-            style={{ marginBottom: "20px" }}
-          ></img>
+          <img src="/speedometer.png" className={styles.icon1}></img>
           <p> Rapide </p>
           <span>
-            Conduisez les véhicules POGO et ne craignez plus d'être coincé aux
-            embouteillages.
+            Conduisez nos véhicules POGO, évitez les embouteillages et soyez 40%
+            plus rapide.
           </span>
         </div>
         <div className={styles.info}>
@@ -61,7 +57,7 @@ const Info = () => {
           <p>  Digital </p>
           <span>
             Votre téléphone est votre nouvelle clé. Démarrez, mettez en pause et
-            éteignez votre véhicule à travers un seul clique sur notre App POGO.
+            éteignez votre véhicule en un seul clic sur notre App POGO.
           </span>
         </div>
         <div className={styles.info}>

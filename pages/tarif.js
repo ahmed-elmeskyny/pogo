@@ -57,8 +57,7 @@ export default function Tarif() {
               <img src="pack50.png" width="110px" height="110px"></img>
               <p className={styles.price}>5DH offerts </p>
               <p>
-                Pour chaque 50DH rechargés, vous bénéficiez de 5DH de solde
-                offerts{" "}
+                Pour chaque 50 DH rechargés, vous bénéficiez de 55 DH de solde{" "}
               </p>
               <div className={styles.checkContainer}>
                 <div className={styles.check}>
@@ -73,9 +72,7 @@ export default function Tarif() {
                 </div>
                 <div className={styles.check}>
                   <img src="/check1.png" width="25px" height="25px"></img>
-                  <span style={{ marginLeft: "10px" }}>
-                    Assurance Responsabilité Civile{" "}
-                  </span>
+                  <span>Assurance Responsabilité Civile </span>
                 </div>
               </div>
             </div>
@@ -87,8 +84,7 @@ export default function Tarif() {
               <p className={styles.price}> 20DH offerts </p>
 
               <p>
-                Pour chaque 100DH rechargés, vous bénéficiez de 20DH de solde
-                offerts
+                Pour chaque 100 DH rechargés, vous bénéficiez de 120 DH de solde
               </p>
               <div className={styles.checkContainer}>
                 <div className={styles.check}>
@@ -103,9 +99,7 @@ export default function Tarif() {
                 </div>
                 <div className={styles.check}>
                   <img src="/check1.png" width="25px" height="25px"></img>
-                  <span style={{ marginLeft: "10px" }}>
-                    Assurance Responsabilité Civile{" "}
-                  </span>
+                  <span>Assurance Responsabilité Civile </span>
                 </div>
               </div>
             </div>
@@ -118,8 +112,7 @@ export default function Tarif() {
 
               <p>
                 {" "}
-                Pour chaque 200DH rechargés, vous bénéficiez de 50DH de solde
-                offerts{" "}
+                Pour chaque 200 DH rechargés, vous bénéficiez de 250 DH de solde
               </p>
               <div className={styles.checkContainer}>
                 <div className={styles.check}>
@@ -134,9 +127,7 @@ export default function Tarif() {
                 </div>
                 <div className={styles.check}>
                   <img src="/check1.png" width="25px" height="25px"></img>
-                  <span style={{ marginLeft: "10px" }}>
-                    Assurance Responsabilité Civile{" "}
-                  </span>
+                  <span>Assurance Responsabilité Civile </span>
                 </div>
               </div>
             </div>
@@ -149,7 +140,7 @@ export default function Tarif() {
             services est <span>la priorité numéro 1 </span>de POGO. Afin de
             protéger la communauté POGO, nous collaborons avec l’un des
             meilleurs fournisseurs d’assurance dans le monde entier, Allianz,
-            pour que vous soyez assurés en conduisant un véhicule POGO.
+            pour que vous soyez 100% assurés en conduisant un véhicule POGO.
             <p>
               {" "}
               <em>en partenariat avec</em>

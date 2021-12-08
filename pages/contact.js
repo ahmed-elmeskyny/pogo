@@ -44,7 +44,7 @@ export default function Contact() {
               signalez ? Nous sommes à votre disposition !
             </p>
             <div className={styles.infoContainer}>
-              <div className={styles.info}>
+              {/* <div className={styles.info}>
                 <div className={styles.icon}>
                   <BiBuildingHouse></BiBuildingHouse>
                 </div>
@@ -52,14 +52,14 @@ export default function Contact() {
                   <h3>Ifrane</h3>
                   <span>Jl. Raya Canggu No 1, Canggu - 80361</span>
                 </div>
-              </div>
+              </div> */}
               <div className={styles.info}>
                 <div className={styles.icon}>
                   <BiBuildings></BiBuildings>
                 </div>
                 <div className={styles.text}>
-                  <h3>Fes</h3>
-                  <span>Jl. Sunset Road No. 815, Kuta - 80361</span>
+                  <h3>Fès</h3>
+                  <span> 209 B Lotissement Riad Rte Meknès - Fès</span>
                 </div>
               </div>
               <div className={styles.info}>
@@ -68,7 +68,7 @@ export default function Contact() {
                 </div>
                 <div className={styles.text}>
                   <h3>Appelez-nous</h3>
-                  <span>(+212) 637 527 966</span>
+                  <span>(+212) 695 423 240</span>
                 </div>
               </div>
               <div className={styles.info}>

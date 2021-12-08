@@ -43,7 +43,8 @@ export default function Home() {
                       style={{ marginBottom: "-5px" }}
                     ></img>
                   </span>
-                  ,la location d’un scooter n’a jamais été aussi simple !
+                  , la location d’un véhicule électrique n’a jamais été aussi
+                  simple !
                 </p>
               </h1>
               <div className={styles.description}>
@@ -54,9 +55,7 @@ export default function Home() {
                   aujourd’hui !
                 </p>
               </div>
-              <Download
-                style={{ marginBottom: "-50px", marginTop: "20px" }}
-              ></Download>
+              <Download style={{ marginTop: "20px" }}></Download>
             </div>
           </div>
           <div className={styles.mockup}>
@@ -65,8 +64,8 @@ export default function Home() {
         </div>
 
         <div className={styles.scrollContainer}>
-          <h3> EMBRACE </h3>
-          <h3>THE REVOLUTION</h3>
+          <h3> Embrace </h3>
+          <h3>The Revolution</h3>
         </div>
 
         <Info></Info>
@@ -83,10 +82,10 @@ export default function Home() {
         <h1 className={styles.title} id={"notre_flotte"}>
           Notre flotte
         </h1>
-        <h2 className={styles.sousTitle}>
+        {/* <h2 className={styles.sousTitle}>
           Formule <span> POGO </span>: 0 émission + 0 bruit + 0 odeur =
           <span> 100% fun</span>{" "}
-        </h2>
+        </h2> */}
         <Dynamic></Dynamic>
 
         <Dynamic reverse></Dynamic>
@@ -132,10 +131,10 @@ export default function Home() {
             <a href="/tarif"> En savoir plus sur nos packs </a>
           </div>
           <div className={styles.tarif}>
-            <h2>POGO Basic Pack </h2>
-            <img src="basic.png" width="125px" height="125px"></img>
+            <h2>POGO Prix Basic </h2>
+            <img src="basic.png" width="130px"></img>
             <p className={styles.price}>0.89 DH / min </p>
-            <span style={{ fontWeight: "700" }}>0.19 DH/min de pause</span>
+            <span style={{ fontWeight: "700" }}>0.19 DH / min de pause</span>
             <p>
               {" "}
               Vos locations sont facturées par prélèvement bancaire selon la
@@ -145,7 +144,7 @@ export default function Home() {
               <div className={styles.check}>
                 <img src="/check.png" width="25px" height="25px"></img>
                 <span>
-                  Vous payez les minutes consommées à la fin de votre trajet{" "}
+                  Payez vos minutes consommées à la fin de votre trajet{" "}
                 </span>
               </div>
               <div className={styles.check}>
@@ -154,9 +153,7 @@ export default function Home() {
               </div>
               <div className={styles.check}>
                 <img src="/check.png" width="25px" height="25px"></img>
-                <span style={{ marginLeft: "10px" }}>
-                  Assurance Responsabilité Civile{" "}
-                </span>
+                <span>Assurance Responsabilité Civile </span>
               </div>
             </div>
           </div>

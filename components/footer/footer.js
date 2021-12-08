@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
           <div className={styles.coordonates}>
             <MdOutlineDialpad className={styles.icon}></MdOutlineDialpad>
-            <span>(+212)  637 527 966</span>
+            <span>(+212) 695 423 240</span>
           </div>
         </div>
         <div className={styles.Links}>
@@ -132,9 +132,7 @@ const Footer = () => {
             {" "}
             <AiFillInstagram className={styles.icon}></AiFillInstagram>
           </a>
-          <a>
-            <FaTwitterSquare className={styles.icon}></FaTwitterSquare>
-          </a>
+
           <a
             href="https://ma.linkedin.com/in/pogo-mobility-2459b1216"
             target="_blank"
