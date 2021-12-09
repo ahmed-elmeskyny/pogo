@@ -74,7 +74,7 @@ const Scooter = () => {
           </div>
           {isthree ? (
             <p>
-              Roulez où vous souhaiter dans le périmètre urbain renseigné sur
+              Roulez où vous souhaitez dans le périmètre urbain renseigné sur
               l’application tout en respectant le code de la route. Veuillez
               revenir au parking POGO pour terminer votre location.
             </p>

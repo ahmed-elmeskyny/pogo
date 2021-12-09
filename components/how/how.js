@@ -89,7 +89,7 @@ const How = () => {
           {isLocate ? (
             <span>
               Télécharge notre application et repère le{" "}
-              <span> parking POGO </span>le plus proche
+              <span> parking POGO </span>le plus proche.
             </span>
           ) : null}
           {isScan ? (

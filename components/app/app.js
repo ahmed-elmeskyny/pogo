@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className={styles.appContainer}>
       <div className={styles.text}>
-        <h1>C'est parti!</h1>
+        <h1>C'est parti !</h1>
         <p>
           Vous voulez commencer une nouvelle expérience ? Tester un mode de
           transport urbain pionnier en Afrique ? Téléchargez notre application

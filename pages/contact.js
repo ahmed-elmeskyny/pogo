@@ -40,8 +40,8 @@ export default function Contact() {
             <h1>Contactez-nous</h1>
             <p>
               {" "}
-              Vous avez une question,un commentaire ou quelque chose à nous
-              signalez ? Nous sommes à votre disposition !
+              Vous avez une question, un commentaire ou quelque chose à nous
+              signaler ? Nous sommes à votre disposition !
             </p>
             <div className={styles.infoContainer}>
               {/* <div className={styles.info}>

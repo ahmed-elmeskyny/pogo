@@ -12,8 +12,8 @@ const Map = () => {
           <img
             className={styles.img}
             src="map.png"
-            width="500px"
-            height="500px"
+            width="400px"
+            // height="500px"
           ></img>
         </div>
         <div className={styles.text}>

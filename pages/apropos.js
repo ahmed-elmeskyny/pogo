@@ -105,7 +105,7 @@ export default function Apropos() {
                 <span>Communauté </span>
                 <div></div>
                 <p>
-                  Nous créons des offres d’emploi localement travaillons en
+                  Nous créons des offres d’emploi localement et travaillons en
                   partenariat avec des organisations de haut calibre afin
                   d’améliorer la vie urbaine dans les villes marocaines.
                 </p>

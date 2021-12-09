@@ -55,9 +55,10 @@ export default function Tarif() {
             <div className={styles.tarif}>
               <h2>POGO Pack 50</h2>
               <img src="pack50.png" width="110px" height="110px"></img>
-              <p className={styles.price}>5DH offerts </p>
+              <p className={styles.price}>5 DH offerts </p>
               <p>
-                Pour chaque 50 DH rechargés, vous bénéficiez de 55 DH de solde{" "}
+                Pour chaque 50 DH rechargés, vous bénéficiez de
+                <strong> 55 DH </strong> de solde{" "}
               </p>
               <div className={styles.checkContainer}>
                 <div className={styles.check}>
@@ -81,10 +82,11 @@ export default function Tarif() {
               <h2>POGO Pack 100</h2>
 
               <img src="pack100.png" width="110px" height="110px"></img>
-              <p className={styles.price}> 20DH offerts </p>
+              <p className={styles.price}> 20 DH offerts </p>
 
               <p>
-                Pour chaque 100 DH rechargés, vous bénéficiez de 120 DH de solde
+                Pour chaque 100 DH rechargés, vous bénéficiez de{" "}
+                <strong> 120 DH </strong> de solde
               </p>
               <div className={styles.checkContainer}>
                 <div className={styles.check}>
@@ -108,11 +110,12 @@ export default function Tarif() {
               <h2>POGO Pack 200</h2>
 
               <img src="pack200.png" width="110px" height="110px"></img>
-              <p className={styles.price}>50DH offerts </p>
+              <p className={styles.price}>50 DH offerts </p>
 
               <p>
                 {" "}
-                Pour chaque 200 DH rechargés, vous bénéficiez de 250 DH de solde
+                Pour chaque 200 DH rechargés, vous bénéficiez de{" "}
+                <strong>250 DH </strong>de solde
               </p>
               <div className={styles.checkContainer}>
                 <div className={styles.check}>
@@ -136,14 +139,21 @@ export default function Tarif() {
         <h1 className={styles.title}>Votre assurance</h1>
         <div className={styles.assurance}>
           <div className={styles.description}>
-            <span> La sécurité </span> et le bien-être des utilisateurs de nos
-            services est <span>la priorité numéro 1 </span>de POGO. Afin de
-            protéger la communauté POGO, nous collaborons avec l’un des
-            meilleurs fournisseurs d’assurance dans le monde entier, Allianz,
-            pour que vous soyez 100% assurés en conduisant un véhicule POGO.
             <p>
               {" "}
-              <em>en partenariat avec</em>
+              <span> La sécurité </span> et le bien-être des utilisateurs de nos
+              services est <span>la priorité numéro 1 </span>de POGO.
+            </p>
+            <p>
+              {" "}
+              Afin de protéger la communauté POGO, nous collaborons avec l’un
+              des meilleurs fournisseurs d’assurance dans le monde entier,
+              Allianz, pour que vous soyez 100% assurés en conduisant un
+              véhicule POGO.
+            </p>
+            <p style={{ textAlign: "center" }}>
+              {" "}
+              <em>En partenariat avec</em>
             </p>
             <div>
               <img src="/allianz.png"></img>

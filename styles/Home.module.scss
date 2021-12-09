@@ -102,20 +102,18 @@
 
   .mockup {
     position: relative;
-    left: 15%;
+    left: 12%;
     bottom: -20%;
     @media (max-width: 1000px) {
       display: none;
     }
-    @media (min-width: 1900px) {
-      bottom: -100%;
+    @media (min-width: 1300px) {
+      bottom: -80%;
     }
     img {
       width: 500px;
-      // height: 830px;
       @media (min-width: 1900px) {
-        width: 600px;
-        // height: 830px;
+        width: 700px;
         margin-top: -450px;
       }
       @media (max-width: 1000px) {
@@ -132,7 +130,7 @@
   margin-top: 100px;
   // display: flex;
   padding: 0px 10px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   width: 50%;
   @media (max-width: 900px) {
     justify-content: center;
@@ -167,7 +165,7 @@
     margin-top: -80px;
   }
   p {
-    width: 80%;
+    width: 70%;
     @media (max-width: 1000px) {
       width: 100%;
     }
@@ -238,8 +236,8 @@
       margin-bottom: 5px;
       margin-top: 5px;
       color: #03d3b9;
-      font-weight: 800;
-
+      font-weight: 700;
+      font-family: "Nunito", sans-serif;
       @media (min-width: 1300px) {
         font-size: 48px;
       }

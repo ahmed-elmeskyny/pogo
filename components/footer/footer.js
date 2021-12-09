@@ -24,9 +24,7 @@ const Footer = () => {
 
           <div className={styles.coordonates}>
             <MdLocationOn className={styles.icon}></MdLocationOn>
-            <span>
-              209 B Lotissement Riad Laymoun Rte Meknès Mag 3 3000 Sect 0608 Fès
-            </span>
+            <span>209 B Lotissement Riad Laymoun Rte Meknès-Fès</span>
           </div>
           <div className={styles.coordonates}>
             <MdOutlineDialpad className={styles.icon}></MdOutlineDialpad>
