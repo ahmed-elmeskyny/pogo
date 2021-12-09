@@ -69,7 +69,7 @@ const Info = () => {
           <p>   Economique</p>
           <span>
             POGO propose le meilleur moyen de transport urbain ! Au prix le plus
-            bas du marché !
+            bas du marché !
           </span>
         </div>
       </div>
