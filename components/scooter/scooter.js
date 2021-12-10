@@ -14,7 +14,7 @@ const Scooter = () => {
     <div className={styles.scooterContainer}>
       <div className={styles.scooter}>
         {isone ? <img src="/1.png" width="700px" height="500px"></img> : null}
-        {istwo ? <img src="/2.png" width="700px" height="500px"></img> : null}
+        {istwo ? <img src="/2.png" className={styles.two}></img> : null}
         {isthree ? <img src="/3.png" width="700px" height="500px"></img> : null}
         {isfour ? <img src="/4.png" width="700px" height="500px"></img> : null}
       </div>

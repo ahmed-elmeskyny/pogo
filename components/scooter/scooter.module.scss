@@ -8,9 +8,9 @@
 
   .scooter {
     // height: 500px;
-    // width: 700px;
+    width: 700px;
     border-radius: 20px;
-
+    text-align: center;
     @media (max-width: 1000px) {
       text-align: center;
       // width: 400px;
@@ -20,6 +20,15 @@
       @media (max-width: 1000px) {
         width: 450px;
         height: 330px;
+      }
+    }
+
+    .two {
+      width: 500px;
+      height: 500px;
+      @media (max-width: 1000px) {
+        width: 350px;
+        height: 350px;
       }
     }
   }
