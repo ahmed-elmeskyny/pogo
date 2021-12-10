@@ -43,6 +43,9 @@
     @media (min-width: 1300px) {
       height: 600px;
     }
+    @media (max-width: 1000px) {
+      height: 600px;
+    }
     .type {
       display: flex;
       align-items: center;
