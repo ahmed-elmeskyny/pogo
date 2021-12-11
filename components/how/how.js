@@ -1,12 +1,22 @@
 //react
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 //styles
 import styles from "./how.module.scss";
+
+import "swiper/css";
 
 const How = () => {
   const [isLocate, setLocate] = useState(true);
   const [isScan, setScan] = useState(false);
   const [isRide, setRide] = useState(false);
+  const [slider, setslider] = useState(null);
+  useEffect(() => {
+    const swiper = document.querySelector(".swiper").swiper;
+    setslider(swiper);
+  }, []);
+
+  console.log(slider);
   return (
     <div className={styles.howContainer}>
       <p>Avec POGO, la micromobilité est simple et accessible pour tous ! </p>
@@ -24,6 +34,7 @@ const How = () => {
                     : null
                 }
                 onClick={() => {
+                  slider.slideTo(0, 1000);
                   setLocate(true);
                   setRide(false);
                   setScan(false);
@@ -45,6 +56,7 @@ const How = () => {
                     : null
                 }
                 onClick={() => {
+                  slider.slideTo(1, 1000);
                   setLocate(false);
                   setRide(false);
                   setScan(true);
@@ -66,6 +78,7 @@ const How = () => {
                     : null
                 }
                 onClick={() => {
+                  slider.slideTo(2, 1000);
                   setLocate(false);
                   setRide(true);
                   setScan(false);
@@ -80,9 +93,41 @@ const How = () => {
         {/* fin steeps */}
         {/* mocu */}
         <div className={styles.mockup}>
-          {isLocate ? <img src="localise.png"></img> : null}
+          {/* {isLocate ? <img src="localise.png"></img> : null}
           {isScan ? <img src="scan.png"></img> : null}
-          {isRide ? <img src="roule.png"></img> : null}
+          {isRide ? <img src="roule.png"></img> : null} */}
+          <img src="/how.png"></img>
+          <Swiper
+            className="swiper"
+            className={styles.screen}
+            onActiveIndexChange={(index) => {
+              if (index.activeIndex == 0) {
+                setLocate(true);
+                setRide(false);
+                setScan(false);
+              } else if (index.activeIndex == 1) {
+                setLocate(false);
+                setRide(false);
+                setScan(true);
+              } else if (index.activeIndex == 2) {
+                setLocate(false);
+                setRide(true);
+                setScan(false);
+              }
+            }}
+          >
+            <SwiperSlide>
+              <img src="/localise.jpg"></img>
+            </SwiperSlide>
+            <SwiperSlide>
+              {" "}
+              <img src="/scan.jpg"></img>
+            </SwiperSlide>
+            <SwiperSlide>
+              {" "}
+              <img src="/roule.jpg"></img>
+            </SwiperSlide>
+          </Swiper>
         </div>
         {/* fin lc */}
         <div className={styles.description}>
@@ -115,6 +160,7 @@ const How = () => {
                   : null
               }
               onClick={() => {
+                slider.slideTo(0, 1000);
                 setLocate(true);
                 setRide(false);
                 setScan(false);
@@ -131,6 +177,7 @@ const How = () => {
                 isScan ? { backgroundColor: "#03d3b9", color: "#03d3b9" } : null
               }
               onClick={() => {
+                slider.slideTo(1, 1000);
                 setLocate(false);
                 setRide(false);
                 setScan(true);
@@ -147,6 +194,7 @@ const How = () => {
                 isRide ? { backgroundColor: "#03d3b9", color: "#03d3b9" } : null
               }
               onClick={() => {
+                slider.slideTo(2, 1000);
                 setLocate(false);
                 setRide(true);
                 setScan(false);
