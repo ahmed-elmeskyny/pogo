@@ -1,10 +1,5 @@
-//next
-
 //styles
 import styles from "./download.module.scss";
-
-//react-ion
-import { AiFillApple } from "react-icons/ai";
 
 const Download = ({ style, white, footer, width }) => {
   return (

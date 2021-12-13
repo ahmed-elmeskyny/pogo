@@ -1,22 +1,10 @@
-//react
-import { useState } from "react";
-
-//next
-import Image from "next/image";
-import Link from "next/link";
-
 //styles
 import styles from "./info.module.scss";
 
 const Info = () => {
-  const [isone, setone] = useState(true);
-  const [istwo, settwo] = useState(false);
-  const [isthree, setthree] = useState(false);
-  const [isfour, setfour] = useState(false);
-
   return (
     <div className={styles.infoContainer}>
-      <div className={styles.header}>
+      <div className={styles.infoHeader}>
         <h1>
           {" "}
           <img src="/pogo.png" width="200px"></img>
@@ -24,7 +12,7 @@ const Info = () => {
           <span> un monde meilleur !</span>
         </h1>
       </div>
-      <div className={styles.container}>
+      <div className={styles.wrapper}>
         <div className={styles.info}>
           <img
             src="/electricity.png"
@@ -32,13 +20,12 @@ const Info = () => {
             style={{ marginBottom: "20px" }}
           ></img>
           <p>100% Électrique </p>
-          {isone ? (
-            <span>
-              Profitez d'une expérience de conduite électrique et ultra
-              authentique à 0% vibration, 0% bruit, 0% odeur de carburant et
-              100% Fun !
-            </span>
-          ) : null}
+
+          <span>
+            Profitez d'une expérience de conduite électrique et ultra
+            authentique à 0% vibration, 0% bruit, 0% odeur de carburant et 100%
+            Fun !
+          </span>
         </div>
         <div className={styles.info}>
           <img src="/speedometer.png" className={styles.icon1}></img>

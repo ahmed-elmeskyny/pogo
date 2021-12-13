@@ -9,7 +9,7 @@
   @media (min-width: 1300px) {
     margin-top: 150px;
   }
-  .header {
+  .infoHeader {
     width: 85%;
     text-align: center;
     display: flex;
@@ -42,7 +42,7 @@
       }
     }
   }
-  .container {
+  .wrapper {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -71,7 +71,6 @@
       }
       span {
         height: 200px;
-        // overflow: hidden;
         font-weight: 300;
         color: #707070;
         margin-top: 20px;

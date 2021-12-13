@@ -2,7 +2,7 @@
 import Marquee from "react-fast-marquee";
 
 //style
-import styles from "./marquee.module.scss";
+import styles from "./partenaire.module.scss";
 
 const Partenaire = () => {
   return (

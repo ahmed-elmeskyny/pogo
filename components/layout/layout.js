@@ -1,9 +1,6 @@
 //react
 import { useState } from "react";
 
-//next
-import Image from "next/image";
-
 //styles
 import styles from "./layout.module.scss";
 
@@ -16,8 +13,6 @@ const Layout = (props) => {
   const [isOpen, setOpen] = useState(false);
   return (
     <div className={styles.container}>
-      {/* <div className={styles.element}></div> */}
-
       <Menu setOpen={setOpen} isOpen={isOpen}></Menu>
 
       <div style={{ display: "flex" }}>

@@ -1,5 +1,3 @@
-//next
-
 //styles
 import styles from "./map.module.scss";
 
@@ -9,12 +7,7 @@ const Map = () => {
       <h1 className={styles.title}>Où se trouve POGO ? </h1>
       <div className={styles.description}>
         <div>
-          <img
-            className={styles.img}
-            src="map.png"
-            width="400px"
-            // height="500px"
-          ></img>
+          <img className={styles.img} src="map.png" width="400px"></img>
         </div>
         <div className={styles.text}>
           <div>

@@ -1,7 +1,5 @@
 //next
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 
 //styles
 import styles from "../styles/Home.module.scss";
@@ -10,11 +8,9 @@ import styles from "../styles/Home.module.scss";
 import Layout from "../components/layout/layout";
 import Download from "../components/donwload/download";
 import Info from "../components/info/info";
-import Partenaire from "../components/marquee/marquee";
+import Partenaire from "../components/partenaire/partenaire";
 
 //react-icons
-import { AiOutlineArrowDown } from "react-icons/ai";
-import { BsFillPhoneFill, BsDot } from "react-icons/bs";
 import Dynamic from "../components/dynamicAbout/dynamic";
 import Scooter from "../components/scooter/scooter";
 import Map from "../components/map/map";
@@ -29,8 +25,9 @@ export default function Home() {
       </Head>
 
       <Layout>
+        {/* header */}
         <div className={styles.heroContainer}>
-          <div className={styles.heroText}>
+          <div className={styles.textContainer}>
             <div className={styles.text}>
               <h1>
                 <p>
@@ -63,40 +60,53 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.scrollContainer}>
+        <div className={styles.slogan}>
           <h3> Embrace </h3>
           <h3>The Revolution</h3>
         </div>
 
+        {/* end  header */}
+
         <Info></Info>
-        <div className={styles.inter}>
+        <div className={styles.interText}>
           <p>
             Ça donne vraiment envie ! Hein ? Vous deviendrez addictes à
             l’expérience POGO !{" "}
           </p>
         </div>
+
+        {/* seperator */}
         <p
           id={"notre_flotte"}
           style={{ marginBottom: "200px", width: "200px" }}
+          className={styles.seperator}
         ></p>
-        <h1 className={styles.title} id={"notre_flotte"}>
-          Notre flotte
-        </h1>
-        {/* <h2 className={styles.sousTitle}>
-          Formule <span> POGO </span>: 0 émission + 0 bruit + 0 odeur =
-          <span> 100% fun</span>{" "}
-        </h2> */}
-        <Dynamic></Dynamic>
+        {/* End seperator */}
 
+        <h1 className={styles.title}>Notre flotte</h1>
+        <Dynamic></Dynamic>
         <Dynamic reverse></Dynamic>
+
         <Map></Map>
-        <p id={"comment"} style={{ marginBottom: "100px", width: "200px" }}></p>
-        <h1 className={styles.title} id={"comment"}>
+
+        {/* seperator */}
+        <p
+          id={"comment"}
+          style={{ marginBottom: "100px", width: "200px" }}
+          className={styles.seperator}
+        ></p>
+        {/* End seperator */}
+
+        <h1 className={styles.title}>
           Louez un scooter n’a jamais été aussi simple !{" "}
         </h1>
         <Scooter></Scooter>
 
+        {/* seperator */}
         <p id={"combien"}></p>
+        {/* End seperator */}
+
+        {/* how much */}
         <h1 className={styles.title}>Combien ça coûte ?</h1>
         <h2 className={styles.sousTitle}>
           <div>
@@ -112,12 +122,9 @@ export default function Home() {
             <p>Paiement à la minute </p>
           </div>
         </h2>
-        <div className={styles.description}>
-          <div className={styles.des}>
-            {/* <div className={styles.type}>
-              <BsDot className={styles.icon}></BsDot>
-              <span>Nos tarifs</span>
-            </div> */}
+
+        <div className={styles.howMuchContainer}>
+          <div className={styles.description}>
             <h3>POGO Packs</h3>
             <p>
               POGO propose à sa communauté des packs pour recharger son solde,
@@ -130,6 +137,7 @@ export default function Home() {
             </p>
             <a href="/tarif"> En savoir plus sur nos packs </a>
           </div>
+
           <div className={styles.tarif}>
             <h2>POGO Prix Basique </h2>
             <img src="basic.png" width="150px"></img>
@@ -158,6 +166,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* end how much */}
+
         <h1 className={styles.title}>Nos partenaires</h1>
         <Partenaire></Partenaire>
       </Layout>
