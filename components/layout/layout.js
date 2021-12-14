@@ -14,7 +14,6 @@ const Layout = (props) => {
   return (
     <div className={styles.container}>
       <Menu setOpen={setOpen} isOpen={isOpen}></Menu>
-
       <div style={{ display: "flex" }}>
         <div
           className={styles.menuContainer}

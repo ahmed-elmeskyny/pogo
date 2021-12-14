@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     <>
       {" "}
       <NextNProgress
-        height={8}
+        height={5}
         color="#03d3b9"
         options={{ showSpinner: false }}
       />

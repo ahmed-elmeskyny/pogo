@@ -11,6 +11,7 @@ const How = () => {
   const [isScan, setScan] = useState(false);
   const [isRide, setRide] = useState(false);
   const [slider, setslider] = useState(null);
+
   useEffect(() => {
     const swiper = document.querySelector(".swiper").swiper;
     setslider(swiper);
