@@ -1,6 +1,6 @@
 //react
 import { useState, useEffect } from "react";
-
+import Link from "next/link";
 //styles
 import styles from "./menu.module.scss";
 
@@ -43,20 +43,10 @@ const Menu = ({ isOpen, setOpen }) => {
               <span>Accueil</span>
               {toggle ? (
                 <div className={styles.submenu}>
-                  <a onClick={() => window.location.replace("/#notre_flotte")}>
-                    {" "}
-                    Notre flotte <span>#</span>
-                  </a>
-                  <a onClick={() => window.location.replace("/#ou")}>
-                    Où se trouve POGO <span>#</span>
-                  </a>
-                  <a onClick={() => window.location.replace("/#comment")}>
-                    {" "}
-                    Comment louer un scooter <span>#</span>
-                  </a>
-                  <a onClick={() => window.location.replace("/#combien")}>
-                    Combien ça coûte <span>#</span>
-                  </a>
+                  <Link href="/#notre_flotte"> Notre flotte</Link>
+                  <Link href="/#ou">Où se trouve POGO</Link>
+                  <Link href="/#comment"> Comment louer un scooter</Link>
+                  <Link href="/#combien">Combien ça coûte</Link>
                 </div>
               ) : null}
               {}

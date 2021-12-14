@@ -242,13 +242,9 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            span {
-              display: none;
-            }
+
             &:hover {
-              span {
-                display: flex;
-              }
+              background-color: rgba(13, 23, 33, 1);
             }
           }
         }
