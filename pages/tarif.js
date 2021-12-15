@@ -62,17 +62,17 @@ export default function Tarif() {
               </p>
               <div className={styles.checkContainer}>
                 <div className={styles.check}>
-                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <img src="/check1.png" width="25px"></img>
                   <span>
                     Le solde est valable 15 jours après l’achat du pack
                   </span>
                 </div>
                 <div className={styles.check}>
-                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <img src="/check1.png" width="25px"></img>
                   <span>Protection 100% du conducteur et du passager</span>
                 </div>
                 <div className={styles.check}>
-                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <img src="/check1.png" width="25px"></img>
                   <span>Assurance Responsabilité Civile </span>
                 </div>
               </div>
@@ -90,17 +90,17 @@ export default function Tarif() {
               </p>
               <div className={styles.checkContainer}>
                 <div className={styles.check}>
-                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <img src="/check1.png" width="25px"></img>
                   <span>
                     Le solde est valable 30 jours après l’achat du pack
                   </span>
                 </div>
                 <div className={styles.check}>
-                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <img src="/check1.png" width="25px"></img>
                   <span>Protection 100% du conducteur et du passager</span>
                 </div>
                 <div className={styles.check}>
-                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <img src="/check1.png" width="25px"></img>
                   <span>Assurance Responsabilité Civile </span>
                 </div>
               </div>
@@ -119,17 +119,17 @@ export default function Tarif() {
               </p>
               <div className={styles.checkContainer}>
                 <div className={styles.check}>
-                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <img src="/check1.png" width="25px"></img>
                   <span>
                     Le solde est valable 45 jours après l’achat du pack
                   </span>
                 </div>
                 <div className={styles.check}>
-                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <img src="/check1.png" width="25px"></img>
                   <span>Protection 100% du conducteur et du passager</span>
                 </div>
                 <div className={styles.check}>
-                  <img src="/check1.png" width="25px" height="25px"></img>
+                  <img src="/check1.png" width="25px"></img>
                   <span>Assurance Responsabilité Civile </span>
                 </div>
               </div>
