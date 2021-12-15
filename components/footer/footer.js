@@ -132,7 +132,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://ma.linkedin.com/in/pogo-mobility-2459b1216"
+            href="https://www.linkedin.com/company/pogomobility"
             target="_blank"
           >
             {" "}
