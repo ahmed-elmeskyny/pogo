@@ -19,7 +19,12 @@ const Footer = () => {
       <div className={styles.footer}>
         <div className={styles.descriptionContainer}>
           <div className={styles.logo}>
-            <img src="/pogo.png" width="150px" height="40px"></img>
+            <img
+              src="/pogo.png"
+              alt="logo de pogo people on the go"
+              width="150px"
+              height="40px"
+            ></img>
           </div>
 
           <div className={styles.coordonates}>

@@ -19,7 +19,7 @@ const App = () => {
         <Download white></Download>
       </div>
       <div className={styles.illus}>
-        <img src="/undrw.png"></img>
+        <img src="/undrw.png" alt="pogo telecharger image"></img>
       </div>
     </div>
   );

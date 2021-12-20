@@ -10,6 +10,7 @@ const Partenaire = () => {
       <div>
         <img
           src="/allianz.png"
+          alt="partenaire de pogo allianz"
           width="150px"
           height="150px"
           className={styles.partner}
@@ -18,6 +19,7 @@ const Partenaire = () => {
       <div>
         <img
           src="/aloula.png"
+          alt="partenaire de pogo aloula"
           width="100px"
           height="100px"
           className={styles.partner}
@@ -26,6 +28,7 @@ const Partenaire = () => {
       <div>
         <img
           src="/bp.png"
+          alt="partenaire de pogo banque populaire"
           width="100px"
           height="100px"
           className={styles.partner}
@@ -34,6 +37,7 @@ const Partenaire = () => {
       <div>
         <img
           src="/ccg.png"
+          alt="partenaire de pogo "
           width="100px"
           height="100px"
           className={styles.partner}

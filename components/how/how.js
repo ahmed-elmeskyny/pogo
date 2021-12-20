@@ -97,7 +97,7 @@ const How = () => {
           {/* {isLocate ? <img src="localise.png"></img> : null}
           {isScan ? <img src="scan.png"></img> : null}
           {isRide ? <img src="roule.png"></img> : null} */}
-          <img src="/how.png"></img>
+          <img src="/how.png" alt="telephone pogo perimetre"></img>
           <Swiper
             className="swiper"
             className={styles.screen}
@@ -118,15 +118,24 @@ const How = () => {
             }}
           >
             <SwiperSlide>
-              <img src="/localise.jpg"></img>
+              <img
+                src="/localise.jpg"
+                alt="écran de l'application pogo localiser véhicule "
+              ></img>
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img src="/scan.jpg"></img>
+              <img
+                src="/scan.jpg"
+                alt="écran de l'application pogo scaner véhicule "
+              ></img>
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <img src="/roule.jpg"></img>
+              <img
+                src="/roule.jpg"
+                alt="écran de l'application pogo rouler véhicule "
+              ></img>
             </SwiperSlide>
           </Swiper>
         </div>

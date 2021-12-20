@@ -14,9 +14,16 @@ const Dynamic = ({ reverse }) => {
     >
       <div className={styles.scooter}>
         {reverse ? (
-          <img src="/trottinette.png"></img>
+          <img
+            src="/trottinette.png"
+            alt="la trottinette de haute qualité de  pogo"
+          ></img>
         ) : (
-          <img src="/scooter.png" className={styles.scooterimg}></img>
+          <img
+            src="/scooter.png"
+            alt="la scooter de haut calibre de pogo"
+            className={styles.scooterimg}
+          ></img>
         )}
       </div>
       {reverse ? (

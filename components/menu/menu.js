@@ -31,7 +31,12 @@ const Menu = ({ isOpen, setOpen }) => {
     <div className={Fixed ? styles.fixedMenuContainer : styles.menuContainer}>
       <div className={styles.menu}>
         <a href="/" className={styles.logo}>
-          <img src="/pogo.png" width="150px" height="40px"></img>
+          <img
+            src="/pogo.png"
+            alt="logo de pogo people on the go"
+            width="150px"
+            height="40px"
+          ></img>
         </a>
         <ul>
           <ActiveLink href="/" activeClassName={styles.active}>
@@ -84,7 +89,12 @@ const Menu = ({ isOpen, setOpen }) => {
               onClick={() => setOpen(!isOpen)}
             ></RiMenu4Fill>
           )}
-          <img src="/pogo.png" width="130px" height="40px"></img>
+          <img
+            src="/pogo.png"
+            alt="logo de pogo people on the go"
+            width="130px"
+            height="40px"
+          ></img>
         </div>
       </div>
     </div>

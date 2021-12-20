@@ -7,7 +7,11 @@ const Info = () => {
       <div className={styles.infoHeader}>
         <h1>
           {" "}
-          <img src="/pogo.png" width="200px"></img>
+          <img
+            src="/pogo.png"
+            alt="logo de pogo people on the go"
+            width="200px"
+          ></img>
           propose un nouveau mode de transport pour{" "}
           <span> un monde meilleur !</span>
         </h1>
@@ -16,6 +20,7 @@ const Info = () => {
         <div className={styles.info}>
           <img
             src="/electricity.png"
+            alt=" 100% Électrique"
             className={styles.icon}
             style={{ marginBottom: "20px" }}
           ></img>
@@ -28,7 +33,11 @@ const Info = () => {
           </span>
         </div>
         <div className={styles.info}>
-          <img src="/speedometer.png" className={styles.icon1}></img>
+          <img
+            src="/speedometer.png"
+            alt="Rapide"
+            className={styles.icon1}
+          ></img>
           <p> Rapide </p>
           <span>
             Conduisez nos véhicules POGO, évitez les embouteillages et soyez 40%
@@ -38,6 +47,7 @@ const Info = () => {
         <div className={styles.info}>
           <img
             src="/smartphone.png"
+            alt="Digital"
             className={styles.icon}
             style={{ marginBottom: "20px" }}
           ></img>
@@ -50,6 +60,7 @@ const Info = () => {
         <div className={styles.info}>
           <img
             src="/money-bag.png"
+            alt=" Economique"
             style={{ marginBottom: "20px" }}
             className={styles.icon}
           ></img>

@@ -12,7 +12,12 @@ const Download = ({ style, white, footer, width }) => {
             : null
         }
       >
-        <img src="/playstore.png" height="30px" width="30px"></img>
+        <img
+          src="/playstore.png"
+          alt="application playstore pogo"
+          height="30px"
+          width="30px"
+        ></img>
         <div className={styles.storeText}>
           <span>DISPONIBLE SUR</span>
           <h3 style={footer ? { fontSize: "15px" } : null}>Google Play</h3>
@@ -26,7 +31,12 @@ const Download = ({ style, white, footer, width }) => {
             : null
         }
       >
-        <img src="/apple.png" height="30px" width="30px"></img>
+        <img
+          src="/apple.png"
+          alt="application appstore pogo"
+          height="30px"
+          width="30px"
+        ></img>
         <div className={styles.storeText}>
           <span>DISPONIBLE SUR</span>
           <h3 style={footer ? { fontSize: "15px" } : null}>App Store</h3>

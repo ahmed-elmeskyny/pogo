@@ -35,6 +35,7 @@ export default function Home() {
                   <span>
                     <img
                       src="/pogo.png"
+                      alt="logo de pogo poeple on the go"
                       width="125px"
                       height="35px"
                       style={{ marginBottom: "-5px" }}
@@ -56,7 +57,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.mockup}>
-            <img src="/mockup.png"></img>
+            <img src="/mockup.png" alt="application de pogo"></img>
           </div>
         </div>
 
