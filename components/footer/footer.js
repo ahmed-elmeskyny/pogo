@@ -77,14 +77,14 @@ const Footer = () => {
           <h2>liens utiles</h2>
           <ul>
             <li>
-              <a>
+              <a href="/pdc">
                 {" "}
                 <AiOutlineRight className={styles.icon}></AiOutlineRight>{" "}
                 Politique de confidentialité{" "}
               </a>
             </li>
             <li>
-              <a>
+              <a href="/tc">
                 {" "}
                 <AiOutlineRight className={styles.icon}></AiOutlineRight>Termes
                 et Conditions{" "}
@@ -98,7 +98,7 @@ const Footer = () => {
               <AiOutlineRight className={styles.icon}></AiOutlineRight>Support{" "}
             </li> */}
             <li>
-              <a>
+              <a href="/faq">
                 {" "}
                 <AiOutlineRight className={styles.icon}></AiOutlineRight>
                 FAQ{" "}
