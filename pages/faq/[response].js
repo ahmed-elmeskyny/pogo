@@ -18,6 +18,12 @@ export default function res() {
   const id = response;
   const [loading, setloading] = useState(true);
   const resp = questions.filter((quest) => quest.id == id);
+  const [categorie, setCategorie] = useState("informations generales");
+  const [question, setquestion] = useState(
+    questions.filter(
+      (question) => question.categorie == "informations generales"
+    )
+  );
   setTimeout(() => {
     setloading(false);
   }, 1000);
@@ -42,9 +48,46 @@ export default function res() {
             </div> */}
           </div>
         </div>
-        <div className={styles.responseContainer}>
-          <h1>{loading ? null : resp[0].question}</h1>
-          <p>{loading ? null : resp[0].res}</p>
+        <div style={{ display: "flex", marginTop: "40px" }}>
+          <div className={styles.categorie}>
+            <ul>
+              <a href="/faquestion">
+                <li>Informations générales</li>
+              </a>
+              <a href="/faquestion">
+                <li>Inscription</li>
+              </a>
+              <a href="/faquestion">
+                <li>Réservation</li>
+              </a>
+              <a href="/faquestion">
+                <li>Pendant la location</li>
+              </a>
+              <a href="/faquestion">
+                <li>Fin de location</li>
+              </a>
+              <a href="/faquestion">
+                {" "}
+                <li>Trajets & Paiements</li>
+              </a>
+              <a href="/faquestion">
+                <li>Mon compte</li>
+              </a>
+              <a href="/faquestion">
+                <li>Bonus Fidélité et promotions</li>
+              </a>
+              <a href="/faquestion">
+                <li>Contraventions et fourrières</li>
+              </a>
+              <a href="/faquestion">
+                <li>Autres</li>
+              </a>
+            </ul>
+          </div>
+          <div className={styles.responseContainer}>
+            <h1>{loading ? null : resp[0].question}</h1>
+            <p>{loading ? null : resp[0].res}</p>
+          </div>
         </div>
       </Layout>
     </div>
