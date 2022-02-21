@@ -98,7 +98,7 @@ const Footer = () => {
               <AiOutlineRight className={styles.icon}></AiOutlineRight>Support{" "}
             </li> */}
             <li>
-              <a href="/faquestion">
+              <a href="/">
                 {" "}
                 <AiOutlineRight className={styles.icon}></AiOutlineRight>
                 FAQ{" "}
