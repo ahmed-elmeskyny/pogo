@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=	/home/pogoma/repositories/pogo
+    - /bin/cp * $DEPLOYPATH
