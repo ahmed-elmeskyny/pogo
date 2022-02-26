@@ -50,11 +50,6 @@ const Layout = (props) => {
         >
           {props.children}
           <Footer></Footer>
-          <div className={styles.credits}>
-            <a href="https://ahmedelmeskyny.vercel.app/" target="_blank">
-              Crée par <span>Ahmed Elmeskyny</span>
-            </a>
-          </div>
         </div>
       </div>
     </div>

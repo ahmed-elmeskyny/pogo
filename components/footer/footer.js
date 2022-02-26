@@ -77,13 +77,6 @@ const Footer = () => {
           <h2>liens utiles</h2>
           <ul>
             <li>
-              <a href="/pdc">
-                {" "}
-                <AiOutlineRight className={styles.icon}></AiOutlineRight>{" "}
-                Politique de confidentialité{" "}
-              </a>
-            </li>
-            <li>
               <a href="/tc">
                 {" "}
                 <AiOutlineRight className={styles.icon}></AiOutlineRight>Termes
