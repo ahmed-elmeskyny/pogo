@@ -77,7 +77,7 @@ const Footer = () => {
           <h2>liens utiles</h2>
           <ul>
             <li>
-              <a href="/tc">
+              <a href="/termesetconditions">
                 {" "}
                 <AiOutlineRight className={styles.icon}></AiOutlineRight>Termes
                 et Conditions{" "}
@@ -91,7 +91,7 @@ const Footer = () => {
               <AiOutlineRight className={styles.icon}></AiOutlineRight>Support{" "}
             </li> */}
             <li>
-              <a href="/">
+              <a href="/faquestion">
                 {" "}
                 <AiOutlineRight className={styles.icon}></AiOutlineRight>
                 FAQ{" "}
