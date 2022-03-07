@@ -44,14 +44,14 @@ const Partenaire = () => {
         ></img>
       </div>
 
-      {/* <div>
+      <div>
         <img
-          src="/emob.png"
+          src="/emob1.png"
           width="200px"
           height="100px"
           className={styles.partner}
         ></img>
-      </div> */}
+      </div>
     </Marquee>
   );
 };
