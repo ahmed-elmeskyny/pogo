@@ -13,12 +13,9 @@ import questions from "../questions/quest";
 
 export default function faq() {
   const [categorie, setCategorie] = useState("informations generales");
-  const [question, setquestion] = useState(
-    questions.filter(
-      (question) => question.categorie == "informations generales"
-    )
-  );
-  const [toggle, setToggle] = useState(false);
+  const [question, setquestion] = useState(questions);
+  const [toggle, setToggle] = useState("");
+  console.log(toggle);
   return (
     <div className={styles.container}>
       <Head>
@@ -28,95 +25,36 @@ export default function faq() {
       </Head>
 
       <Layout>
-        <div className={styles.aboutContainer}>
-          <div className={styles.filter}>
-            <div className={styles.description}>
-              <h1>Une question avant de monter en selle ?</h1>
-            </div>
-          </div>
-        </div>
         <div className={styles.faqContainer}>
-          <div className={styles.categorie}>
-            <ul>
-              <li
-                className={
-                  categorie == "informations generales" ? styles.selected : null
-                }
-                onClick={() => {
-                  setCategorie("informations generales");
-                  setquestion(
-                    questions.filter(
-                      (question) =>
-                        question.categorie == "informations generales"
-                    )
-                  );
-                }}
-              >
-                Informations générales
-              </li>
-
-              <li
-                className={categorie == "paiement" ? styles.selected : null}
-                onClick={() => {
-                  setCategorie("paiement");
-                  setquestion(
-                    questions.filter(
-                      (question) => question.categorie == "paiement"
-                    )
-                  );
-                }}
-              >
-                Trajets et Paiements
-              </li>
-            </ul>
+          <div className={styles.title}>
+            <h1>FAQ</h1>
           </div>
-          <div
-            className={styles.categorieMobile}
-            style={toggle ? null : { display: "none" }}
-          >
-            <ul>
-              <li
-                className={
-                  categorie == "informations generales" ? styles.selected : null
-                }
-                onClick={() => {
-                  setCategorie("informations generales");
-                  setquestion(
-                    questions.filter(
-                      (question) =>
-                        question.categorie == "informations generales"
-                    )
-                  );
-                  setToggle(!toggle);
-                }}
-              >
-                Informations générales
-              </li>
-
-              <li
-                className={categorie == "paiement" ? styles.selected : null}
-                onClick={() => {
-                  setCategorie("paiement");
-                  setquestion(
-                    questions.filter(
-                      (question) => question.categorie == "paiement"
-                    )
-                  );
-                  setToggle(!toggle);
-                }}
-              >
-                Trajets et Paiements
-              </li>
-            </ul>
-          </div>
-          <div className={styles.question}>
-            <h3 onClick={() => setToggle(!toggle)}>Toutes les catégories</h3>
-            <h2 className={styles.title}>{categorie}</h2>
+          <div className={styles.questions}>
             {question.map((question) => (
-              <a href={`/faq/${question.id}`} key={question.id}>
-                <p>{question.ques}</p>
-                <img src="/next.png" width="30px"></img>
-              </a>
+              <div className={styles.questionContainer} key={question.id}>
+                <div
+                  onClick={() =>
+                    setToggle(toggle == question.id ? "" : question.id)
+                  }
+                  className={styles.question}
+                >
+                  <p>{question.ques}</p>
+
+                  {toggle == question.id ? (
+                    <img src="/minus.png" width="15px"></img>
+                  ) : (
+                    <img src="/plus.png" width="15px"></img>
+                  )}
+                </div>
+                <p
+                  className={styles.response}
+                  style={
+                    toggle == question.id ? { height: "auto" } : { height: "0" }
+                  }
+                >
+                  {question.res}
+                </p>
+              </div>
             ))}
           </div>
         </div>
