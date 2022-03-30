@@ -6,7 +6,6 @@ let questions = [
     res: [
       "POGO met à votre disposition des scooters et des trottinettes électriques en libre-service disponibles 24h/24, 7j/7.  Vous pouvez les réservez et se déplacer avec librement en quelques clics sur l’application mobile.",
       "Pas d’abonnement, pas d’engagement. Avec POGO, vous ne payez que vos minutes de location ! ",
-      "Comment ça marche ? ",
     ],
     links: "/comment",
   },
@@ -119,7 +118,7 @@ let questions = [
   {
     id: 12,
     categorie: "paiement",
-    ques: "Que sont les modes de paiement que je peux utiliser ?   ",
+    ques: "Quels sont les modes de paiement que je peux utiliser ?   ",
     res: [
       "Prélèvement bancaire : ",
       "Packs POGO : ",
