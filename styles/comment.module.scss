@@ -11,9 +11,12 @@
   font-family: "Nunito", sans-serif;
   overflow: hidden;
   @media (max-width: 1000px) {
-    flex-direction: column;
-    height: 80vh;
-    background-position: center;
+    // flex-direction: column;
+    // height: 80vh;
+    // background-position: center;
+    background-color: #0d1721;
+    background-image: none;
+    height: 200px;
   }
   @media (min-width: 1300px) {
     height: 600px;
@@ -28,6 +31,7 @@
     align-items: center;
     @media (max-width: 1000px) {
       flex-wrap: wrap;
+      padding: 5px 20px;
     }
     .description {
       @media (max-width: 1000px) {
@@ -37,7 +41,7 @@
         text-transform: uppercase;
         font-size: 55px;
         @media (max-width: 1000px) {
-          font-size: 45px;
+          font-size: 35px;
         }
         &::after {
           display: block;
