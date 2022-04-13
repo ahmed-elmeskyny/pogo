@@ -10,13 +10,15 @@
   display: flex;
   font-family: "Nunito", sans-serif;
   overflow: hidden;
+
   @media (max-width: 1000px) {
     // flex-direction: column;
     // height: 80vh;
     // background-position: center;
     background-color: #0d1721;
     background-image: none;
-    height: 200px;
+    height: 150px;
+    text-align: center;
   }
   @media (min-width: 1300px) {
     height: 600px;
@@ -41,7 +43,7 @@
         text-transform: uppercase;
         font-size: 55px;
         @media (max-width: 1000px) {
-          font-size: 35px;
+          font-size: 30px;
         }
         &::after {
           display: block;
@@ -52,6 +54,9 @@
           border-radius: 10px;
           margin-top: 1px;
           transition: width 0.3s;
+          @media (max-width: 1000px) {
+            width: 100%;
+          }
         }
       }
       p {
