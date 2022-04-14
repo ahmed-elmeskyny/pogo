@@ -32,301 +32,239 @@ export default function Termes() {
         <div className={styles.textContainer}>
           <div>
             <p>
-              Les Conditions G&eacute;n&eacute;rales d&rsquo;Utilisation &laquo;
-              CGU &raquo; ci-pr&eacute;sentes d&eacute;finissent, &agrave;
-              compter de leur acceptation par le Client, les conditions
-              d&rsquo;acc&egrave;s et d&rsquo;utilisation du Service POGO.&nbsp;
+              <strong>
+                {" "}
+                Derni&egrave;re mise &agrave; jour
+                le&nbsp;13&nbsp;Avril&nbsp;2022&nbsp;
+              </strong>
             </p>
           </div>
           <div>
             <p>
-              POGO est un service de mobilit&eacute; &eacute;lectrique qui
-              consiste en la location courte dur&eacute;e de v&eacute;hicules
-              &eacute;lectriques (scooters et trottinettes) en libre-service. Il
-              est propos&eacute; par la Soci&eacute;t&eacute; A
-              Responsabilit&eacute; Limit&eacute;e, immatricul&eacute;e &agrave;
-              F&egrave;s sous le num&eacute;ro 002783488000066, dont le
-              si&egrave;ge social se situe &agrave; 209 B Lot Riad Laymoune Rte
-              Mekn&egrave;s, Mag 3.&nbsp;
+              Le Site www.pogo.ma, l&rsquo;application et le
+              service&nbsp;POGO&nbsp;(ci-apr&egrave;s &laquo; nos Services
+              &raquo;) sont propos&eacute;s par la
+              soci&eacute;t&eacute;&nbsp;POGO&nbsp;sarl&nbsp;immatricul&eacute;e&nbsp;&agrave;
+              F&egrave;s sous le N&deg; 002783488000066&nbsp;dont le
+              si&egrave;ge social est situ&eacute;&nbsp;&agrave; 209 B Lot
+              Riad&nbsp;Laymoune&nbsp;Rte
+              Mekn&egrave;s,&nbsp;Mag&nbsp;3 F&egrave;s Maroc. &nbsp;
             </p>
           </div>
           <div>
             <p>
-              <strong>ARTICLE 1 &ndash; D&Eacute;FINITIONS </strong>
+              POGO&nbsp;s&rsquo;engage &agrave; prot&eacute;ger la vie
+              priv&eacute;e de tous les visiteurs, Clients et Utilisateurs de
+              ses Services. Elle s&rsquo;engage &agrave; ce que la collecte et
+              le traitement de vos donn&eacute;es soient effectu&eacute;s
+              conform&eacute;ment au R&egrave;glement G&eacute;n&eacute;ral sur
+              la Protection des Donn&eacute;es (RGPD) et la Loi dite
+              &laquo; Informatique et Libert&eacute;s &raquo;.&nbsp;
             </p>
           </div>
           <div>
             <p>
-              &laquo; Utilisateur &raquo; d&eacute;signe tout client,
-              remplissant l&rsquo;ensemble des conditions &eacute;nonc&eacute;es
-              &agrave; l&rsquo;article 4 des pr&eacute;sentes, ayant
-              cr&eacute;&eacute; un compte POGO et finalis&eacute; son
-              Inscription lui permettant d&rsquo;utiliser et de
-              b&eacute;n&eacute;ficier du Service POGO dans les conditions des
-              pr&eacute;sentes CGU.&nbsp;
+              La Politique de confidentialit&eacute; pr&eacute;sente nos
+              engagements et les principes fondamentaux que nous appliquons
+              &agrave; la protection des donn&eacute;es personnelles. Elle vous
+              informe des proc&eacute;d&eacute;s de collecte et
+              d&rsquo;utilisation de vos donn&eacute;es, des options et des
+              droits dont vous b&eacute;n&eacute;ficiez. Elle compl&egrave;te
+              les Conditions G&eacute;n&eacute;rales d&rsquo;Utilisation du
+              Service. Les termes commen&ccedil;ant par une majuscule non
+              d&eacute;finis aux pr&eacute;sentes ont le sens qui leur est
+              donn&eacute; dans lesdites Conditions G&eacute;n&eacute;rales
+              d&rsquo;Utilisation.&nbsp;
             </p>
           </div>
           <div>
             <p>
-              &laquo; Conditions G&eacute;n&eacute;rales d&rsquo;Utilisation
-              &raquo; ou &laquo; CGU &raquo; d&eacute;signe le pr&eacute;sent
-              document dont les termes doivent avoir &eacute;t&eacute;
-              accept&eacute;s par l&rsquo;Utilisateur pour pouvoir
-              acc&eacute;der au Service.&nbsp;
+              Nous pouvons modifier la Politique de confidentialit&eacute;
+              &agrave; tout moment afin notamment de se conformer &agrave;
+              toutes &eacute;volutions r&eacute;glementaires,
+              jurisprudentielles, &eacute;ditoriales ou techniques. Les Clients
+              et Utilisateurs sont inform&eacute;s par tout moyen en cas de
+              changement significatif de la Politique. Avant chaque navigation,
+              nous vous invitons &agrave; vous r&eacute;f&eacute;rer &agrave; sa
+              derni&egrave;re version.&nbsp;
             </p>
           </div>
           <div>
-            <p>
-              &laquo; Service &raquo; d&eacute;signe le service de location de
-              courte dur&eacute;e de v&eacute;hicules en libre-service
-              propos&eacute; par la soci&eacute;t&eacute; POGO.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; Location &raquo; d&eacute;signe le temps
-              d&rsquo;utilisation du V&eacute;hicule par un Utilisateur. La
-              Location d&eacute;marre d&egrave;s le d&eacute;blocage du
-              V&eacute;hicule et se termine &agrave; l&rsquo;initiative de
-              l&rsquo;Utilisateur (via l&rsquo;Application).&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; R&eacute;servation &raquo; d&eacute;signe l&rsquo;action
-              de r&eacute;server un V&eacute;hicule via l&rsquo;Application
-              avant la Location.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; Application &raquo; d&eacute;signe l&rsquo;application
-              mobile de POGO qui permet &agrave; l&rsquo;Utilisateur
-              d&rsquo;acc&eacute;der au Service POGO, de r&eacute;server un
-              V&eacute;hicule et commencer sa Location.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; Site Internet &raquo; d&eacute;signe le site web du
-              Service POGO disponible &agrave; l&rsquo;adresse{" "}
-              <a
-                href="http://www.pogo.ma/"
-                rel="noreferrer noopener"
-                target="_blank"
-              >
-                www.pogo.ma
-              </a>
-              &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; Inscription &raquo; d&eacute;signe le processus
-              d&rsquo;enregistrement d&rsquo;un futur Utilisateur au Service
-              POGO. L&rsquo;inscription est gratuite.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; Espace Personnel &raquo; d&eacute;signe l&rsquo;espace de
-              gestion en ligne accessible par l&rsquo;Utilisateur ayant un
-              compte POGO, accessible sur l&rsquo;Application POGO. En y
-              acc&eacute;dant, l&rsquo;Utilisateur peut g&eacute;rer ses
-              informations personnelles, de consulter son historique de
-              Locations et ses factures POGO, ou d&rsquo;acheter des
-              Packages.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; Identifiants &raquo; d&eacute;signe l&rsquo;adresse email
-              (ou le num&eacute;ro de t&eacute;l&eacute;phone portable) de
-              l&rsquo;Utilisateur et le mot de passe qu&rsquo;il aura choisi
-              pour s&rsquo;identifier et se connecter &agrave;
-              l&rsquo;Application POGO et utiliser le Service.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; V&eacute;hicule &raquo; d&eacute;signe l&rsquo;un des
-              scooters ou trottinettes &eacute;lectriques que POGO met &agrave;
-              la disposition des Utilisateurs.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; Scooter &raquo; d&eacute;signe l&rsquo;un des scooters
-              &eacute;lectriques que POGO met &agrave; la disposition des
-              Utilisateurs.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; Trottinette &raquo; d&eacute;signe l&rsquo;une des
-              trottinettes &eacute;lectriques que POGO met &agrave; la
-              disposition des Utilisateurs.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; Accessoires de l&rsquo;Utilisateur &raquo; d&eacute;signe
-              les objets et effets personnels de l&rsquo;Utilisateur et des
-              personnes transport&eacute;es dans le V&eacute;hicule au cours
-              d&rsquo;une Location.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; Casque &raquo; d&eacute;signe le casque appartenant
-              &agrave; POGO, attach&eacute; au Scooter. Mis &agrave; la
-              disposition de l&rsquo;Utilisateur afin qu&rsquo;il conduise le
-              Scooter en toute s&eacute;curit&eacute;. &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; Documents de Bord &raquo; d&eacute;signe l&rsquo;ensemble
-              des documents suivants : la copie du certificat d&rsquo;assurance,
-              la copie du certificat de propri&eacute;t&eacute;, le constat
-              amiable d&rsquo;accident, qui sont pr&eacute;sents &agrave; bord
-              du V&eacute;hicule.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; Pause &raquo; d&eacute;signe l&rsquo;arr&ecirc;t
-              temporaire du V&eacute;hicule pendant une Location.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              &laquo; Service Client &raquo; d&eacute;signe le centre
-              d&rsquo;information et d&rsquo;assistance de POGO qui
-              r&eacute;pond aux r&eacute;clamations et aux questions des
-              Utilisateurs. &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              <strong> ARTICLE 2 &ndash; OBJET </strong>
-            </p>
-          </div>
-          <div>
-            <p>
-              Les pr&eacute;sentes CGU sont destin&eacute;es aux Utilisateurs du
-              Service&nbsp;POGO&nbsp;sur le
-              territoire&nbsp;marocain.&nbsp;Chaque Utilisateur&nbsp;souhaitant
-              acc&eacute;der au Service&nbsp;est invit&eacute;&nbsp;&agrave;
-              consulter&nbsp;et accepter&nbsp;les
-              CGU&nbsp;pr&eacute;sentes&nbsp;sur l&rsquo;Application ainsi
-              que&nbsp;sur&nbsp;le Site Internet 
-              <a
-                href="http://www.pogo.ma/"
-                rel="noreferrer noopener"
-                target="_blank"
-              >
-                www.pogo.ma
-              </a>
-              . Les CGU r&eacute;gissent l&rsquo;utilisation du Service et de
-              l&rsquo;Application POGO que l&rsquo;Utilisateur se doit de
-              respecter.&nbsp;
-            </p>
+            <p> &nbsp;</p>
           </div>
           <div>
             <p>
               <strong>
-                ARTICLE 3 &ndash; MODALITES/TARIFS EN VIGUEUR DU SERVICE POGO{" "}
+                Qui sont les personnes concern&eacute;es par cette politique ?{" "}
               </strong>
+            </p>
+          </div>
+          <div>
+            <p>
+              La collecte et le traitement de donn&eacute;es personnelles
+              concerne tous les visiteurs, Clients et Utilisateurs de nos
+              Services.&nbsp;
+            </p>
+          </div>
+          <div>
+            <p>
+              Lors de votre inscription ou de l&rsquo;acc&egrave;s &agrave; nos
+              services, vous recevrez l&rsquo;ensemble des informations
+              obligatoires relatives &agrave; la collecte et au traitement de
+              vos Donn&eacute;es.&nbsp;
             </p>
           </div>
           <div>
             <div>
               <p>
-                Le Service est factur&eacute; &agrave; la minute/minute de
-                pause. &nbsp;
+                Conform&eacute;ment &agrave; nos Conditions
+                G&eacute;n&eacute;rales d&rsquo;Utilisation,
+                l&rsquo;acc&egrave;s &agrave; nos Services est
+                r&eacute;serv&eacute; aux personnes majeures.&nbsp;
               </p>
             </div>
             <div>
-              <p>Les tarifs applicables sont les suivants : &nbsp;</p>
+              <p> &nbsp;</p>
+            </div>
+            <div>
+              <p>
+                <strong>
+                  Quelles sont les donn&eacute;es personnelles trait&eacute;es ?{" "}
+                </strong>
+              </p>
+            </div>
+            <div>
+              <p>
+                Lors de votre cr&eacute;ation d&rsquo;un compte&nbsp;POGO, de
+                votre Inscription, de l&rsquo;utilisation de nos Services, les
+                donn&eacute;es personnelles suivantes sont susceptibles
+                d&rsquo;&ecirc;tre collect&eacute;es et trait&eacute;es :&nbsp;
+              </p>
             </div>
             <div>
               <ul>
                 <li>
-                  <p>0.99 DH la minute.&nbsp;</p>
+                  <p>
+                    Des donn&eacute;es personnelles d&rsquo;identification (nom,
+                    pr&eacute;nom, date de naissance, pi&egrave;ce
+                    d&rsquo;identit&eacute;) ;&nbsp;
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div>
+              <ul>
+                <li>
+                  <p>
+                    Des donn&eacute;es personnelles de contact (e-mail, adresse
+                    postale, num&eacute;ro de t&eacute;l&eacute;phone) ;&nbsp;
+                  </p>
                 </li>
                 <li>
-                  <p>0.19 DH la minute de pause&nbsp;</p>
+                  <p>
+                    Des donn&eacute;es personnelles &agrave; fin de paiement
+                    (donn&eacute;es bancaires) ;&nbsp;
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Des donn&eacute;es de localisation du Scooter (lieu de
+                    r&eacute;cup&eacute;ration et restitution, historiques des
+                    trajets) ;&nbsp;
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Des donn&eacute;es de localisation de votre appareil
+                    mobile.&nbsp;
+                  </p>
                 </li>
               </ul>
             </div>
             <div>
-              <p>
-                Toute Location et tout achat de &laquo; Package &raquo; est
-                factur&eacute;.&nbsp;
-              </p>
+              <p> &nbsp;</p>
             </div>
           </div>
           <div>
             <p>
-              Les &laquo; Packages &raquo; ont une dur&eacute;e de
-              validit&eacute; telle qu&rsquo;elle est indiqu&eacute;e au moment
-              de l&rsquo;achat sur l&rsquo;Application ou le Site Internet.
-              &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              L&rsquo;achat de &laquo; Package &raquo; n&rsquo;est pas
-              remboursable, sauf dans les conditions autorisant &agrave;
-              l&rsquo;Utilisateur d&rsquo;exercer son droit de
-              r&eacute;tractation (voir l&rsquo;article 6).&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              Les prix et les p&eacute;nalit&eacute;s applicables &agrave;
-              l&rsquo;utilisation du Service sont ceux en vigueur au jour de la
-              R&eacute;servation. POGO se r&eacute;serve le droit de les
-              modifier &agrave; tout moment conform&eacute;ment &agrave;
-              l&rsquo;article xxxxxx des pr&eacute;sentes CGU.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
               <strong>
-                ARTICLE 4 &ndash; CONDITIONS D&rsquo;ACCES AU SERVICE{" "}
+                &Agrave; quel moment collectons-nous vos donn&eacute;es
+                personnelles ?{" "}
               </strong>
             </p>
           </div>
           <div>
             <p>
-              Pour acc&eacute;der au Service POGO, l&rsquo;Utilisateur
-              doit :&nbsp;
+              Les donn&eacute;es personnelles sont issues des informations que
+              vous nous communiquez directement lors de votre Inscription
+              &agrave; nos Services.&nbsp;
             </p>
+          </div>
+          <div>
+            <p>
+              L&rsquo;historique de vos trajets est collect&eacute; lors de
+              l&rsquo;utilisation de nos Services.&nbsp;
+            </p>
+          </div>
+          <div>
+            <p> &nbsp;</p>
+          </div>
+          <div>
+            <p>
+              <strong>
+                A quelles fins utilisons-nous vos donn&eacute;es personnelles et
+                pour quelles dur&eacute;es ?{" "}
+              </strong>
+            </p>
+            <img src="/pc.png"></img>
+          </div>
+          <div>
+            <div>
+              <p>&nbsp;</p>
+            </div>
+            <div>
+              <p>
+                <img src="/pc1.png"></img>
+              </p>
+            </div>
+            <div>
+              <p>Sont destinataires des donn&eacute;es :&nbsp;</p>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <p>
+                    POGO, ses filiales, soci&eacute;t&eacute;s affili&eacute;es,
+                    les services concern&eacute;s par le traitement de votre
+                    inscription, notre service client&egrave;le ;&nbsp;
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    nos prestataires et sous-traitants, notamment aux fins de
+                    traitement de vos paiements ou d&rsquo;authentification de
+                    vos documents ;&nbsp;
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
           <div>
             <div>
               <ul>
                 <li>
                   <p>
-                    &Ecirc;tre &acirc;g&eacute; d&rsquo;au moins 18 ans&nbsp;
+                    notre compagnie d&rsquo;assurance (et/ou notre
+                    soci&eacute;t&eacute; de courtage) en cas de sinistres et de
+                    vols ;&nbsp;
                   </p>
                 </li>
                 <li>
                   <p>
-                    Disposer d&rsquo;un smartphone o&ugrave; est
-                    t&eacute;l&eacute;charg&eacute;e la derni&egrave;re version
-                    de l&rsquo;Application POGO.&nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    T&eacute;l&eacute;transmettre &agrave; l&rsquo;aide de
-                    l&rsquo;outil int&eacute;gr&eacute; dans l&rsquo;Application
-                    les informations relatives &agrave; une ou plusieurs cartes
-                    bancaires Visa ou Mastercard en cours de
-                    validit&eacute;.&nbsp;
+                    les autorit&eacute;s de police comp&eacute;tentes en cas
+                    d&rsquo;infraction ; &nbsp;
                   </p>
                 </li>
               </ul>
@@ -334,250 +272,24 @@ export default function Termes() {
             <div>
               <p>
                 <strong>
-                   ARTICLE 5 &ndash; MODALIT&Eacute;S D&rsquo;INSCRIPTION {" "}
+                  Vos donn&eacute;es sont-elles s&eacute;curis&eacute;es ?{" "}
                 </strong>
               </p>
             </div>
             <div>
               <p>
-                <strong>5.1 Inscription</strong> &nbsp;
-              </p>
-            </div>
-          </div>
-          <div>
-            <div>
-              <p>
-                Pour s&rsquo;inscrire et devenir un Utilisateur POGO, le Client
-                doit imp&eacute;rativement :&nbsp;
-              </p>
-            </div>
-            <div>
-              <ul>
-                <li>
-                  <p>
-                    Remplir le formulaire d&rsquo;Inscription dans
-                    l&rsquo;Application, dans lequel l&rsquo;Utilisateur
-                    indique les informations suivantes :&nbsp;
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <ul>
-                <li>
-                  <p>Son nom&nbsp;</p>
-                </li>
-                <li>
-                  <p>Son pr&eacute;nom&nbsp;</p>
-                </li>
-                <li>
-                  <p>Sa date de naissance&nbsp;</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <div>
-              <ul>
-                <li>
-                  <p>Une adresse e-mail valide&nbsp;</p>
-                </li>
-                <li>
-                  <p>
-                    Un num&eacute;ro de t&eacute;l&eacute;phone portable
-                    valide&nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Un mot de passe respectant les pr&eacute;conisations de
-                    s&eacute;curit&eacute; de POGO&nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Avoir consult&eacute; et accept&eacute; les pr&eacute;sentes
-                    CGU ainsi que la Politique de Confidentialit&eacute; de POGO
-                    accessibles sur l&rsquo;Application et sur le Site
-                    Internet www.pogo.ma&nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Les informations relatives &agrave; une ou plusieurs de ses
-                    cartes bancaires Visa ou Mastercard en cours de
-                    validit&eacute; sur l&rsquo;interface de paiement
-                    s&eacute;curis&eacute;e pour le paiement des factures
-                    ult&eacute;rieures&nbsp;
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <p>
-              Les informations communiqu&eacute;es doivent &ecirc;tre exactes et
-              pr&eacute;cises.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              <strong>5.2 Prise d&rsquo;effet  </strong>
-            </p>
-          </div>
-          <div>
-            <p>
-              L&rsquo;Inscription de l&rsquo;Utilisateur prend effet directement
-              &agrave; la fin du processus d&rsquo;Inscription d&eacute;crit
-              ci-dessus. L&rsquo;Utilisateur peut donc b&eacute;n&eacute;ficier
-              des services propos&eacute;s par POGO.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              <strong>5.3 Dur&eacute;e  </strong>
-            </p>
-          </div>
-          <div>
-            <p>
-              L&rsquo;Inscription est sans limite de dur&eacute;e tant que
-              l&rsquo;Utilisateur respecte l&rsquo;ensemble des CGU.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              <strong>5.4 D&eacute;sinscription  </strong>
-            </p>
-          </div>
-          <div>
-            <p>
-              Le Service POGO est un service sans engagement,
-              l&rsquo;Utilisateur peut &agrave; tout moment annuler son
-              inscription en faisant une demande au Service Client par e-mail
-              sur l&rsquo;adresse : <strong>info@pogo.ma</strong>&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              Pour se d&eacute;sinscrire, l&rsquo;Utilisateur doit &ecirc;tre
-              acquitt&eacute; de toutes les sommes qu&rsquo;il doit &agrave;
-              POGO.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              Le solde de l&rsquo;Utilisateur sera perdu d&eacute;finitivement
-              et ne lui sera en aucun cas rembours&eacute;.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              <strong>ARTICLE 6 &ndash; DROIT DE R&Eacute;TRACTATION  </strong>
-            </p>
-          </div>
-          <div>
-            <p>
-              En tant que consommateur, le Client b&eacute;n&eacute;ficie
-              d&rsquo;un droit de r&eacute;tractation conform&eacute;ment aux
-              dispositions de la loi 31-08 &eacute;dictant des mesures de
-              protection du consommateur.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              En acceptant les pr&eacute;sentes CGU, l&rsquo;Utilisateur consent
-              que le contrat entre lui et POGO devient effectif d&egrave;s la
-              confirmation de sa premi&egrave;re R&eacute;servation, et renonce
-              express&eacute;ment &agrave; son droit de r&eacute;traction,
-              conform&eacute;ment aux dispositions des articles de la loi 31-08
-              &eacute;dictant des mesures de protection du consommateur.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              Lorsqu&rsquo;il s&rsquo;agit d&rsquo;achat de
-              &laquo; Package &raquo;, l&rsquo;Utilisateur peut exercer son
-              droit de r&eacute;tractation dans un d&eacute;lai de sept (7)
-              jours &agrave; compter de la date de l&rsquo;achat. Dans ce cas,
-              l&rsquo;Utilisateur remplit et envoie le formulaire de
-              r&eacute;tractation disponible ici au Service Client avant
-              l&rsquo;expiration du d&eacute;lai susvis&eacute; &agrave;
-              l&rsquo;adresse info@pogo.ma&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              Si l&rsquo;Utilisateur exerce son droit de r&eacute;tractation
-              sans avoir commenc&eacute; l&rsquo;utilisation du Service,
-              l&rsquo;Utilisateur est int&eacute;gralement rembours&eacute; du
-              montant du &laquo; Package &raquo; pay&eacute;.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-               
-              <strong>
-                ARTICLE 7 &ndash; MODALIT&Eacute;S D&rsquo;UTILISATION DU
-                SERVICE POGO{" "}
-              </strong>
-            </p>
-          </div>
-          <div>
-            <div>
-              <p>
-                Le Service POGO n&rsquo;est accessible que via
-                l&rsquo;Application. L&rsquo;Utilisateur se doit de prendre
-                toutes les mesures et les pr&eacute;cautions n&eacute;cessaires
-                pour assurer l&rsquo;acc&egrave;s &agrave; l&rsquo;Application
-                via son smartphone disponible sur Android et iOS.&nbsp;
+                Nous nous engageons &agrave; prendre toutes les
+                pr&eacute;cautions utiles, mesures organisationnelles et
+                techniques appropri&eacute;es pour pr&eacute;server la
+                s&eacute;curit&eacute;, l&rsquo;int&eacute;grit&eacute; et la
+                confidentialit&eacute; des Donn&eacute;es, et notamment,
+                emp&ecirc;cher qu&rsquo;elles soient alt&eacute;r&eacute;es,
+                modifi&eacute;es ou  supprim&eacute;es ou que des tiers non
+                autoris&eacute;s y aient acc&egrave;s.&nbsp;
               </p>
             </div>
             <div>
-              <p>
-                <strong>7.1 Espace Personnel  </strong>
-              </p>
-            </div>
-            <div>
-              <p>Sur l&rsquo;Application, l&rsquo;Utilisateur peut :&nbsp;</p>
-            </div>
-            <div>
-              <ul>
-                <li>
-                  <p>Contacter le Service Client &nbsp;</p>
-                </li>
-                <li>
-                  <p>Consulter les FAQ (Frequently Asked Questions)&nbsp;</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <div>
-              <ul>
-                <li>
-                  <p>Consulter les CGU&nbsp;</p>
-                </li>
-                <li>
-                  <p>
-                    Mettre &agrave; jour ses donn&eacute;es personnelles
-                    (adresse, mot de passe, cartes bancaires)&nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>Modifier sa ville de pr&eacute;f&eacute;rence&nbsp;</p>
-                </li>
-                <li>
-                  <p>
-                    Consulter son historique de R&eacute;servations et de
-                    Locations&nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Consulter et t&eacute;l&eacute;charger ses factures&nbsp;
-                  </p>
-                </li>
-              </ul>
+              <p>Nous avons notamment pris les mesures suivantes :&nbsp;</p>
             </div>
           </div>
           <div>
@@ -585,986 +297,102 @@ export default function Termes() {
               <ul>
                 <li>
                   <p>
-                    Consulter son solde et acheter des
-                    &laquo; Packages &raquo;&nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>Saisir un Code promotionnel&nbsp;</p>
-                </li>
-                <li>
-                  <p>Modifier et partager son Code de parrainage&nbsp;</p>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p>&nbsp;</p>
-            </div>
-            <div>
-              <p>
-                <strong>7.2 Service Client </strong>
-              </p>
-            </div>
-          </div>
-          <div>
-            <p>
-              Les Utilisateurs peuvent contacter le Service Client comme
-              suit :&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              Par t&eacute;l&eacute;phone au +212 695 423 240, notamment en cas
-              de probl&egrave;me, de dysfonctionnement du Service ou pour
-              signaler un incident technique.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              Par e-mail &agrave; l&rsquo;adresse info@pogo.ma pour poser des
-              questions &agrave; propos de son compte POGO, signaler un
-              probl&egrave;me technique rencontr&eacute; sur le V&eacute;hicule
-              &eacute;lectrique ou sur l&rsquo;Application POGO, ou plus
-              g&eacute;n&eacute;ralement apporter un commentaire.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              <strong>
-                7.3 Informations sur les V&eacute;hicules et la
-                R&eacute;servation
-              </strong>
-              &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>Sur l&rsquo;Application, l&rsquo;Utilisateur peut :&nbsp;</p>
-          </div>
-          <div>
-            <div>
-              <ul>
-                <li>
-                  <p>
-                    Visualiser le positionnement et l&rsquo;autonomie des
-                    V&eacute;hicules disponibles dans les Parkings POGO&nbsp;
+                    Lors de leur transmission, nous utilisons des
+                    syst&egrave;mes de chiffrement afin de garantir la
+                    s&eacute;curit&eacute; de vos donn&eacute;es
+                    personnelles ;&nbsp;
                   </p>
                 </li>
                 <li>
                   <p>
-                    Proc&eacute;der &agrave; la R&eacute;servation d&rsquo;un
-                    Scooter&nbsp;
+                    L&rsquo;acc&egrave;s au r&eacute;seau et aux syst&egrave;mes
+                    d&rsquo;information est limit&eacute; au personnel disposant
+                    de droits d&rsquo;acc&egrave;s ;&nbsp;
                   </p>
-                </li>
-                <li>
-                  <p>Annuler sa R&eacute;servation&nbsp;</p>
                 </li>
                 <li>
                   <p>
-                    Restituer un V&eacute;hicule lou&eacute; selon les termes
-                    pr&eacute;vus par les pr&eacute;sentes CGU&nbsp;
+                    Les Utilisateurs disposent de mots de passe uniques (gestion
+                    des mots de passe garantissant des mots de passe forts et
+                    double authentification) ;&nbsp;
                   </p>
+                </li>
+                <li>
+                  <p>Pares-feux&nbsp;</p>
                 </li>
               </ul>
             </div>
             <div>
               <p>
-                <strong>7.4 Location d&rsquo;un V&eacute;hicule </strong>
+                Cependant, nous ne pouvons garantir l&rsquo;&eacute;limination
+                de tout risque d&rsquo;utilisation abusive des Donn&eacute;es.
+                Il importe que vous pr&eacute;serviez la confidentialit&eacute;
+                de vos identifiants de fa&ccedil;on &agrave; emp&ecirc;cher une
+                utilisation illicite de votre compte.&nbsp;
               </p>
             </div>
           </div>
           <div>
+            <p> &nbsp;</p>
+          </div>
+          <div>
             <p>
-              <strong>
-                7.4.1 R&eacute;servation d&rsquo;un V&eacute;hicule{" "}
-              </strong>
+              <strong>Quels sont vos droits ? </strong>
             </p>
           </div>
           <div>
             <p>
-              L&rsquo;Utilisateur choisit un V&eacute;hicule disponible, puis le
-              r&eacute;serve via l&rsquo;Application. Il dispose alors de 15
-              minutes pour se rendre au V&eacute;hicule r&eacute;serv&eacute; et
-              le d&eacute;verrouiller en scannant gr&acirc;ce &agrave;
-              l&rsquo;Application le code figurant sur le V&eacute;hicule.
-              &nbsp;
+              Conform&eacute;ment &agrave; la R&eacute;glementation Informatique
+              et Libert&eacute;s, et sous r&eacute;serve du paiement de
+              l&rsquo;ensemble des sommes dues tel que pr&eacute;cis&eacute; aux
+              Conditions G&eacute;n&eacute;rales d&rsquo;Utilisation de nos
+              services, vous pouvez &agrave; tout moment retirer le consentement
+              que vous nous auriez pr&eacute;alablement donn&eacute; lors de
+              l&rsquo;inscription &agrave; nos services.&nbsp;
             </p>
           </div>
           <div>
             <p>
-              Le scan du code du V&eacute;hicule marque la fin de la
-              p&eacute;riode de R&eacute;servation du et le d&eacute;marrage de
-              la p&eacute;riode de Location.&nbsp;
+              Vous pouvez acc&eacute;der et obtenir copie des donn&eacute;es
+              vous concernant, les faire rectifier, sous certaines conditions
+              vous opposez &agrave; leur traitement ou les faire effacer.&nbsp;
             </p>
           </div>
           <div>
             <p>
-              <strong>
-                7.4.2 &Eacute;tat des lieux &agrave; la prise du V&eacute;hicule{" "}
-              </strong>
+              Vous disposez &eacute;galement d&rsquo;un droit &agrave; la
+              limitation du traitement de vos Donn&eacute;es et &agrave; leur
+              portabilit&eacute; vers des tiers.&nbsp;
             </p>
           </div>
           <div>
             <p>
-              L&rsquo;Utilisateur s&rsquo;engage &agrave; signaler au Service
-              Client tout d&eacute;g&acirc;t qu&rsquo;il aura observ&eacute; sur
-              le V&eacute;hicule avant son d&eacute;part, via la rubrique
-              d&eacute;di&eacute;e de l&rsquo;Application ou par
-              t&eacute;l&eacute;phone. L&rsquo;Utilisateur s&rsquo;engage, dans
-              la mesure du possible, &agrave; prendre des photos des
-              d&eacute;g&acirc;ts constat&eacute;s et les transmettre par
-              l&rsquo;interm&eacute;diaire du formulaire de Contact dans
-              l&rsquo;Application.&nbsp;
+              Vous avez enfin la possibilit&eacute; de d&eacute;finir des
+              directives relatives au sort de vos Donn&eacute;es Personnelles
+              apr&egrave;s votre d&eacute;c&egrave;s.&nbsp;
             </p>
           </div>
           <div>
-            <div>
-              <p>
-                Liste non exhaustive des d&eacute;g&acirc;ts que
-                l&rsquo;Utilisateur doit signaler au Service Client :&nbsp;
-              </p>
-            </div>
-            <div>
-              <ul>
-                <li>
-                  <p>Car&eacute;nages cass&eacute;s&nbsp;</p>
-                </li>
-                <li>
-                  <p>Pneu crev&eacute;&nbsp;</p>
-                </li>
-                <li>
-                  <p>R&eacute;troviseur manquant&nbsp;</p>
-                </li>
-                <li>
-                  <p>Phare cass&eacute; &nbsp;</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <div>
-              <ul>
-                <li>
-                  <p>B&eacute;quille cass&eacute;e&nbsp;</p>
-                </li>
-                <li>
-                  <p>Levier de frein cass&eacute; ou tordu&nbsp;</p>
-                </li>
-                <li>
-                  <p>Freins d&eacute;faillants &nbsp;</p>
-                </li>
-                <li>
-                  <p>Lumi&egrave;res ne fonctionnant pas correctement&nbsp;</p>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p>
-                Dans de telles circonstances, l&rsquo;Utilisateur s&rsquo;engage
-                &agrave; ne pas utiliser le V&eacute;hicule
-                endommag&eacute;.&nbsp;
-              </p>
-            </div>
-          </div>
-          <div>
-            <div>
-              <p>
-                <strong>7.4.3 D&eacute;marrage du V&eacute;hicule </strong>
-              </p>
-            </div>
-            <div>
-              <p>
-                Pour d&eacute;marrer le Scooter, l&rsquo;Utilisateur
-                doit :&nbsp;
-              </p>
-            </div>
-            <div>
-              <ul>
-                <li>
-                  <p>
-                    Sur l&rsquo;Application, appuyer sur &lsquo;&rsquo; Louer
-                    &lsquo;&rsquo;&nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>Prendre le Casque attach&eacute; au Scooter&nbsp;</p>
-                </li>
-                <li>
-                  <p>
-                    Ajuster le Casque &agrave; sa taille et
-                    l&rsquo;enfiler&nbsp;
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <div>
-              <ul>
-                <li>
-                  <p>Ajuster les r&eacute;troviseurs&nbsp;</p>
-                </li>
-                <li>
-                  <p>Commencer son trajet&nbsp;</p>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p>
-                <strong>7.4.4 Proc&eacute;dure de pause </strong>
-              </p>
-            </div>
-            <div>
-              <p>
-                Pour stationner temporairement le Scooter, l&rsquo;Utilisateur
-                doit :&nbsp;
-              </p>
-            </div>
-            <div>
-              <ul>
-                <li>
-                  <p>
-                    B&eacute;quiller le Scooter sur un emplacement
-                    autoris&eacute;&nbsp;
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <div>
-              <ul>
-                <li>
-                  <p>Attacher le Casque au crochet&nbsp;</p>
-                </li>
-                <li>
-                  <p>
-                    Retirer tous Accessoires de l&rsquo;Utilisateur du Scooter,
-                    POGO ne pouvant en aucun cas &ecirc;tre tenue responsable de
-                    tout objet oubli&eacute; ou vol&eacute;.&nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Sur l&rsquo;Application, appuyer sur &lsquo;&rsquo; P mode
-                    &lsquo;&rsquo;&nbsp;
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p>
-                Pendant la p&eacute;riode de Pause, chaque minute est
-                factur&eacute;e selon le prix indiqu&eacute; dans
-                l&rsquo;article 3.&nbsp;
-              </p>
-            </div>
-            <div>
-              <p>
-                <strong>
-                  7.4.6 Proc&eacute;dure de restitution du Scooter et de fin de
-                  Location{" "}
-                </strong>
-              </p>
-            </div>
-          </div>
-          <div>
-            <div>
-              <p>
-                Pour restituer le Scooter et mettre fin &agrave; sa Location,
-                l&rsquo;Utilisateur doit :&nbsp;
-              </p>
-            </div>
-            <div>
-              <ul>
-                <li>
-                  <p>
-                    S&rsquo;assurer d&rsquo;&ecirc;tre dans un Parking POGO
-                    (indiqu&eacute; sur l&rsquo;Application).&nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>B&eacute;quiller le Scooter.&nbsp;</p>
-                </li>
-                <li>
-                  <p>
-                    Restituer le Casque en l&rsquo;accrochant au Scooter&nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Retirer tous les Accessoires de l&rsquo;Utilisateur du
-                    Scooter, POGO ne pouvant en aucun cas &ecirc;tre tenue
-                    responsable de tout objet oubli&eacute; ou
-                    vol&eacute;.&nbsp;
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <div>
-              <ul>
-                <li>
-                  <p>
-                    Sur l&rsquo;Application, appuyer sur &lsquo;&rsquo; Fin
-                    &lsquo;&rsquo; &nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Prendre une photo du Scooter &agrave; travers
-                    l&rsquo;Application&nbsp;
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p>
-                L&rsquo;Utilisateur est responsable du contr&ocirc;le que la fin
-                de sa Location est effective. Si le Scooter a &eacute;t&eacute;
-                restitu&eacute; d&rsquo;une mani&egrave;re incorrecte, POGO ne
-                pourra pas &ecirc;tre tenue responsable d&rsquo;une facturation
-                prolong&eacute;e.&nbsp;
-              </p>
-            </div>
-            <div>
-              <p>
-                <strong>
-                  7.4.7 Fin de Location d&eacute;clench&eacute;e par POGO{" "}
-                </strong>
-              </p>
-            </div>
-            <div>
-              <p>
-                POGO se r&eacute;serve le droit de suspendre
-                l&rsquo;acc&egrave;s au Service sans pr&eacute;avis,
-                d&rsquo;annuler une R&eacute;servation ou de mettre fin &agrave;
-                une Location dans les cas suivants, et ce sans qu&rsquo;aucune
-                indemnit&eacute; ne soit due &agrave; l&rsquo;Utilisateur
-                :&nbsp;
-              </p>
-            </div>
-          </div>
-          <div>
-            <div>
-              <ul>
-                <li>
-                  <p>
-                    Probl&egrave;me technique ou incident de
-                    s&eacute;curit&eacute; affectant l&rsquo;utilisation du
-                    Service ou la gestion des V&eacute;hicules.&nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Fermeture du Service sur la d&eacute;cision d&rsquo;une
-                    autorit&eacute; comp&eacute;tente ou pour toute raison
-                    propre &agrave; POGO.&nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>Force majeure.&nbsp;</p>
-                </li>
-                <li>
-                  <p>
-                    Panne ou accident du V&eacute;hicule concern&eacute;.&nbsp;
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Suspension ou d&eacute;sactivation du compte de
-                    l&rsquo;Utilisateur ou de son acc&egrave;s au Service &nbsp;
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <div>
-              <ul>
-                <li>
-                  <p>Vol du V&eacute;hicule pendant une Location.&nbsp;</p>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p>
-                 &nbsp;
-                <br />
-                <strong>7.5 Proc&eacute;dure d&rsquo;assistance </strong>
-              </p>
-            </div>
-            <div>
-              <p>
-                En cas d&rsquo;accident mat&eacute;riel et/ou corporel, de
-                panne, ou de crevaison, l&rsquo;Utilisateur doit obligatoirement
-                d&eacute;clencher la proc&eacute;dure d&rsquo;assistance en
-                appelant le Service Client POGO au num&eacute;ro suivant
-                +212 695 423 240, (co&ucirc;t d&rsquo;un appel local depuis un
-                t&eacute;l&eacute;phone portable marocain)&nbsp;
-              </p>
-            </div>
-            <div>
-              <p>
-                <strong>ARTICLE 8 &ndash; PAIEMENTS</strong>&nbsp;
-              </p>
-            </div>
-            <div>
-              <p>
-                <strong>&nbsp;8.1 Dispositions g&eacute;n&eacute;rales </strong>
-              </p>
-            </div>
+            <p>Exercer ses droits&nbsp;</p>
           </div>
           <div>
             <p>
-              L&rsquo;Utilisateur s&rsquo;engage &agrave; s&rsquo;acquitter de
-              toutes les sommes dont il serait redevable dans le cadre de
-              l&rsquo;utilisation du Service POGO, notamment :&nbsp;
+              L&rsquo;exercice de ces droits s&rsquo;effectue &agrave; tout
+              moment, aupr&egrave;s de&nbsp;POGO, &agrave; l&rsquo;aide
+              d&rsquo;une pi&egrave;ce d&rsquo;identit&eacute; par voie
+              &eacute;lectronique : support@pogo.ma.&nbsp;
             </p>
           </div>
           <div>
-            <p>Le prix d&rsquo;utilisation du Service POGO.&nbsp;</p>
+            <p>R&eacute;clamation aupr&egrave;s de la&nbsp;CNDP&nbsp;</p>
           </div>
           <div>
             <p>
-              Les contraventions dues aux &eacute;ventuelles infractions au Code
-              de la route que l&rsquo;Utilisateur aura commises.&nbsp;
+              Si vous estimez, apr&egrave;s nous avoir contact&eacute;s, que vos
+              droits sur vos donn&eacute;es ne sont pas respect&eacute;s, vous
+              pouvez adresser une r&eacute;clamation &agrave;
+              la&nbsp;CNDP.&nbsp;
             </p>
-          </div>
-          <div>
-            <p>
-              Les p&eacute;nalit&eacute;s &eacute;num&eacute;r&eacute;es
-              &agrave; l&rsquo;article 10 des pr&eacute;sentes CGU.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              Les franchises d&rsquo;assurance en cas d&rsquo;accident.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              <strong>8.2 Paiement de la Location</strong>&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              Le prix de la Location, d&eacute;fini conform&eacute;ment &agrave;
-              l&rsquo;article 3 est exigible &agrave; la fin de chaque
-              Location.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              POGO &eacute;met une facture apr&egrave;s que l&rsquo;Utilisateur
-              aie effectu&eacute; une ou plusieurs Locations. Le
-              pr&eacute;l&egrave;vement sera effectu&eacute; soit depuis son
-              solde POGO ou depuis la carte bancaire de l&rsquo;Utilisateur
-              (selon le mode qu&rsquo;il a choisi) dont les coordonn&eacute;es
-              ont &eacute;t&eacute; saisies au moment de l&rsquo;Inscription,
-              dans l&rsquo;intervalle de temps indiqu&eacute; sur la
-              facture.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              En cas de rejet du pr&eacute;l&egrave;vement, l&rsquo;Utilisateur
-              peut r&eacute;gler sa facture directement &agrave; POGO depuis son
-              Espace Personnel. La r&eacute;gularisation d&rsquo;un incident de
-              paiement par paiement direct permettra le d&eacute;blocage de
-              l&rsquo;acc&egrave;s au Service de l&rsquo;Utilisateur, sauf si le
-              blocage r&eacute;sulte &eacute;galement du non-respect
-              d&rsquo;autres stipulations des pr&eacute;sentes CGU.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              <strong>8.1 Mise &agrave; jour des moyens de paiement </strong>
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              L&rsquo;Utilisateur doit mettre &agrave; jour ses
-              coordonn&eacute;es et informations bancaires au fur et &agrave;
-              mesure de leurs &eacute;ventuels changements, afin que les
-              informations &agrave; disposition de POGO soient &agrave; jour
-              pendant toute la dur&eacute;e de la relation contractuelle.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              Dans le cas o&ugrave; la carte bancaire de l&rsquo;Utilisateur
-              s&rsquo;expirera, il doit absolument mettre &agrave; jour ses
-              coordonn&eacute;es bancaires quinze (15) jours avant
-              l&rsquo;expiration de sa carte.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              En cas d&rsquo;invalidit&eacute; de la carte bancaire de
-              l&rsquo;Utilisateur pour une raison quelconque, POGO pourra
-              suspendre l&rsquo;acc&egrave;s au Service jusqu&rsquo;&agrave; ce
-              que la situation soit r&eacute;gularis&eacute;. &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              <strong>
-                &nbsp;8.2 Autorisation de pr&eacute;l&egrave;vement sur la carte
-                bancaire
-              </strong>
-              &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              En saisissant ses r&eacute;f&eacute;rences de carte bancaire lors
-              de son Inscription ou dans le cadre de toute mise &agrave; jour de
-              ses informations bancaires dans son Espace Personnel, et en
-              acceptant les pr&eacute;sentes CGU, l&rsquo;Utilisateur consent
-              &agrave; POGO une autorisation de pr&eacute;l&egrave;vement sur
-              carte bancaire pour tous montants dus par l&rsquo;Utilisateur
-              notamment :&nbsp;
-            </p>
-          </div>
-          <div>
-            <div>
-              <ul>
-                <li>
-                  <p>Les frais de Location.&nbsp;</p>
-                </li>
-                <li>
-                  <p>Les p&eacute;nalit&eacute;s.&nbsp;</p>
-                </li>
-                <li>
-                  <p>La franchise en cas d&rsquo;accident ou de vol. &nbsp;</p>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p>
-                <strong>8.3 Facturation </strong>
-              </p>
-            </div>
-            <div>
-              <p>&nbsp;</p>
-            </div>
-          </div>
-          <div>
-            <div>
-              <p>
-                L&rsquo;Utilisateur s&rsquo;engage &agrave; payer les frais de
-                Location correspondants. Ces frais de Location incluent le
-                montant &eacute;quivalent du nombre de minutes de location ainsi
-                que le montant pour chaque minute de Pause. &nbsp;
-              </p>
-            </div>
-            <div>
-              <p>
-                Les frais appliqu&eacute;s sont conformes &agrave; ceux
-                indiqu&eacute;s sur l&rsquo;Application POGO ainsi que dans
-                l&rsquo;article 3 des CGU ci-pr&eacute;sentes.&nbsp;
-              </p>
-            </div>
-            <div>
-              <p>
-                Les frais de Location sont dus d&egrave;s la fin du contrat de
-                Location.&nbsp;
-              </p>
-            </div>
-            <div>
-              <p>
-                L&rsquo;Utilisateur peut choisir parmi les modes de paiement
-                affich&eacute;s lors du processus de commande :&nbsp;
-              </p>
-            </div>
-            <div>
-              <ul>
-                <li>
-                  <p>Payement par carte bancaire &nbsp;</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <div>
-              <ul>
-                <li>
-                  <p>
-                    Payement par le solde sur son Compte POGO issu de
-                    l&rsquo;achat d&rsquo;un Pack&nbsp;
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p>
-                Pour tout remboursement, POGO utilise toujours le m&ecirc;me
-                mode de paiement que celui utilis&eacute; par
-                l&rsquo;Utilisateur pour la transaction initiale.&nbsp;
-              </p>
-            </div>
-            <div>
-              <p>
-                En acceptant les pr&eacute;sentes CGU, l&rsquo;Utilisateur
-                d&eacute;clare que lui et lui seul dispose du droit l&eacute;gal
-                d&rsquo;utiliser le mode de paiement pr&eacute;vu et
-                d&rsquo;autoriser les transactions. Dans le cas o&ugrave; POGO
-                soup&ccedil;onne que les informations concernant le mode de
-                paiement qui ont &eacute;t&eacute; transmises par
-                l&rsquo;Utilisateur sont frauduleuses, POGO se r&eacute;serve le
-                droit de bloquer compl&egrave;tement l&rsquo;acc&egrave;s au
-                compte ainsi qu&rsquo;aux Service POGO sans notification
-                pr&eacute;alable, l&rsquo;Utilisateur devra se justifier et
-                clarifier la situation au Support de POGO afin de
-                d&eacute;bloquer son compte et reprendre l&rsquo;utilisation du
-                Service.&nbsp;
-              </p>
-            </div>
-            <div>
-              <p>
-                Il est de la responsabilit&eacute; de l&rsquo;Utilisateur de
-                veiller &agrave; ce que ses fonds soient suffisant pour faire
-                une Location. Que ce soit le solde sur son compte POGO (issu de
-                l&rsquo;achat de Package), ou les fonds sur sa carte
-                bancaire.&nbsp;
-              </p>
-            </div>
-            <div>
-              <p>&nbsp;</p>
-            </div>
-          </div>
-          <div>
-            <p>
-              <strong>
-                ARTICLE 9 &ndash; OBLIGATIONS DE L&rsquo;UTILISATEUR
-              </strong>
-              &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              <strong>
-                &nbsp;9.1 Engagement de l&rsquo;Utilisateur par rapport au
-                V&eacute;hicule POGO
-              </strong>
-              &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              Avant d&rsquo;entamer sa Location et commencer la conduite du
-              V&eacute;hicule POGO, l&rsquo;Utilisateur doit s&rsquo;assurer que
-              le V&eacute;hicule et ses accessoires sont dans un bon &eacute;tat
-              et pr&ecirc;t &agrave; &ecirc;tre utilis&eacute; (pneus en bon
-              &eacute;tat, r&eacute;troviseurs fonctionnels ..)&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              L&rsquo;Utilisateur doit conduire le V&eacute;hicule en respectant
-              les dispositions du Code la route et conform&eacute;ment aux CGU
-              ci-pr&eacute;sentes. Tout en utilisant les &eacute;l&eacute;ments
-              de s&eacute;curit&eacute; fournis.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              Durant toute la dur&eacute;e du Location, l&rsquo;Utilisateur est
-              responsable du V&eacute;hicule et doit le consid&eacute;rer comme
-              sa propre propri&eacute;t&eacute;. Il doit donc le stationner dans
-              les endroits autoris&eacute;s et s&rsquo;assurer qu&rsquo;il est
-              en s&eacute;curit&eacute; (pr&eacute;sence de cam&eacute;ras de
-              surveillance ou agent de s&eacute;curit&eacute;). &nbsp;
-            </p>
-          </div>
-          <div>
-            <div>
-              <p>
-                Une fois en circulation, il est interdit &agrave;
-                l&rsquo;Utilisateur de manger, boire, fumer ou pratiquer toute
-                activit&eacute; pouvant compromettre sa
-                s&eacute;curit&eacute;.&nbsp;
-              </p>
-            </div>
-            <div>
-              <p>
-                L&rsquo;Utilisateur doit respecter le nombre de passagers
-                transport&eacute;s autoris&eacute;s pour chaque
-                v&eacute;hicule :&nbsp;
-              </p>
-            </div>
-            <div>
-              <ul>
-                <li>
-                  <p>2 passagers pour les Scooters&nbsp;</p>
-                </li>
-                <li>
-                  <p>1 passager pour les Trottinettes &nbsp;</p>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p>
-                L&rsquo;Utilisateur ne pourra utiliser le V&eacute;hicule ou
-                permettre &agrave; quiconque de l&rsquo;utiliser pour une
-                activit&eacute; &agrave; laquelle il n&rsquo;est pas
-                con&ccedil;u ou &agrave; des fins illicites.&nbsp;
-              </p>
-            </div>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              <strong>
-                &nbsp;9.3 Conducteur d&rsquo;un v&eacute;hicule POGO{" "}
-              </strong>
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              Les V&eacute;hicules POGO ne doivent &ecirc;tre conduit que par
-              l&rsquo;Utilisateur qui les a lou&eacute;s. L&rsquo;Utilisateur
-              s&rsquo;engage &agrave; ne laisser aucune autre personne que
-              lui-m&ecirc;me conduire le V&eacute;hicule, m&ecirc;me si cette
-              derni&egrave;re est &eacute;galement un Utilisateur du Service
-              POGO.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              En cas de non-respect de cet engagement, l&rsquo;Utilisateur aura
-              affaire &agrave; des p&eacute;nalit&eacute;s. &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              Toute utilisation de l&rsquo;Application avec les Identifiants de
-              l&rsquo;Utilisateur est consid&eacute;r&eacute;e avoir
-              &eacute;t&eacute; faite par l&rsquo;Utilisateur lui-m&ecirc;me. Il
-              est d&rsquo;ailleurs responsable de la cr&eacute;ation, de la
-              conservation et de l&rsquo;utilisation de ses Identifiants, qui
-              lui sont strictement personnels et ne doivent pas &ecirc;tre
-              communiqu&eacute;s &agrave; d&rsquo;autres personnes. Il est de sa
-              responsabilit&eacute; de pr&eacute;server leur
-              confidentialit&eacute; et s&eacute;curit&eacute;. &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              En cas de perte ou de vol de son mot de passe, l&rsquo;Utilisateur
-              doit le modifier imm&eacute;diatement pour que son compte soit en
-              s&eacute;curit&eacute;.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              L&rsquo;Utilisateur est enti&egrave;rement responsable de toute
-              utilisation du Service via l&rsquo;Application install&eacute;e
-              sur son smartphone. M&ecirc;me si cette utilisation a
-              &eacute;t&eacute; faite par un tiers &agrave; son insu.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              <strong>9.5 Capacit&eacute; de conduite </strong>
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              L&rsquo;Utilisateur s&rsquo;engage au moment de
-              l&rsquo;utilisation d&rsquo;un V&eacute;hicule POGO &agrave; ne
-              pas se trouver sous l&rsquo;emprise de l&rsquo;alcool, de la
-              drogue, de m&eacute;dicaments ou toute autre substance
-              alt&eacute;rant ses facult&eacute;s ou sa capacit&eacute; &agrave;
-              ma&icirc;triser le V&eacute;hicule. &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              <strong>9.7 Dommages </strong>
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              L&rsquo;Utilisateur est seul et entier responsable des dommages
-              aux personnes et aux biens (en ce compris au V&eacute;hicule)
-              caus&eacute;s par l&rsquo;utilisation qui est faite du Scooter
-              durant toute la dur&eacute;e de la Location.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              L&rsquo;Utilisateur est tenu de restituer le V&eacute;hicule dans
-              le m&ecirc;me &eacute;tat que celui o&ugrave; il &eacute;tait
-              avant la Location. En cas de perte ou de dommages survenus pendant
-              la p&eacute;riode de Location, l&rsquo;Utilisateur devra
-              indemniser POGO des pr&eacute;judices et frais encourus. Lors de
-              la r&eacute;paration, le prix sera communiqu&eacute; &agrave;
-              l&rsquo;Utilisateur et pr&eacute;lev&eacute; sur sa carte
-              bancaire. &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              En cas d&apos;insuffisance des fonds permettant d&eacute;duire ces
-              frais, POGO pourra contacter l&rsquo;Utilisateur afin que ce
-              dernier puisse effectuer le paiement de ces montants.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              <strong>ARTICLE 10 &ndash; PENALITES ET SANCTIONS : </strong>
-            </p>
-          </div>
-          <div>
-            <p>
-              Des p&eacute;nalit&eacute;s seront appliqu&eacute;es &agrave;
-              l&rsquo;Utilisateur en cas de non-respect des pr&eacute;sentes
-              CGU : &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              Abandon du V&eacute;hicule pendant la Location hors Parking POGO :
-              &nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              La Location reste effective sans plafonnement de facturation
-              jusqu&rsquo;&agrave; la restitution du V&eacute;hicule par
-              l&rsquo;Utilisateur ou, si ce dernier refuse, jusqu&rsquo;&agrave;
-              ce qu&rsquo;un agent ou un d&eacute;panneur mandat&eacute; par
-              POGO le r&eacute;cup&egrave;re. L&rsquo;Utilisateur sera
-              factur&eacute; des frais de la Location ainsi que du rapatriement
-              du V&eacute;hicule au Parking POGO.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>D&eacute;faut de Paiement :&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              Non-paiement des sommes dues &agrave; POGO par
-              l&rsquo;Utilisateur.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              Sanction : Suspension de l&rsquo;acc&egrave;s au Service
-              jusqu&rsquo;au paiement des sommes dues.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              Panne de batterie : due &agrave; la n&eacute;gligence de
-              l&rsquo;Utilisateur et entrainant l&rsquo;intervention de POGO ou
-              d&rsquo;un d&eacute;panneur mandat&eacute; par POGO.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>Perte ou d&eacute;gradation du Casque :&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              Enl&egrave;vement du Scooter en fourri&egrave;re ou par les
-              services de Police : due &agrave; un stationnement
-              non-autoris&eacute;.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>
-              <strong>ARTICLE 11&ndash; ASSURANCES : </strong>
-            </p>
-          </div>
-          <div>
-            <p>
-              En utilisant les services de POGO, l&rsquo;Utilisateur est
-              assur&eacute;.&nbsp;
-            </p>
-          </div>
-          <div>
-            <p>
-              <strong>11.1 Assurance Responsabilit&eacute; Civile&nbsp;</strong>
-            </p>
-          </div>
-          <div>
-            <p>
-              <strong>11.2 Protection du conducteur&nbsp;</strong>
-            </p>
-          </div>
-          <div>
-            <p>
-              <strong>
-                11.3 Protection de la personne transport&eacute;e{" "}
-              </strong>
-            </p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
-          </div>
-          <div>
-            <p>&nbsp;</p>
           </div>
           <div>
             <p>&nbsp;</p>
