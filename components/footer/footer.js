@@ -77,7 +77,7 @@ const Footer = () => {
           <h2>liens utiles</h2>
           <ul>
             <li>
-              <a href="/cgu">
+              <a href="/termesetconditions">
                 {" "}
                 <AiOutlineRight className={styles.icon}></AiOutlineRight>Termes
                 et Conditions{" "}
