@@ -17,11 +17,19 @@ const Map = () => {
         <div className={styles.text}>
           <div>
             <img src="rec.png" width="30px" height="30px"></img>
-            <p>Fès – 24 scooters et 6 trottinettes </p>
+            <p>Fès – 10 scooters et 12 trottinettes </p>
           </div>
           <div>
             <img src="rec.png" width="30px" height="30px"></img>
-            <p>Ifrane – 6 scooters et 6 trottinettes </p>
+            <p>Marrakech – 10 scooters </p>
+          </div>
+          <div>
+            <img src="rec.png" width="30px" height="30px"></img>
+            <p>Agadir – 8 scooters </p>
+          </div>
+          <div>
+            <img src="rec.png" width="30px" height="30px"></img>
+            <p>Ben Guerir </p>
           </div>
         </div>
       </div>

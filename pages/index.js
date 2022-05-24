@@ -57,7 +57,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.mockup}>
-            <img src="/mockup.png" alt="application de pogo"></img>
+            <img src="/HP.png" alt="application de pogo"></img>
           </div>
         </div>
 
@@ -142,7 +142,7 @@ export default function Home() {
           <div className={styles.tarif}>
             <h2>POGO Prix Basique </h2>
             <img src="basic.png" width="150px"></img>
-            <p className={styles.price}>0.89 DH / min </p>
+            <p className={styles.price}>0.99 DH / min </p>
             <span style={{ fontWeight: "700" }}>0.19 DH / min de pause</span>
             <p>
               {" "}

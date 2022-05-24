@@ -52,6 +52,22 @@ const Partenaire = () => {
           className={styles.partner}
         ></img>
       </div>
+      <div>
+        <img
+          src="/pp.png"
+          width="200px"
+          height="50px"
+          className={styles.partner}
+        ></img>
+      </div>
+      <div>
+        <img
+          src="/UEMF.png"
+          width="200px"
+          height="100px"
+          className={styles.partner}
+        ></img>
+      </div>
     </Marquee>
   );
 };
