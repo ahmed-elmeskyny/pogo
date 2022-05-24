@@ -57,7 +57,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.mockup}>
-            <img src="/HP.png" alt="application de pogo"></img>
+            <img src="/HP2.png" alt="application de pogo"></img>
           </div>
         </div>
 
