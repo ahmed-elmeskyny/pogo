@@ -15,7 +15,10 @@ import Dynamic from "../components/dynamicAbout/dynamic";
 import Scooter from "../components/scooter/scooter";
 import Map from "../components/map/map";
 
+import useTranslation from "next-translate/useTranslation";
+
 export default function Home() {
+  const { t } = useTranslation("home");
   return (
     <div className={styles.container}>
       <Head>
@@ -41,8 +44,7 @@ export default function Home() {
                       style={{ marginBottom: "-5px" }}
                     ></img>
                   </span>
-                  , la location d’un véhicule électrique n’a jamais été aussi
-                  simple !
+                  ,{t("title")}
                 </p>
               </h1>
               <div className={styles.description}>

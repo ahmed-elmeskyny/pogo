@@ -11,7 +11,10 @@ import Layout from "../components/layout/layout";
 //react-icons
 import { AiOutlineRight } from "react-icons/ai";
 
+import useTranslation from "next-translate/useTranslation";
+
 export default function Apropos() {
+  const { t } = useTranslation("apropos");
   return (
     <div className={styles.container}>
       <Head>
@@ -35,7 +38,7 @@ export default function Apropos() {
         </div>
 
         <div className={styles.mission}>
-          <h1 className={styles.title}>Qui sommes-nous ? </h1>
+          <h1 className={styles.title}>{t("title")} </h1>
           <p>
             POGO est une start-up qui a été lancée en 2021 par une équipe de
             jeunes entrepreneurs marocains, ambitieux, souhaitant métamorphoser
