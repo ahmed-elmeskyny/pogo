@@ -1264,10 +1264,45 @@ export default function Termes() {
               <p>&nbsp;</p>
             </div>
           </div>
+<div><p><strong>ARTICLE 9 &ndash; PROTECTION DES DONNEES PERSONNELS DE L&rsquo;UTILISATEUR </strong> &nbsp;</p></div>
+
+<div><p>Les destinataires des données personnelles concernant un Utilisateur, à l&rsquo;exception des données
+bancaires confidentielles, et qui sont transmises par POGO à la plateforme sécurisée de paiement en
+ligne Stripe, pourront être en vertu de l&rsquo;autorisation de la Commission Nationale de Contrôle de la
+Protection des Données à Caractère Personnel «CNDP, les collaborateurs de Stripe, responsables du
+traitement dont la finalité est le suivi de l&rsquo;opération du paiement initiée par le payeur sur le site
+marchand.</p>
+<p>
+  Les données recueillies par Stripe ne peuvent être utilisées à des fins de prospection par ce dernier et
+sont la propriété du marchand qui a délégué la gestion du paiement à Stripe.
+  </p>
+<p>L&rsquo;Utilisateur peut accéder à ses données personnelles traitées par Stripe et qui figurent sur le reçu de
+la facture à l&rsquo;exception des données bancaires en téléchargeant ses factures depuis l&rsquo;Application
+POGO, ou en contactant le support POGO.</p>
+<p>L&rsquo;achat d&rsquo;un Pack POGO ou le paiement effectué à la fin de chaque location vaut une acceptation
+irrévocable des présentes conditions générales d&rsquo;utilisation du service de Stripe. Pour toute demande
+de rectification de vos données personnelles, ou d&rsquo;annulation de la demande de paiement, vous
+devez vous adresser au support POGO.</p>
+<p>L&rsquo;ensemble des données personnelles de chaque membre est conservé dans les meilleures
+conditions de sécurité et de confidentialité auprès des services techniques de POGO.</p>
+<p>Conformément aux dispositions du Dahir n 1-09-15 du 18 février 2009 portant promulgation de la loi
+n 09-08 relative à la protection des personnes physiques à l&rsquo;égard du traitement des données à
+caractère personnel et de son décret d&rsquo;application n 2-09-165 du 18 juin 2009, chaque Utilisateur
+dispose d&rsquo;un droit d&rsquo;accès, de modification, de rectification et de suppression des données
+personnelles le concernant. Pour exercer ce droit, l&rsquo;Utilisateur peut accéder directement à son
+espace personnel sur l&rsquo;Application POGO « Compte » ou en contactant le support POGO par appel
+téléphonique sur le numéro : +212 695 423 240 ou par mail sur l’adresse : info@pogo.ma</p>
+<p>En acceptant les présentes Conditions Générales d&rsquo;Utilisation, l&rsquo;Utilisateur autorise POGO à lui
+adresser par e-mail ou SMS des offres promotionnelles. Chaque Utilisateur peut à tout moment
+mettre fin à la réception de ces offres promotionnelles en se désabonnant sur le mail ou en
+désactivant les notifications via les paramètres.</p>
+<p>Chaque Utilisateur reconnaît être informé et accepte que POGO conserve ses données personnelles
+pendant la durée d’ouverture de son compte.</p>
+</div>
           <div>
             <p>
               <strong>
-                ARTICLE 9 &ndash; OBLIGATIONS DE L&rsquo;UTILISATEUR
+                ARTICLE 10 &ndash; OBLIGATIONS DE L&rsquo;UTILISATEUR
               </strong>
               &nbsp;
             </p>
@@ -1275,7 +1310,7 @@ export default function Termes() {
           <div>
             <p>
               <strong>
-                &nbsp;9.1 Engagement de l&rsquo;Utilisateur par rapport au
+                &nbsp;10.1 Engagement de l&rsquo;Utilisateur par rapport au
                 V&eacute;hicule POGO
               </strong>
               &nbsp;
@@ -1349,7 +1384,7 @@ export default function Termes() {
           <div>
             <p>
               <strong>
-                &nbsp;9.3 Conducteur d&rsquo;un v&eacute;hicule POGO{" "}
+                &nbsp;10.3 Conducteur d&rsquo;un v&eacute;hicule POGO{" "}
               </strong>
             </p>
           </div>
@@ -1405,7 +1440,7 @@ export default function Termes() {
           </div>
           <div>
             <p>
-              <strong>9.5 Capacit&eacute; de conduite </strong>
+              <strong>10.5 Capacit&eacute; de conduite </strong>
             </p>
           </div>
           <div>
@@ -1426,7 +1461,7 @@ export default function Termes() {
           </div>
           <div>
             <p>
-              <strong>9.7 Dommages </strong>
+              <strong>10.7 Dommages </strong>
             </p>
           </div>
           <div>
@@ -1464,7 +1499,7 @@ export default function Termes() {
           </div>
           <div>
             <p>
-              <strong>ARTICLE 10 &ndash; PENALITES ET SANCTIONS : </strong>
+              <strong>ARTICLE 11 &ndash; PENALITES ET SANCTIONS : </strong>
             </p>
           </div>
           <div>
@@ -1528,7 +1563,7 @@ export default function Termes() {
           </div>
           <div>
             <p>
-              <strong>ARTICLE 11&ndash; ASSURANCES : </strong>
+              <strong>ARTICLE 12&ndash; ASSURANCES : </strong>
             </p>
           </div>
           <div>
@@ -1539,18 +1574,18 @@ export default function Termes() {
           </div>
           <div>
             <p>
-              <strong>11.1 Assurance Responsabilit&eacute; Civile&nbsp;</strong>
+              <strong>12.1 Assurance Responsabilit&eacute; Civile&nbsp;</strong>
             </p>
           </div>
           <div>
             <p>
-              <strong>11.2 Protection du conducteur&nbsp;</strong>
+              <strong>12.2 Protection du conducteur&nbsp;</strong>
             </p>
           </div>
           <div>
             <p>
               <strong>
-                11.3 Protection de la personne transport&eacute;e{" "}
+                12.3 Protection de la personne transport&eacute;e{" "}
               </strong>
             </p>
           </div>
