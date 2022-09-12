@@ -1264,7 +1264,7 @@ export default function Termes() {
               <p>&nbsp;</p>
             </div>
           </div>
-<div><p><strong>ARTICLE 9 &ndash; PROTECTION DES DONNEES PERSONNELS DE L&rsquo;UTILISATEUR </strong> &nbsp;</p></div>
+<div><p><strong>ARTICLE 9 &ndash; PROTECTION DES DONNEES PERSONNELLES DE L&rsquo;UTILISATEUR </strong> &nbsp;</p></div>
 
 <div><p>Les destinataires des données personnelles concernant un Utilisateur, à l&rsquo;exception des données
 bancaires confidentielles, et qui sont transmises par POGO à la plateforme sécurisée de paiement en
