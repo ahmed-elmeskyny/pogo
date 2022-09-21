@@ -861,7 +861,7 @@ export default function Termes() {
             <div>
               <p>
                 <strong>
-                  7.4.6 Proc&eacute;dure de restitution du Scooter et de fin de
+                  7.4.5 Proc&eacute;dure de restitution du Scooter et de fin de
                   Location{" "}
                 </strong>
               </p>
@@ -930,7 +930,7 @@ export default function Termes() {
             <div>
               <p>
                 <strong>
-                  7.4.7 Fin de Location d&eacute;clench&eacute;e par POGO{" "}
+                  7.4.6 Fin de Location d&eacute;clench&eacute;e par POGO{" "}
                 </strong>
               </p>
             </div>
