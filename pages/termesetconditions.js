@@ -1480,7 +1480,7 @@ pendant la durée d’ouverture de son compte.</p>
             </p>
           </div>
 <div><p>A titre indicatif, le prix de la réparation est le prix de la pièce
-détachée endommagée à l&rsquo;addition de la somme forfaitaire de 100
+détachée endommagée à l&rsquo;addition de la somme forfaitaire de 150
 MAD (frais du transport et de la réparation du véhicule). Ce prix
 sera communiqué à l&rsquo;Utilisateur et prélevé sur sa carte bancaire.</p></div>
   <div><p>Liste non exhaustive des pièces détachées:&rsquo;</p></div>
