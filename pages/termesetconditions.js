@@ -1482,7 +1482,7 @@ pendant la durée d’ouverture de son compte.</p>
               bancaire. &nbsp;
             </p>
           </div>
-<table style={{width: "100%" , border-color: "#03D3B9",border:"2"}}>
+<table style={{width: "100%" , borderColor: "#03D3B9",border:"2"}}>
 <tbody>
 <tr>
 <th>Pi&egrave;ce</th>
