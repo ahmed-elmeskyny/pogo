@@ -1485,7 +1485,7 @@ MAD (frais du transport et de la réparation du véhicule). Ce prix
 sera communiqué à l&rsquo;Utilisateur et prélevé sur sa carte bancaire.</p></div>
   <div><p>Liste non exhaustive des pièces détachées:&rsquo;</p></div>
     
-    <table>
+    <table className={styles.table}>
     <tr>
     <th>Pièce</th>
 <th>Tarif</th>
