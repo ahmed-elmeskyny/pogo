@@ -1482,55 +1482,7 @@ pendant la durée d’ouverture de son compte.</p>
               bancaire. &nbsp;
             </p>
           </div>
-<table style={{width: "100%" , borderColor: "#03D3B9",border:"2"}}>
-<tbody>
-<tr>
-<th>Pi&egrave;ce</th>
-<th>Tarif</th>
-</tr>
-<tr>
-<td>R&eacute;troviseur</td>
-<td>46 MAD</td>
-</tr>
-<tr>
-<td>Car&eacute;nage du c&ocirc;t&eacute;</td>
-<td>85 MAD</td>
-</tr>
-<tr>
-<td>Garde-boue du devant</td>
-<td>79 MAD</td>
-</tr>
-<tr>
-<td>Car&eacute;nage avant</td>
-<td>105 MAD</td>
-</tr>
-<tr>
-<td>Repose-pieds</td>
-<td>94 MAD</td>
-</tr>
-<tr>
-<td>B&eacute;quille lat&eacute;rale</td>
-<td>54 MAD</td>
-</tr>
-<tr>
-<td>B&eacute;quille centrale</td>
-<td>159 MAD</td>
-</tr>
-<tr>
-<td>Barre lat&eacute;rale basse</td>
-<td>57 MAD</td>
-</tr>
-<tr>
-<td>Repose-pied</td>
-<td>101 MAD</td>
-</tr>
-<tr>
-<td>Topcase</td>
-<td>300 MAD</td>
-</tr>
-</tbody>
-</table>
-<!-- DivTable.com -->
+
           <div>
             <p>
               En cas d&apos;insuffisance des fonds permettant d&eacute;duire ces
