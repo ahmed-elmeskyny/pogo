@@ -1039,9 +1039,19 @@ export default function Termes() {
           </div>
           <div>
             <p>
-              Les franchises d&rsquo;assurance en cas d&rsquo;accident.&nbsp;
+             La franchise en cas d&rsquo;accident sans tiers responsable.&nbsp;
             </p>
           </div>
+ <div>
+            <p>
+            L&rsquo;Utilisateur s&rsquo;engage &agrave; être à jour de ses obligations financi&egrave;res à
+l&rsquo;&eacute;gard de POGO pendant toute la dur&eacute;e de la relation contractuelle.
+            </p>
+          </div>
+<div><p>Les éléments dus par l&rsquo;Utilisateur identifiés ci-dessus feront l&rsquo;objet
+d&rsquo;une facturation complémentaire, qui sera adressée à l&rsquo;Utilisateur
+dans les trois (3) mois suivant la date de prise de connaissance par
+POGO des faits donnant lieu à leur exigibilité.&nbsp;</p></div>
           <div>
             <p>&nbsp;</p>
           </div>
@@ -1094,7 +1104,7 @@ export default function Termes() {
           </div>
           <div>
             <p>
-              <strong>8.1 Mise &agrave; jour des moyens de paiement </strong>
+              <strong>8.3 Mise &agrave; jour des moyens de paiement </strong>
             </p>
           </div>
           <div>
@@ -1128,7 +1138,8 @@ export default function Termes() {
               En cas d&rsquo;invalidit&eacute; de la carte bancaire de
               l&rsquo;Utilisateur pour une raison quelconque, POGO pourra
               suspendre l&rsquo;acc&egrave;s au Service jusqu&rsquo;&agrave; ce
-              que la situation soit r&eacute;gularis&eacute;. &nbsp;
+              que la situation soit r&eacute;gularis&eacute;e.l&rsquo;Utilisateur reste
+néanmoins redevable des échéances de ses factures impayées.&nbsp;
             </p>
           </div>
           <div>
@@ -1137,7 +1148,7 @@ export default function Termes() {
           <div>
             <p>
               <strong>
-                &nbsp;8.2 Autorisation de pr&eacute;l&egrave;vement sur la carte
+                &nbsp;8.4 Autorisation de pr&eacute;l&egrave;vement sur la carte
                 bancaire
               </strong>
               &nbsp;
@@ -1167,13 +1178,17 @@ export default function Termes() {
                   <p>Les p&eacute;nalit&eacute;s.&nbsp;</p>
                 </li>
                 <li>
-                  <p>La franchise en cas d&rsquo;accident ou de vol. &nbsp;</p>
+                  <p>La franchise en cas d&rsquo;accident ou de vol sans tiers
+responsable.&nbsp;</p>
                 </li>
               </ul>
             </div>
+<div > <p> Une empreinte de la carte bancaire de l&rsquo;Utilisateur est
+indispensable pour valider l&rsquo;Inscription et autoriser le prélèvement
+des montants dus.&nbsp; </p></div>
             <div>
               <p>
-                <strong>8.3 Facturation </strong>
+                <strong>8.5 Facturation </strong>
               </p>
             </div>
             <div>
@@ -1202,31 +1217,11 @@ export default function Termes() {
                 Location.&nbsp;
               </p>
             </div>
-            <div>
-              <p>
-                L&rsquo;Utilisateur peut choisir parmi les modes de paiement
-                affich&eacute;s lors du processus de commande :&nbsp;
-              </p>
-            </div>
-            <div>
-              <ul>
-                <li>
-                  <p>Payement par carte bancaire &nbsp;</p>
-                </li>
-              </ul>
-            </div>
+            
+            
           </div>
           <div>
-            <div>
-              <ul>
-                <li>
-                  <p>
-                    Payement par le solde sur son Compte POGO issu de
-                    l&rsquo;achat d&rsquo;un Pack&nbsp;
-                  </p>
-                </li>
-              </ul>
-            </div>
+            
             <div>
               <p>
                 Pour tout remboursement, POGO utilise toujours le m&ecirc;me
@@ -1384,7 +1379,7 @@ pendant la durée d’ouverture de son compte.</p>
           <div>
             <p>
               <strong>
-                &nbsp;10.3 Conducteur d&rsquo;un v&eacute;hicule POGO{" "}
+                &nbsp;10.2 Conducteur d&rsquo;un v&eacute;hicule POGO{" "}
               </strong>
             </p>
           </div>
@@ -1440,7 +1435,7 @@ pendant la durée d’ouverture de son compte.</p>
           </div>
           <div>
             <p>
-              <strong>10.5 Capacit&eacute; de conduite </strong>
+              <strong>10.3 Capacit&eacute; de conduite </strong>
             </p>
           </div>
           <div>
@@ -1461,7 +1456,7 @@ pendant la durée d’ouverture de son compte.</p>
           </div>
           <div>
             <p>
-              <strong>10.7 Dommages </strong>
+              <strong>10.4 Dommages </strong>
             </p>
           </div>
           <div>
@@ -1487,6 +1482,55 @@ pendant la durée d’ouverture de son compte.</p>
               bancaire. &nbsp;
             </p>
           </div>
+<table style={{width: "100%" , border-color: "#03D3B9",border:"2"}}>
+<tbody>
+<tr>
+<th>Pi&egrave;ce</th>
+<th>Tarif</th>
+</tr>
+<tr>
+<td>R&eacute;troviseur</td>
+<td>46 MAD</td>
+</tr>
+<tr>
+<td>Car&eacute;nage du c&ocirc;t&eacute;</td>
+<td>85 MAD</td>
+</tr>
+<tr>
+<td>Garde-boue du devant</td>
+<td>79 MAD</td>
+</tr>
+<tr>
+<td>Car&eacute;nage avant</td>
+<td>105 MAD</td>
+</tr>
+<tr>
+<td>Repose-pieds</td>
+<td>94 MAD</td>
+</tr>
+<tr>
+<td>B&eacute;quille lat&eacute;rale</td>
+<td>54 MAD</td>
+</tr>
+<tr>
+<td>B&eacute;quille centrale</td>
+<td>159 MAD</td>
+</tr>
+<tr>
+<td>Barre lat&eacute;rale basse</td>
+<td>57 MAD</td>
+</tr>
+<tr>
+<td>Repose-pied</td>
+<td>101 MAD</td>
+</tr>
+<tr>
+<td>Topcase</td>
+<td>300 MAD</td>
+</tr>
+</tbody>
+</table>
+<!-- DivTable.com -->
           <div>
             <p>
               En cas d&apos;insuffisance des fonds permettant d&eacute;duire ces
