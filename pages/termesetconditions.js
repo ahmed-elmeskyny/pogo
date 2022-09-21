@@ -1476,13 +1476,62 @@ pendant la durée d’ouverture de son compte.</p>
               le m&ecirc;me &eacute;tat que celui o&ugrave; il &eacute;tait
               avant la Location. En cas de perte ou de dommages survenus pendant
               la p&eacute;riode de Location, l&rsquo;Utilisateur devra
-              indemniser POGO des pr&eacute;judices et frais encourus. Lors de
-              la r&eacute;paration, le prix sera communiqu&eacute; &agrave;
-              l&rsquo;Utilisateur et pr&eacute;lev&eacute; sur sa carte
-              bancaire. &nbsp;
+              indemniser POGO des pr&eacute;judices et frais encourus.&nbsp;
             </p>
           </div>
+<div><p>A titre indicatif, le prix de la réparation est le prix de la pièce
+détachée endommagée à l&rsquo;addition de la somme forfaitaire de 100
+MAD (frais du transport et de la réparation du véhicule). Ce prix
+sera communiqué à l&rsquo;Utilisateur et prélevé sur sa carte bancaire.</p></div>
+  <div><p>Liste non exhaustive des pièces détachées:&rsquo;</p></div>
+    
+    <table>
+    <tr>
+    <th>Pièce</th>
+<th>Tarif</th>
+</tr>
+  <tr>
+          <td>Rétroviseur</td>
+          <td>46 MAD</td>
+        </tr>
+        <tr>
+          <td>Carénage du côté</td>
+          <td>85 MAD</td>
+        </tr>
+        <tr>
+          <td>Garde-boue du devant</td>
+          <td>79 MAD</td>
+        </tr>
+ <tr>
+          <td>Carénage avant</td>
+          <td>105 MAD</td>
 
+        </tr>
+        <tr>
+          <td>Repose-pieds</td>
+          <td>94 MAD</td>
+        </tr>
+        <tr>
+          <td>Béquille latérale</td>
+          <td>54 MAD</td>
+        </tr>
+ <tr>
+          <td>Béquille centrale</td>
+          <td>159 MAD</td>
+        </tr>
+        <tr>
+          <td>Barre latérale basse</td>
+          <td>57 MAD</td>
+        </tr>
+        <tr>
+          <td>Repose-pied</td>
+          <td>101 MAD</td>
+        </tr>
+    <tr>
+          <td>Topcase</td>
+          <td>300 MAD</td>
+        </tr>
+    </table>
           <div>
             <p>
               En cas d&apos;insuffisance des fonds permettant d&eacute;duire ces
