@@ -1039,19 +1039,25 @@ export default function Termes() {
           </div>
           <div>
             <p>
-             La franchise en cas d&rsquo;accident sans tiers responsable.&nbsp;
+              La franchise en cas d&rsquo;accident sans tiers responsable.&nbsp;
             </p>
           </div>
- <div>
+          <div>
             <p>
-            L&rsquo;Utilisateur s&rsquo;engage &agrave; être à jour de ses obligations financi&egrave;res à
-l&rsquo;&eacute;gard de POGO pendant toute la dur&eacute;e de la relation contractuelle.
+              L&rsquo;Utilisateur s&rsquo;engage &agrave; être à jour de ses
+              obligations financi&egrave;res à l&rsquo;&eacute;gard de POGO
+              pendant toute la dur&eacute;e de la relation contractuelle.
             </p>
           </div>
-<div><p>Les éléments dus par l&rsquo;Utilisateur identifiés ci-dessus feront l&rsquo;objet
-d&rsquo;une facturation complémentaire, qui sera adressée à l&rsquo;Utilisateur
-dans les trois (3) mois suivant la date de prise de connaissance par
-POGO des faits donnant lieu à leur exigibilité.&nbsp;</p></div>
+          <div>
+            <p>
+              Les éléments dus par l&rsquo;Utilisateur identifiés ci-dessus
+              feront l&rsquo;objet d&rsquo;une facturation complémentaire, qui
+              sera adressée à l&rsquo;Utilisateur dans les trois (3) mois
+              suivant la date de prise de connaissance par POGO des faits
+              donnant lieu à leur exigibilité.&nbsp;
+            </p>
+          </div>
           <div>
             <p>&nbsp;</p>
           </div>
@@ -1138,8 +1144,9 @@ POGO des faits donnant lieu à leur exigibilité.&nbsp;</p></div>
               En cas d&rsquo;invalidit&eacute; de la carte bancaire de
               l&rsquo;Utilisateur pour une raison quelconque, POGO pourra
               suspendre l&rsquo;acc&egrave;s au Service jusqu&rsquo;&agrave; ce
-              que la situation soit r&eacute;gularis&eacute;e.l&rsquo;Utilisateur reste
-néanmoins redevable des échéances de ses factures impayées.&nbsp;
+              que la situation soit
+              r&eacute;gularis&eacute;e.l&rsquo;Utilisateur reste néanmoins
+              redevable des échéances de ses factures impayées.&nbsp;
             </p>
           </div>
           <div>
@@ -1178,14 +1185,22 @@ néanmoins redevable des échéances de ses factures impayées.&nbsp;
                   <p>Les p&eacute;nalit&eacute;s.&nbsp;</p>
                 </li>
                 <li>
-                  <p>La franchise en cas d&rsquo;accident ou de vol sans tiers
-responsable.&nbsp;</p>
+                  <p>
+                    La franchise en cas d&rsquo;accident ou de vol sans tiers
+                    responsable.&nbsp;
+                  </p>
                 </li>
               </ul>
             </div>
-<div > <p> Une empreinte de la carte bancaire de l&rsquo;Utilisateur est
-indispensable pour valider l&rsquo;Inscription et autoriser le prélèvement
-des montants dus.&nbsp; </p></div>
+            <div>
+              {" "}
+              <p>
+                {" "}
+                Une empreinte de la carte bancaire de l&rsquo;Utilisateur est
+                indispensable pour valider l&rsquo;Inscription et autoriser le
+                prélèvement des montants dus.&nbsp;{" "}
+              </p>
+            </div>
             <div>
               <p>
                 <strong>8.5 Facturation </strong>
@@ -1217,11 +1232,8 @@ des montants dus.&nbsp; </p></div>
                 Location.&nbsp;
               </p>
             </div>
-            
-            
           </div>
           <div>
-            
             <div>
               <p>
                 Pour tout remboursement, POGO utilise toujours le m&ecirc;me
@@ -1259,41 +1271,81 @@ des montants dus.&nbsp; </p></div>
               <p>&nbsp;</p>
             </div>
           </div>
-<div><p><strong>ARTICLE 9 &ndash; PROTECTION DES DONNEES PERSONNELLES DE L&rsquo;UTILISATEUR </strong> &nbsp;</p></div>
+          <div>
+            <p>
+              <strong>
+                ARTICLE 9 &ndash; PROTECTION DES DONNEES PERSONNELLES DE
+                PROTECTION DES DONNEES PERSONNELLES DE L&rsquo;UTILISATEUR{" "}
+              </strong>{" "}
+              &nbsp;
+            </p>
+          </div>
 
-<div><p>Les destinataires des données personnelles concernant un Utilisateur, à l&rsquo;exception des données
-bancaires confidentielles, et qui sont transmises par POGO à la plateforme sécurisée de paiement en
-ligne Stripe, pourront être en vertu de l&rsquo;autorisation de la Commission Nationale de Contrôle de la
-Protection des Données à Caractère Personnel «CNDP, les collaborateurs de Stripe, responsables du
-traitement dont la finalité est le suivi de l&rsquo;opération du paiement initiée par le payeur sur le site
-marchand.</p>
-<p>
-  Les données recueillies par Stripe ne peuvent être utilisées à des fins de prospection par ce dernier et
-sont la propriété du marchand qui a délégué la gestion du paiement à Stripe.
-  </p>
-<p>L&rsquo;Utilisateur peut accéder à ses données personnelles traitées par Stripe et qui figurent sur le reçu de
-la facture à l&rsquo;exception des données bancaires en téléchargeant ses factures depuis l&rsquo;Application
-POGO, ou en contactant le support POGO.</p>
-<p>L&rsquo;achat d&rsquo;un Pack POGO ou le paiement effectué à la fin de chaque location vaut une acceptation
-irrévocable des présentes conditions générales d&rsquo;utilisation du service de Stripe. Pour toute demande
-de rectification de vos données personnelles, ou d&rsquo;annulation de la demande de paiement, vous
-devez vous adresser au support POGO.</p>
-<p>L&rsquo;ensemble des données personnelles de chaque membre est conservé dans les meilleures
-conditions de sécurité et de confidentialité auprès des services techniques de POGO.</p>
-<p>Conformément aux dispositions du Dahir n 1-09-15 du 18 février 2009 portant promulgation de la loi
-n 09-08 relative à la protection des personnes physiques à l&rsquo;égard du traitement des données à
-caractère personnel et de son décret d&rsquo;application n 2-09-165 du 18 juin 2009, chaque Utilisateur
-dispose d&rsquo;un droit d&rsquo;accès, de modification, de rectification et de suppression des données
-personnelles le concernant. Pour exercer ce droit, l&rsquo;Utilisateur peut accéder directement à son
-espace personnel sur l&rsquo;Application POGO « Compte » ou en contactant le support POGO par appel
-téléphonique sur le numéro : +212 695 423 240 ou par mail sur l’adresse : info@pogo.ma</p>
-<p>En acceptant les présentes Conditions Générales d&rsquo;Utilisation, l&rsquo;Utilisateur autorise POGO à lui
-adresser par e-mail ou SMS des offres promotionnelles. Chaque Utilisateur peut à tout moment
-mettre fin à la réception de ces offres promotionnelles en se désabonnant sur le mail ou en
-désactivant les notifications via les paramètres.</p>
-<p>Chaque Utilisateur reconnaît être informé et accepte que POGO conserve ses données personnelles
-pendant la durée d’ouverture de son compte.</p>
-</div>
+          <div>
+            <p>
+              Les destinataires des données personnelles concernant un
+              Utilisateur, à l&rsquo;exception des informations relatives à sa
+              carte bancaire, et qui sont transmises par à la plateforme
+              sécurisée de paiement en ligne Centre Monétique Interbancaire
+              (CMI), pourront être en vertu de l&rsquo;autorisation de la
+              Commission Nationale de Contrôle de la Protection des Données à
+              Caractère Personnel «CNDP». Les collaborateurs de CMI,
+              responsables du traitement dont la finalité est le suivi de
+              l&rsquo;opération du paiement.
+            </p>
+            <p>
+              Les informations relatives à la carte bancaire recueillies par le
+              Centre Monétique Interbancaire (CMI) ne peuvent être utilisées à
+              des fins de prospection par ce dernier et sont la propriété du
+              marchand qui a délégué le traitement du paiement au Centre
+              Monétique Interbancaire (CMI).
+            </p>
+            <p>
+              L&rsquo;Utilisateur peut accéder à ses données personnelles
+              traitées par le Centre Monétique Interbancaire et qui figurent sur
+              le reçu de la facture (hormis les informations relatives à la
+              carte bancaire) en téléchargeant ses factures depuis
+              l&rsquo;Application POGO, ou en contactant le support POGO.
+            </p>
+            <p>
+              L&rsquo;achat d&rsquo;un Pack POGO ou le paiement effectué à la
+              fin de chaque location vaut une acceptation irrévocable des
+              présentes Conditions Générales d&rsquo;Utilisation du service du
+              Centre Monétique Interbancaire (CMI). Pour toute demande de
+              rectification de vos données personnelles, ou d&rsquo;annulation
+              de la demande de paiement, vous devez vous adresser au support
+              POGO.
+            </p>
+            <p>
+              Les données personnelles de chaque Utilisateur sont conservées
+              dans les meilleures conditions de sécurité et de confidentialité
+              auprès des services techniques de POGO.
+            </p>
+            <p>
+              Conformément aux dispositions du Dahir n 1-09-15 du 18 février
+              2009 portant promulgation de la loi n 09-08 relative à la
+              protection des personnes physiques à l&rsquo;égard du traitement
+              des données à caractère personnel et de son décret
+              d&rsquo;application n 2-09-165 du 18 juin 2009, chaque Utilisateur
+              dispose d&rsquo;un droit d&rsquo;accès, de modification, de
+              rectification et de suppression des données personnelles le
+              concernant. Pour exercer ce droit, l&rsquo;Utilisateur peut
+              accéder directement à son espace personnel sur l&rsquo;Application
+              POGO « Compte » ou en contactant le support POGO par appel
+              téléphonique sur le numéro : +212 695 423 240 ou par mail sur
+              l&rsquo;adresse : support@pogo.ma En acceptant les présentes
+              Conditions Générales d&rsquo;Utilisation, l&rsquo;Utilisateur
+              autorise POGO à lui adresser par e-mail ou SMS des offres
+              promotionnelles. Chaque Utilisateur peut à tout moment mettre fin
+              à la réception de ces offres promotionnelles en se désabonnant sur
+              le mail ou en désactivant les notifications via les paramètres.
+            </p>
+            <p>
+              Chaque Utilisateur reconnaît être informé et accepte que POGO
+              conserve ses données personnelles pendant la durée d’ouverture de
+              son compte
+            </p>
+          </div>
           <div>
             <p>
               <strong>
@@ -1479,59 +1531,65 @@ pendant la durée d’ouverture de son compte.</p>
               indemniser POGO des pr&eacute;judices et frais encourus.&nbsp;
             </p>
           </div>
-<div><p>A titre indicatif, le prix de la réparation est le prix de la pièce
-détachée endommagée à l&rsquo;addition de la somme forfaitaire de 150
-MAD (frais du transport et de la réparation du véhicule). Ce prix
-sera communiqué à l&rsquo;Utilisateur et prélevé sur sa carte bancaire.</p></div>
-  <div><p>Liste non exhaustive des pièces détachées:&rsquo;</p></div>
-    
-    <table className={styles.table}>
-    <tr>
-    <th>Pièce</th>
-<th>Tarif</th>
-</tr>
-  <tr>
-          <td>Rétroviseur</td>
-          <td>46 MAD</td>
-        </tr>
-        <tr>
-          <td>Carénage du côté</td>
-          <td>85 MAD</td>
-        </tr>
-        <tr>
-          <td>Garde-boue du devant</td>
-          <td>79 MAD</td>
-        </tr>
- <tr>
-          <td>Carénage avant</td>
-          <td>105 MAD</td>
+          <div>
+            <p>
+              A titre indicatif, le prix de la réparation est le prix de la
+              pièce détachée endommagée à l&rsquo;addition de la somme
+              forfaitaire de 150 MAD (frais du transport et de la réparation du
+              véhicule). Ce prix sera communiqué à l&rsquo;Utilisateur et
+              prélevé sur sa carte bancaire.
+            </p>
+          </div>
+          <div>
+            <p>Liste non exhaustive des pièces détachées:&rsquo;</p>
+          </div>
 
-        </tr>
-        <tr>
-          <td>Repose-pieds</td>
-          <td>94 MAD</td>
-        </tr>
-        <tr>
-          <td>Béquille latérale</td>
-          <td>54 MAD</td>
-        </tr>
- <tr>
-          <td>Béquille centrale</td>
-          <td>159 MAD</td>
-        </tr>
-        <tr>
-          <td>Barre latérale basse</td>
-          <td>57 MAD</td>
-        </tr>
-        <tr>
-          <td>Repose-pied</td>
-          <td>101 MAD</td>
-        </tr>
-    <tr>
-          <td>Topcase</td>
-          <td>300 MAD</td>
-        </tr>
-    </table>
+          <table className={styles.table}>
+            <tr>
+              <th>Pièce</th>
+              <th>Tarif</th>
+            </tr>
+            <tr>
+              <td>Rétroviseur</td>
+              <td>46 MAD</td>
+            </tr>
+            <tr>
+              <td>Carénage du côté</td>
+              <td>85 MAD</td>
+            </tr>
+            <tr>
+              <td>Garde-boue du devant</td>
+              <td>79 MAD</td>
+            </tr>
+            <tr>
+              <td>Carénage avant</td>
+              <td>105 MAD</td>
+            </tr>
+            <tr>
+              <td>Repose-pieds</td>
+              <td>94 MAD</td>
+            </tr>
+            <tr>
+              <td>Béquille latérale</td>
+              <td>54 MAD</td>
+            </tr>
+            <tr>
+              <td>Béquille centrale</td>
+              <td>159 MAD</td>
+            </tr>
+            <tr>
+              <td>Barre latérale basse</td>
+              <td>57 MAD</td>
+            </tr>
+            <tr>
+              <td>Repose-pied</td>
+              <td>101 MAD</td>
+            </tr>
+            <tr>
+              <td>Topcase</td>
+              <td>300 MAD</td>
+            </tr>
+          </table>
           <div>
             <p>
               En cas d&apos;insuffisance des fonds permettant d&eacute;duire ces
