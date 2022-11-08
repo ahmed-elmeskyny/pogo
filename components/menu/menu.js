@@ -72,7 +72,9 @@ const Menu = ({ isOpen, setOpen }) => {
             <li>Contactez-nous </li>
           </ActiveLink>
         </ul>
-        <button>Télécharger l'app</button>
+        <a className={styles.register} href="http://pogo.focusagency.ma/">
+          Register Now
+        </a>
       </div>
       {/* // mobile menu */}
 
