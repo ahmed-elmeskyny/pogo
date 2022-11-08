@@ -19,13 +19,17 @@ const Map = () => {
             <img src="rec.png" width="30px" height="30px"></img>
             <p>Fès </p>
           </div>
-          <div>
+          {/* <div>
             <img src="rec.png" width="30px" height="30px"></img>
             <p>Marrakech </p>
           </div>
           <div>
             <img src="rec.png" width="30px" height="30px"></img>
             <p>Agadir </p>
+          </div> */}
+          <div>
+            <img src="rec.png" width="30px" height="30px"></img>
+            <p>Rabat </p>
           </div>
           <div>
             <img src="rec.png" width="30px" height="30px"></img>

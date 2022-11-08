@@ -135,9 +135,15 @@
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
     img {
       border-radius: 5px;
       margin: 0px 20px;
+      @media (max-width: 900px) {
+        margin-top: 25px;
+      }
     }
   }
   .copyRight {

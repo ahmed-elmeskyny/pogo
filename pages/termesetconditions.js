@@ -243,6 +243,13 @@ export default function Termes() {
           <div>
             <div>
               <p>
+                Lorsque j&rsquo;ajoute la carte de cr&eacute;dit,
+                j&rsquo;autorise POGO &agrave; envoyer des instructions &agrave;
+                l&rsquo;institution financi&egrave;re qui a &eacute;mis ma carte
+                pour pr&eacute;lever des paiements sur mon compte de carte
+                conformément aux termes de mon accord avec vous
+              </p>
+              <p>
                 Le Service est factur&eacute; &agrave; la minute/minute de
                 pause. &nbsp;
               </p>
@@ -289,7 +296,7 @@ export default function Termes() {
               l&rsquo;utilisation du Service sont ceux en vigueur au jour de la
               R&eacute;servation. POGO se r&eacute;serve le droit de les
               modifier &agrave; tout moment conform&eacute;ment &agrave;
-              l&rsquo;article xxxxxx des pr&eacute;sentes CGU.&nbsp;
+              l&rsquo;article 10.4 des pr&eacute;sentes CGU.&nbsp;
             </p>
           </div>
           <div>
