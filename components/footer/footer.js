@@ -117,6 +117,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className={styles.cmi}>
+        <img src="/cmi.jpg" alt="cmi" width="150px"></img>{" "}
+        <img src="/cmi1.jpg" alt="cmi" width="150px"></img>{" "}
+        <img src="/cmi2.jpg" alt="cmi" width="150px"></img>
+      </div>
       <div className={styles.copyRight}>
         <p>Copyright © POGO 2021. All rights reserved.</p>
         <div className={styles.socials}>

@@ -129,6 +129,17 @@
       }
     }
   }
+
+  .cmi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    img {
+      border-radius: 5px;
+      margin: 0px 20px;
+    }
+  }
   .copyRight {
     margin-top: 30px;
     border-top: #b2b2b2 solid 0.5px;

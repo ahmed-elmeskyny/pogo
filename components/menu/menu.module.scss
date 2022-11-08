@@ -162,23 +162,24 @@
     @media (max-width: 1000px) {
       display: none;
     }
-    button {
+    .register {
       background-color: #03d3b9;
       border-radius: 100px;
-      padding: 10px 15px;
+      padding: 10px 10px;
       border: none;
       color: white;
       font-weight: bolder;
-      font-size: 16px;
+      font-size: 12px;
       cursor: pointer;
-      margin-left: 30px;
+      margin: 0;
+      // margin-left: 30px;
     }
 
     ul {
       display: flex;
       align-items: center;
       list-style: none;
-      margin-left: 50px;
+      margin-left: 20px;
       @media (max-width: 1300px) {
         margin-right: 70px;
       }
