@@ -247,7 +247,7 @@ export default function Termes() {
                 j&rsquo;autorise POGO &agrave; envoyer des instructions &agrave;
                 l&rsquo;institution financi&egrave;re qui a &eacute;mis ma carte
                 pour pr&eacute;lever des paiements sur mon compte de carte
-                conformément aux termes de mon accord avec vous
+                conformément aux termes de mon accord avec POGO
               </p>
               <p>
                 Le Service est factur&eacute; &agrave; la minute/minute de
